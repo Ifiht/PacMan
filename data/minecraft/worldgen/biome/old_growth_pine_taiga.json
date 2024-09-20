@@ -24,7 +24,8 @@
             "terralith:taiga/mega/boulders"
         ],
         [
-            "minecraft:lake_lava_underground"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
         ],
         [
             "minecraft:amethyst_geode",
@@ -65,9 +66,7 @@
             "minecraft:underwater_magma",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel",
-            "wythers:terrain/local/disk_muddy_roots_in_podzol",
-            "wythers:terrain/local/disk_mud_in_muddy_roots"
+            "minecraft:disk_gravel"
         ],
         [],
         [
@@ -77,9 +76,6 @@
         [
             "minecraft:glow_lichen",
             "minecraft:patch_large_fern",
-            "wythers:vegetation/local/trees/ogt_giant_redwood_woods",
-            "wythers:vegetation/local/trees/ogt_sequoia_woods",
-            "wythers:vegetation/local/trees/ogt_redwood_woods",
             "minecraft:trees_old_growth_pine_taiga",
             "minecraft:flower_default",
             "minecraft:patch_grass_taiga",

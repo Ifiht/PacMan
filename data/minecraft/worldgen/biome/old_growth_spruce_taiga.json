@@ -24,7 +24,8 @@
             "terralith:taiga/mega/boulders"
         ],
         [
-            "minecraft:lake_lava_underground"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
         ],
         [
             "minecraft:amethyst_geode",
@@ -74,7 +75,6 @@
         ],
         [
             "minecraft:glow_lichen",
-            "wythers:vegetation/local/trees/ogt_giant_redwood_woods",
             "minecraft:patch_large_fern",
             "minecraft:trees_old_growth_spruce_taiga",
             "minecraft:flower_default",
@@ -89,9 +89,7 @@
             "minecraft:patch_berry_common"
         ],
         [
-            "minecraft:freeze_top_layer",
-            "wythers:vegetation/local/patch/temperate_rainforest_vines",
-            "wythers:terrain/local/replace_coarse_dirt_to_moss"
+            "minecraft:freeze_top_layer"
         ]
     ],
     "has_precipitation": true,

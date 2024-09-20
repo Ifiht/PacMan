@@ -28,8 +28,7 @@
     "features": [
         [
             "terralith:canyon/cliff/grass_upper",
-            "terralith:canyon/cliff/grass_lower",
-            "wythers:terrain/extended/replace_stone_to_andesite"
+            "terralith:canyon/cliff/grass_lower"
         ],
         [
             "minecraft:lake_lava_underground"
@@ -73,9 +72,7 @@
             "minecraft:disk_sand",
             "minecraft:disk_clay",
             "minecraft:disk_gravel",
-            "minecraft:ore_emerald",
-            "wythers:terrain/local/disk_gravel_floor",
-            "wythers:terrain/local/disk_gravel_shore"
+            "minecraft:ore_emerald"
         ],
         [
             "minecraft:ore_infested"
@@ -92,9 +89,7 @@
             "minecraft:trees_meadow"
         ],
         [
-            "minecraft:freeze_top_layer",
-            "wythers:terrain/local/snow_blocks",
-            "wythers:vegetation/local/patch/grass_forest"
+            "minecraft:freeze_top_layer"
         ]
     ],
     "has_precipitation": true,

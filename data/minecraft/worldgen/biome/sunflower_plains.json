@@ -20,16 +20,13 @@
         "water_fog_color": 329011
     },
     "features": [
+        [],
         [
-            "wythers:road/sunflower_plains",
-            "wythers:terrain/extended/replace_stone_to_granite"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
         ],
         [
-            "minecraft:lake_lava_underground"
-        ],
-        [
-            "minecraft:amethyst_geode",
-            "wythers:terrain/local/replace_diorite_to_granite"
+            "minecraft:amethyst_geode"
         ],
         [
             "minecraft:monster_room",
@@ -64,8 +61,6 @@
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper",
             "minecraft:underwater_magma",
-            "wythers:terrain/local/disk_sand_shore",
-            "wythers:terrain/extended/disk_clay_dirt_only",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
             "minecraft:disk_gravel"

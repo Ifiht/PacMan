@@ -69,8 +69,7 @@
             "minecraft:underwater_magma",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel",
-            "wythers:terrain/extended/windswept_snow"
+            "minecraft:disk_gravel"
         ],
         [],
         [

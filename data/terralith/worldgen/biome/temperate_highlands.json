@@ -27,19 +27,11 @@
             "terralith:highlands/pillar",
             "terralith:canyon/cliff/grass_upper",
             "terralith:canyon/cliff/grass_lower",
-            "terralith:canyon/generic/slab_stone",
-            "wythers:road/harvest_fields_1",
-            "wythers:road/harvest_fields_1b",
-            "wythers:road/harvest_fields_2",
-            "wythers:road/harvest_fields_2b",
-            "wythers:road/harvest_fields_3",
-            "wythers:road/harvest_fields_4",
-            "wythers:farm/harvest_fields_1",
-            "wythers:farm/harvest_fields_2",
-            "wythers:farm/harvest_fields_3"
+            "terralith:canyon/generic/slab_stone"
         ],
         [
-            "minecraft:lake_lava_underground"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
         ],
         [
             "minecraft:amethyst_geode"
@@ -96,14 +88,6 @@
             "terralith:highlands/forest/grass",
             "terralith:highlands/vines_seed",
             "terralith:highlands/vines_spread",
-            "wythers:farm/harvest_fields_scarecrow",
-            "wythers:farm/harvest_fields_hay",
-            "wythers:farm/harvest_fields_hay_2",
-            "wythers:farm/harvest_fields_pumpkin",
-            "wythers:farm/harvest_fields_wheat",
-            "wythers:farm/harvest_fields_wheat_2",
-            "wythers:vegetation/local/patch/sunflower_birch_forest",
-            "wythers:farm/harvest_fields_stumps",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane",
