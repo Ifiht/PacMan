@@ -8,8 +8,10 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
-# https://modrinth.com/datapack/better-end-cities-(vanilla)
-rsync -avh ./sources/betterendcities_mc1-21-0/data/ ./data/
+# https://modrinth.com/datapack/nullscape
+rsync -avh ./sources/nullscape_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/true-ending
+rsync -avh ./sources/trueending_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avh ./sources/qraftyshroom_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/terralith
