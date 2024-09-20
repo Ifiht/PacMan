@@ -71,6 +71,13 @@ sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g
 # -= Snowy Taiga =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/snowy_taiga.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/snowy_taiga.json
+# -= Old Growth Forests =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/old_growth_birch_forest.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/old_growth_birch_forest.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/old_growth_pine_taiga.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/old_growth_pine_taiga.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/old_growth_spruce_taiga.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/old_growth_spruce_taiga.json
 # (( TERRALITH BIOMES ))
 # -= Sakura Grove =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
@@ -90,3 +97,6 @@ sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g
 # -= Skylands Winter =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_winter.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_winter.json
+# -= Cold Shrubland =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
