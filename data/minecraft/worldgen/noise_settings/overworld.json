@@ -13,7 +13,7 @@
     "disable_mob_generation": false,
     "legacy_random_source": false,
     "noise": {
-        "height": 384,
+        "height": 480,
         "min_y": -64,
         "size_horizontal": 1,
         "size_vertical": 1

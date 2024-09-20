@@ -1,14 +1,11 @@
 #!/bin/env bash
 
-
 ## Remove BS Windows metafiles
 find . -name "*:Zone.Identifier" -type f -delete
-
 
 ## Remove data dir & recreate
 rm -rf data
 mkdir data
-
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/better-end-cities-(vanilla)
@@ -39,15 +36,15 @@ rsync -avh ./sources/tooltrims_mc1-21-1/tool_trims_1_21/data/ ./data/
 ### always keep custom changes last..
 rsync -avh ./sources/custom_overlay_mc1-21-1/data/ ./data/
 
-
 ## Make continents larger:
 sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.09,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
 sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.13,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
-
-## Remove noise caves:
+## Overworld Noise Settings
+# Remove noise caves:
 sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data/minecraft/worldgen/noise_settings/overworld.json
-
+# Fix noise height:
+sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
 
 ## Remove lava lakes from vegetation biomes:
 # -= Dark Forest =-
