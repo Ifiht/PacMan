@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.changed_type",
+        "fallback": "Fashionable choice!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.changed_type",
+        "fallback": "Change a Villager's type"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/leashed",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

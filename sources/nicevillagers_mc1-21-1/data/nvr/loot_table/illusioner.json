@@ -1,0 +1,68 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_potion",
+                "id": "minecraft:invisibility"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 76
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 12,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "#minecraft:treasure"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 12,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": {
+                  "min": 0,
+                  "max": 15
+                },
+                "options": "#minecraft:non_treasure"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

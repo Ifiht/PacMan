@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "nvr.advancement.title.illusioner",
+      "fallback": "It was me all along!"
+    },
+    "description": {
+      "translate": "nvr.advancement.desc.illsuioner",
+      "fallback": "Unmask an Illusioner"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nvr:progression/kill_wandering_trader",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

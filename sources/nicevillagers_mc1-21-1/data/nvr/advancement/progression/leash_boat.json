@@ -1,0 +1,58 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_boat"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.leash_boat",
+        "fallback": "Therapy Session"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.leash_boat",
+        "fallback": "Leash a Boat in which a Pillager and a Villager are sitting at the same time"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/dimension_trade",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "minecraft:lead"
+          },
+          "entity": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:boat",
+                    "passenger": {
+                      "type": "minecraft:villager"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:boat",
+                    "passenger": {
+                      "type": "minecraft:pillager"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

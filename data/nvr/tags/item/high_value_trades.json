@@ -1,0 +1,34 @@
+{
+    "values": [
+      "minecraft:wolf_armor",
+      "minecraft:turtle_helmet",
+      "minecraft:iron_horse_armor",
+      "minecraft:golden_horse_armor",
+      "minecraft:diamond_horse_armor",
+      "minecraft:golden_apple",
+      "minecraft:sponge",
+      "minecraft:wet_sponge",
+      "minecraft:tadpole_bucket",
+      "minecraft:enchanted_book",
+      "minecraft:lodestone",
+      "minecraft:creeper_banner_pattern",
+      "minecraft:flow_banner_pattern",
+      "minecraft:flower_banner_pattern",
+      "minecraft:guster_banner_pattern",
+      "minecraft:mojang_banner_pattern",
+      "minecraft:piglin_banner_pattern",
+      "minecraft:skull_banner_pattern",
+      "minecraft:recovery_compass",
+      "minecraft:ominous_bottle",
+      "minecraft:ghast_tear",
+      "minecraft:bundle",
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_shovel",
+      "minecraft:trident",
+      "minecraft:mace",
+      "minecraft:diamond_sword"
+    ]
+  }
+  

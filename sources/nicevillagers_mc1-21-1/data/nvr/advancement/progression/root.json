@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "nvr.advancement.title.root",
+      "fallback": "Nice Villagers Remastered"
+    },
+    "description": {
+      "translate": "nvr.advancement.desc.root",
+      "fallback": "Peaceful People Perfected!"
+    },
+    "background": "minecraft:textures/block/bamboo_block.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}

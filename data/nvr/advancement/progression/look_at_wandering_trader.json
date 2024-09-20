@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:spyglass"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.look_at_wandering_trader",
+        "fallback": "Masterful espionage"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.look_at_wandering_trader",
+        "fallback": "Look at a Wandering Trader through a Spyglass"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/traded_wandering_trader",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "looking_at": {
+                    "type": "minecraft:wandering_trader"
+                  }
+                }
+              }
+            }
+          ],
+          "item": {
+            "items": "minecraft:spyglass"
+          }
+        }
+      }
+    }
+  }
+  

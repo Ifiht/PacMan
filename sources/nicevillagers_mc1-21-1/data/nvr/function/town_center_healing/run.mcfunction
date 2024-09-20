@@ -1,0 +1,2 @@
+execute as @e[type=villager] at @s if entity @e[type=marker,distance=..32,tag=village.name] unless predicate nvr:night_time run function nvr:town_center_healing/villager
+execute as @e[type=iron_golem,predicate=nvr:entity/villager_golem] at @s if entity @e[type=marker,distance=..32,tag=village.name] unless predicate nvr:night_time run function nvr:town_center_healing/iron_golem

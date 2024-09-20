@@ -1,5 +1,6 @@
 {
     "aquifers_enabled": true,
+    "noise_caves_enabled": false,
     "default_block": {
         "Name": "minecraft:stone"
     },

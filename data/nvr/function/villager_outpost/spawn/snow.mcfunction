@@ -1,0 +1,22 @@
+summon villager ~ ~ ~ \
+{\
+Tags:["nvr.outpost.snow"],\
+VillagerData:\
+{\
+level:99,\
+profession:"minecraft:toolsmith",\
+type:"minecraft:snow"\
+},\
+Offers:\
+{\
+Recipes:\
+[\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:12},sell:{id:"minecraft:snow_block",count:6}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:9},sell:{id:"minecraft:ice",count:9}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:9},sell:{id:"minecraft:packed_ice",count:5}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:9},sell:{id:"minecraft:blue_ice",count:2}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:10},sell:{id:"minecraft:powder_snow_bucket",count:1}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:soul_campfire",count:2}}\
+]\
+}\
+}

@@ -1,0 +1,203 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.all_moods",
+        "fallback": "All moody today, huh?!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.all_moods",
+        "fallback": "Talk with Villagers in all moods"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/visit_village",
+    "criteria": {
+      "angry": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.angry\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "curious": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.curious\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "disgusted": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.disgusted\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "excited": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.excited\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "frightened": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.frightened\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "happy": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.happy\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "logical": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.logical\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "neutral": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.neutral\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "religious": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.religious\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "sad": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.sad\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "sarcastic": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.sarcastic\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      },
+      "surprised": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"nvr.mood.surprised\"], VillagerData: {profession:\"minecraft:none\"}}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

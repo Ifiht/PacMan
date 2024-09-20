@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:melon_seeds"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.traded_wandering_trader",
+        "fallback": "What are you buying?"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.traded_wandering_trader",
+        "fallback": "Trade with a Wandering Trader"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/root",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:wandering_trader"
+          }
+        }
+      }
+    }
+  }
+  

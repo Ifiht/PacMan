@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!nvr.mood.set] run function nvr:mood/tag_villager

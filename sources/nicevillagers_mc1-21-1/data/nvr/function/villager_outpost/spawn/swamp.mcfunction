@@ -1,0 +1,23 @@
+summon villager ~ ~ ~ \
+{\
+Tags:["nvr.outpost.swamp"],\
+VillagerData:\
+{\
+level:99,\
+profession:"minecraft:toolsmith",\
+type:"minecraft:swamp"\
+},\
+Offers:\
+{\
+Recipes:\
+[\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:12},sell:{id:"minecraft:mangrove_log",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:mud",count:6}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:muddy_mangrove_roots",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:mangrove_roots",count:6}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:10},sell:{id:"minecraft:gravel",count:5}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:blue_orchid",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:lily_pad",count:5}}\
+]\
+}\
+}

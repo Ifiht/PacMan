@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!nvr.quest.set,predicate=!nvr:entity/is_outpost_trader] at @s run function nvr:quest/get_data

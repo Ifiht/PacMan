@@ -1,0 +1,9 @@
+{
+    "values": [
+        {"id": "minecraft:swamp","required": false},
+        {"id": "minecraft:mangrove_swamp","required": false},
+        {"id": "eden:swamp","required": false},
+        {"id": "eden:mangrove_swamp","required": false},
+        {"id": "terralith:orchid_swamp","required": false}
+    ]
+}

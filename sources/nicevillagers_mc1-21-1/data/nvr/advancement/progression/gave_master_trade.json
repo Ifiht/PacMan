@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bundle"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.gave_master_trade",
+        "fallback": "Sell me this!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.gave_master_trade",
+        "fallback": "Give a Master Trader a new trade"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/traded_w_master",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

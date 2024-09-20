@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_block"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.hurt_by_iron_golem",
+        "fallback": "I swear it wasn't me!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.hurt_by_iron_golem",
+        "fallback": "Get hurt by an Iron Golem"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/got_bell",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        }
+      }
+    }
+  }
+  

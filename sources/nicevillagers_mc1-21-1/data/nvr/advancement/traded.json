@@ -1,0 +1,12 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {}
+      }
+    },
+    "rewards": {
+      "function": "nvr:gossip_modifier/trade_interacted"
+    }
+  }
+  
