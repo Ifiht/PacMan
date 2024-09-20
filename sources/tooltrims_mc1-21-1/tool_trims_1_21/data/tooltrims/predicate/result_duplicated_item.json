@@ -1,0 +1,51 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{Items:[{Slot:24b, id:\"minecraft:structure_block\", count:2, components:{\"minecraft:custom_model_data\":313001}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{Items:[{Slot:24b, id:\"minecraft:structure_block\", count:2, components:{\"minecraft:custom_model_data\":313002}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{Items:[{Slot:24b, id:\"minecraft:structure_block\", count:2, components:{\"minecraft:custom_model_data\":313003}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{Items:[{Slot:24b, id:\"minecraft:structure_block\", count:2, components:{\"minecraft:custom_model_data\":313004}}]}"
+          }
+        }
+      }
+    ]
+  }
+]

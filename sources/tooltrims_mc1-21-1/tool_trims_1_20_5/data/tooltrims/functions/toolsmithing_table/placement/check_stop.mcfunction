@@ -1,0 +1,3 @@
+execute at @s if entity @p[gamemode=!creative] run give @p minecraft:rabbit_spawn_egg[custom_model_data=314001, entity_data={id:"minecraft:armor_stand", Rotation:[], Invulnerable:1b, Invisible:1b, NoGravity:1b, Silent:1b, Marker:1b, Tags:["310_place_toolsmithing_table"]}, item_name='{"translate": "block.toolsmithing_table.name", "italic": false}']
+kill @s
+stopsound @p player minecraft:entity.item.pickup
