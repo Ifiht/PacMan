@@ -47,15 +47,32 @@ sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves
 sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
 
 ## Remove lava lakes from vegetation biomes:
+# (( MINECRAFT BIOMES ))
+# -= Cherry Grove =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/cherry_grove.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/cherry_grove.json
 # -= Dark Forest =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/dark_forest.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/dark_forest.json
+# -= Flower Forest =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/flower_forest.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/flower_forest.json
 # -= Forest =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/forest.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/forest.json
+# -= Meadow =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/meadow.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/meadow.json
 # -= Taiga =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/taiga.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/taiga.json
 # -= Snowy Taiga =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/snowy_taiga.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/snowy_taiga.json
+# (( TERRALITH BIOMES ))
+# -= Sakura Grove =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_grove.json
+# -= Sakura Grove =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_valley.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_valley.json
