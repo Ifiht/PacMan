@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+
+    "minecraft:player",
+    "#true_ending:misc",
+    "minecraft:ender_dragon"
+    
+   
+
+    
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+
+      {"id": "minecraft:bedrock","required": false},
+      {"id": "minecraft:iron_bars","required": false},
+      {"id": "#minecraft:fire","required": false}
+
+  
+      
+
+
+
+    
+
+
+      
+    ]
+  }
+  

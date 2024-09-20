@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id": "minecraft:marker","required": false},
+    {"id": "minecraft:area_effect_cloud","required": false}
+
+
+
+  
+
+
+    
+  ]
+}

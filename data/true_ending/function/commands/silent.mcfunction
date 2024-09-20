@@ -1,0 +1,1 @@
+data modify entity @e[sort=nearest,limit=1,type=ender_dragon] Silent set value 1b

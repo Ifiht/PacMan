@@ -1,0 +1,1 @@
+$playsound true_ending:music.dragon_defeat $(dragon_music_slider) @a[distance=..128] ~ ~ ~ 1 1
