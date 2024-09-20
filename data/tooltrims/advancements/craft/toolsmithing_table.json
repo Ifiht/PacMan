@@ -1,0 +1,13 @@
+{
+  "criteria": {
+      "toolsmithing_table": {
+          "trigger": "recipe_unlocked",
+          "conditions": {
+              "recipe": "tooltrims:toolsmithing_table"
+          }
+      }
+  },
+  "rewards": {
+      "function": "tooltrims:craft/toolsmithing_table"
+  }
+}

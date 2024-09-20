@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:barrel"
+      ],
+      "nbt": "{Items:[{Slot:24b, tag:{trimmed_tool:1b}}]}"
+    }
+  }
+}

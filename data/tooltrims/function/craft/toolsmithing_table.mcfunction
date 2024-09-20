@@ -1,0 +1,1 @@
+# empty function used for 1.20.4 and below

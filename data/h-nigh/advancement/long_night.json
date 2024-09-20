@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "minecraft:custom_model_data": 6666001
+      }
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.long_night.title",
+      "fallback": "Longest Night of My Life!",
+      "color": "dark_red",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrd.h-nigh.advancement.long_night.description",
+      "fallback": "Survive a Blood Moon...",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rrc:h-nigh",
+  "criteria": {
+    "Long Night": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

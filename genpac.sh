@@ -32,12 +32,10 @@ rsync -avh ./sources/nicevillagers_mc1-21-1/data/ ./data/
 rsync -avh ./sources/blazencavesadv_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/blood-moon
 rsync -avh ./sources/hordenights_mc1-21-1/data/ ./data/
-# --- overlay here ---
-
+rsync -avh ./sources/hordenights_mc1-21-1/format48/data/ ./data/
 # https://modrinth.com/datapack/tool-trims
 rsync -avh ./sources/tooltrims_mc1-21-1/data/ ./data/
-# --- overlay here ---
-
+rsync -avh ./sources/tooltrims_mc1-21-1/tool_trims_1_21/data/ ./data/
 ### always keep custom changes last..
 rsync -avh ./sources/custom_overlay_mc1-21-1/data/ ./data/
 
@@ -52,5 +50,15 @@ sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves
 
 
 ## Remove lava lakes from vegetation biomes:
+# -= Dark Forest =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/dark_forest.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/dark_forest.json
+# -= Forest =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/forest.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/forest.json
+# -= Taiga =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/taiga.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/taiga.json
+# -= Snowy Taiga =-
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/snowy_taiga.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/snowy_taiga.json

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cow_spawn_egg"
+    },
+    "title": {
+      "translate": "rrc.h-nigh.advancement.coward.title",
+      "fallback": "Time to write a Wimpy Diary...",
+      "color": "dark_red",
+      "bold": true,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "description": {
+      "translate": "rrd.h-nigh.advancement.coward.description",
+      "fallback": "Become a coward once!",
+      "bold": false,
+      "italic": true,
+      "underlined": false,
+      "strikethrough": false,
+      "obfuscated": false
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "rrc:h-nigh",
+  "criteria": {
+    "Coward": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

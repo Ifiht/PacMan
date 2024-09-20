@@ -1,0 +1,2 @@
+execute store result score @s 310_combination run data get entity @s Item.tag.combination
+execute if score @s 310_combination = .310_check_combination 310_operation unless score .310_check_complete 310_operation matches 1 run function tooltrims:fixes/dropped/delete
