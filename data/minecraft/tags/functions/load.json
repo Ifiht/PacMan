@@ -1,5 +1,5 @@
 {
-    "values": [
-        "tooltrims:load"
-    ]
+  "values": [
+    "dynamiclights:install_trigger"
+  ]
 }
