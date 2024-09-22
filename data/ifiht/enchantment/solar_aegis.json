@@ -4,33 +4,19 @@
     "translate": "Solar Aegis"
   },
   "effects": {
-    "minecraft:location_changed": [
+    "minecraft:attributes": [
       {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value"
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.0
         },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 6
-                }
-              }
-            }
-          }
-        }
-      },
+        "attribute": "minecraft:generic.armor",
+        "id": "ifiht:enchantment.solar_aegis",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:location_changed": [
       {
         "effect": {
           "type": "minecraft:attribute",
