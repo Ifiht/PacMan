@@ -31,6 +31,33 @@
             "periodic_tick": 5
           }
         }
+      },
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -1.0,
+            "per_level_above_first": -1.0
+          },
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value"
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "light": {
+                "light": {
+                  "max": 5
+                }
+              }
+            },
+            "periodic_tick": 10
+          }
+        }
       }
     ]
   },
