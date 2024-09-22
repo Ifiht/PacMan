@@ -30,7 +30,7 @@
               "min": 1
             },
             "predicates": {
-              "minecraft:enchantments": [
+              "ifiht:enchantments": [
                 {
                   "enchantments": "ifiht:solar_halo",
                   "levels": {
