@@ -4,16 +4,19 @@
     "translate": "Solar Aegis"
   },
   "effects": {
-    "minecraft:attributes": [
+    "minecraft:tick": [
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+        "effect": {
+          "type": "minecraft:attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          },
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value"
         },
-        "attribute": "minecraft:generic.armor",
-        "id": "ifiht:enchantment.solar_aegis",
-        "operation": "add_value",
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
@@ -24,19 +27,23 @@
                   "min": 6
                 }
               }
-            }
+            },
+            "periodic_tick": 5
           }
         }
       },
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+        "effect": {
+          "type": "minecraft:attribute",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": -1.0,
+            "per_level_above_first": -1.0
+          },
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value"
         },
-        "attribute": "minecraft:generic.armor_toughness",
-        "id": "ifiht:enchantment.solar_aegis",
-        "operation": "add_value",
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
@@ -44,10 +51,11 @@
             "location": {
               "light": {
                 "light": {
-                  "min": 6
+                  "max": 5
                 }
               }
-            }
+            },
+            "periodic_tick": 10
           }
         }
       }
