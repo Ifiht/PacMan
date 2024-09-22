@@ -4,7 +4,7 @@
     "translate": "Solar Aegis"
   },
   "effects": {
-    "minecraft:tick": [
+    "minecraft:location_changed": [
       {
         "effect": {
           "type": "minecraft:attribute",
