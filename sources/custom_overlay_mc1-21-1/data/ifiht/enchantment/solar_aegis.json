@@ -8,6 +8,16 @@
       {
         "effect": {
           "type": "minecraft:attribute",
+          "amount": 0,
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:attribute",
           "amount": {
             "type": "minecraft:linear",
             "base": 1.0,
