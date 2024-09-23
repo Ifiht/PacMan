@@ -7,7 +7,7 @@
     "minecraft:location_changed": [
       {
         "effect": {
-          "type": "minecraft:attributes",
+          "type": "minecraft:attribute",
           "amount": {
             "type": "minecraft:linear",
             "base": 1.0,
@@ -34,7 +34,7 @@
       },
       {
         "effect": {
-          "type": "minecraft:attributes",
+          "type": "minecraft:attribute",
           "amount": 0,
           "attribute": "minecraft:generic.armor",
           "id": "ifiht:enchantment.solar_aegis",
