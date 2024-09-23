@@ -4,17 +4,20 @@
     "translate": "Solar Aegis"
   },
   "effects": {
-    "minecraft:attributes": [
+    "minecraft:location_changed": [
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+        "effect": {
+          "type": "minecraft:attributes",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          },
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value",
+          "slot": "chest"
         },
-        "attribute": "minecraft:generic.armor",
-        "id": "ifiht:enchantment.solar_aegis",
-        "operation": "add_value",
-        "slot": "chest",
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
@@ -30,15 +33,14 @@
         }
       },
       {
-        "amount": {
-          "type": "minecraft:linear",
-          "base": 0.5,
-          "per_level_above_first": 0.5
+        "effect": {
+          "type": "minecraft:attributes",
+          "amount": 0,
+          "attribute": "minecraft:generic.armor",
+          "id": "ifiht:enchantment.solar_aegis",
+          "operation": "add_value",
+          "slot": "chest"
         },
-        "attribute": "minecraft:generic.armor",
-        "id": "ifiht:enchantment.solar_aegis_boots",
-        "operation": "add_value",
-        "slot": "feet",
         "requirements": {
           "condition": "minecraft:entity_properties",
           "entity": "this",
@@ -46,7 +48,7 @@
             "location": {
               "light": {
                 "light": {
-                  "min": 6
+                  "max": 5
                 }
               }
             }
