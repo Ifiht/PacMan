@@ -1,7 +1,0 @@
-{
-  "//comment": "Entities specified here will always emit light level 3",
-  "replace": false,
-  "values": [
-    "minecraft:magma_cube"
-  ]
-}
