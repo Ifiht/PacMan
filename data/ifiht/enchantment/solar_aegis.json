@@ -41,29 +41,6 @@
             }
           }
         }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "max": 5
-                }
-              }
-            }
-          }
-        }
       }
     ]
   },
