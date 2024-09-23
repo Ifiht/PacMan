@@ -5,6 +5,7 @@
       "id": "terralith:setup",
       "required": false
     },
+    "dynamiclights:install_trigger",
     "blazeandcave:start_timers",
     "true_ending:load",
     "tooltrims:load",

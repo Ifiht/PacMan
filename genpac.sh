@@ -36,7 +36,7 @@ rsync -avh ./sources/hordenights_mc1-21-1/format48/data/ ./data/
 rsync -avh ./sources/tooltrims_mc1-21-1/data/ ./data/
 rsync -avh ./sources/tooltrims_mc1-21-1/tool_trims_1_21/data/ ./data/
 # https://modrinth.com/datapack/dynamic-lights
-#rsync -avh ./sources/dynamiclights_mc1-21-1/data/ ./data/
+rsync -avh ./sources/dynamiclights_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/enchantedbookenabler-datapack
 rsync -avh ./sources/enchantedbooks_mc1-21-1/data/ ./data/
 ### always keep custom changes last..

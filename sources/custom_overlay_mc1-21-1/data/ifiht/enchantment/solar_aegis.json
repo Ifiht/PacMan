@@ -101,7 +101,7 @@
       }
     ]
   },
-  "item_modifiers": [
+  "item_modifier": [
     {
       "type": "minecraft:tag",
       "tag": "ifiht:solarized_description"
