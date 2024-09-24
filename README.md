@@ -1,5 +1,5 @@
 # PacMan
-Merge all the Minecraft Datapacks :package:
+Merge all the Minecraft Packs :package:
 
 ## Usage
 This repo contains two scripts, `dpak_gen.sh` & `rpak_gen.sh` for datapacks and resourcepacks respectively, that work their way through all the sources specified, and overlay them on eachother to create one monolithic data folder and assets folder that 
