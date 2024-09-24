@@ -1,7 +1,0 @@
-{
-  "//comment": "Entities specified here will always emit light level 12",
-  "replace": false,
-  "values": [
-    "minecraft:dragon_fireball"
-  ]
-}

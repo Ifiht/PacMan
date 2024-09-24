@@ -1,7 +1,0 @@
-{
-  "//comment": "Items listed here will only emit light outside water - Intended to get populated by mods",
-  "replace": false,
-  "values": [
-    {"id": "#c:lava_buckets", "required": false}
-  ]
-}
