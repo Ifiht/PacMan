@@ -33,12 +33,12 @@ rsync -avh ./sources/blazencavesadv_mc1-21-0/data/ ./data/
 rsync -avh ./sources/hordenights_mc1-21-1/data/ ./data/
 rsync -avh ./sources/hordenights_mc1-21-1/format48/data/ ./data/
 # https://modrinth.com/datapack/tool-trims
-rsync -avh ./sources/tooltrims_mc1-21-1/data/ ./data/
-rsync -avh ./sources/tooltrims_mc1-21-1/tool_trims_1_21/data/ ./data/
+#rsync -avh ./sources/tooltrims_mc1-21-1/data/ ./data/
+#rsync -avh ./sources/tooltrims_mc1-21-1/tool_trims_1_21/data/ ./data/
 # https://modrinth.com/datapack/dynamic-lights
 rsync -avh ./sources/dynamiclights_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/enchantedbookenabler-datapack
-rsync -avh ./sources/enchantedbooks_mc1-21-1/data/ ./data/
+#rsync -avh ./sources/enchantedbooks_mc1-21-1/data/ ./data/
 ### always keep custom changes last..
 rsync -avh ./sources/custom_overlay_mc1-21-1/data/ ./data/
 
@@ -104,3 +104,8 @@ sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g
 # -= Cold Shrubland =-
 sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
+
+
+#========== REMOVE TICK.JSON =============#
+rm data/minecraft/tags/function/tick.json
+rm data/minecraft/tags/functions/tick.json

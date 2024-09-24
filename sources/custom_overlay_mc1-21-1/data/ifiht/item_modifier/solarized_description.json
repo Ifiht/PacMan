@@ -1,21 +1,13 @@
-{
-  "function": "minecraft:set_lore",
-  "lore": [
-    {
-      "text": "Enchantment: Solar Aegis",
-      "color": "gold"
-    },
-    {
-      "text": "Granted %s extra armor from nearby light.",
-      "args": [
-        {
-        "type": "minecraft:attribute",
-        "attribute": "minecraft:generic.armor",
-        "value": true
-        }
-      ],
-      "color": "yellow"
-    }
-  ],
-  "replace": true
-}
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Granted extra armor from nearby light.",
+        "color": "gold"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

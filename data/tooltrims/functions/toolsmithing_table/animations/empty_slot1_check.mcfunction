@@ -1,3 +1,0 @@
-# check loop
-execute if block ~ ~ ~ barrel{Items:[{Slot:1b, tag:{gui:1b}}]} if block ~ ~ ~ barrel{Items:[{Slot:19b}]} run item replace block ~ ~ ~ container.1 with minecraft:structure_block{CustomModelData:312002, gui:1b, display:{Name:'{"text":""}'}} 1
-execute if block ~ ~ ~ barrel{Items:[{Slot:1b, tag:{gui:1b}}]} unless block ~ ~ ~ barrel{Items:[{Slot:19b}]} run function tooltrims:toolsmithing_table/animations/empty_slot1_loop

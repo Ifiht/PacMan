@@ -101,12 +101,7 @@
       }
     ]
   },
-  "item_modifier": [
-    {
-      "type": "minecraft:tag",
-      "tag": "ifiht:solarized_description"
-    }
-  ],
+  "item_modifier": "ifiht:solarized_description",
   "max_cost": {
     "base": 18,
     "per_level_above_first": 8
