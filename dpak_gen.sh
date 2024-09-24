@@ -100,5 +100,11 @@ sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g
 
 
 #========== REMOVE TICK.JSON =============#
-rm data/minecraft/tags/function/tick.json
-rm data/minecraft/tags/functions/tick.json
+if [ -f data/minecraft/tags/function/tick.json ]; then
+    echo "WARNING: MC 1.21.x tick hooks found"
+    rm -f data/minecraft/tags/function/tick.json
+fi
+if [ -d data/minecraft/tags/functions ]; then
+    echo "WARNING: MC pre-1.21 directories found"
+    rm -rf data/minecraft/tags/functions
+fi
