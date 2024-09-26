@@ -27,11 +27,6 @@ rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen
 rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
 rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/blazeandcaves-advancements-pack
-rsync -avh ./sources/datapaks/blazencavesadv_mc1-21-0/data/ ./data/
-# https://modrinth.com/datapack/blood-moon
-rsync -avh ./sources/datapaks/hordenights_mc1-21-1/data/ ./data/
-rsync -avh ./sources/datapaks/hordenights_mc1-21-1/format48/data/ ./data/
 ### always keep custom changes last..
 rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
 

@@ -10,5 +10,7 @@ mkdir assets
 ## Sync sources with assets, first here is "last" to load, ones farther down will overwrite
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanillatweaks_mc1-21-1/assets/ ./assets/
+# https://modrinth.com/resourcepack/roundista
+rsync -avh ./sources/resourcepaks/roundista_mc1-21-1/assets/ ./assets/
 ### always keep custom changes last..
 rsync -avh ./sources/resourcepaks/custom_overlay_mc1-21-1/assets/ ./assets/
