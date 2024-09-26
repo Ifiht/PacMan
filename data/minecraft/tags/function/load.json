@@ -5,7 +5,6 @@
       "id": "terralith:setup",
       "required": false
     },
-    "blazeandcave:start_timers",
     "true_ending:load",
     "nvr:load"
   ]
