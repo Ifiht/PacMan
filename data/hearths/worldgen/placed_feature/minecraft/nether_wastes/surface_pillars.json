@@ -17,7 +17,7 @@
 						"placement": []
 					}
 				},
-        {
+				{
 					"chance": 0.2,
 					"feature": {
 						"feature": "hearths:enormous_netherrack_pillar",
@@ -36,14 +36,9 @@
 			"type": "minecraft:count_on_every_layer",
 			"count": {
 				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 1,
-					"max_inclusive": 7
-				}
+				"min_inclusive": 1,
+				"max_inclusive": 7
 			}
-		},
-		{
-			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:biome"

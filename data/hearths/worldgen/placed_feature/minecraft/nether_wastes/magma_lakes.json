@@ -24,10 +24,8 @@
 						},
 						"radius": {
 							"type": "minecraft:biased_to_bottom",
-							"value": {
-								"min_inclusive": 1,
-								"max_inclusive": 3
-							}
+							"min_inclusive": 1,
+							"max_inclusive": 3
 						},
 						"half_height": 1
 					}
@@ -40,9 +38,6 @@
 		{
 			"type": "minecraft:count_on_every_layer",
 			"count": 3
-		},
-		{
-			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:block_predicate_filter",

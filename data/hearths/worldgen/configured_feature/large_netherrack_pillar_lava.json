@@ -16,10 +16,8 @@
           "vegetation_chance": 1,
           "xz_radius": {
             "type": "minecraft:biased_to_bottom",
-            "value": {
-              "min_inclusive": 0,
-              "max_inclusive": 1
-            }
+            "min_inclusive": 0,
+            "max_inclusive": 1
           },
           "replaceable": "#minecraft:base_stone_nether",
           "ground_state": {

@@ -10,6 +10,7 @@ mkdir data
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/hearths
 rsync -avh ./sources/datapaks/hearths_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/hearths_mc1-21-1/f41/data/ ./data/
 # https://modrinth.com/datapack/nullscape
 rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/true-ending

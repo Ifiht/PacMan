@@ -56,14 +56,9 @@
 			"type": "minecraft:count_on_every_layer",
 			"count": {
 				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 9,
-					"max_inclusive": 12
-				}
+				"min_inclusive": 9,
+				"max_inclusive": 12
 			}
-		},
-		{
-			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:height_range",
