@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "hearths:netherrack_spiral",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 814798319,
+		"spacing": 6,
+		"separation": 4
+	}
+}

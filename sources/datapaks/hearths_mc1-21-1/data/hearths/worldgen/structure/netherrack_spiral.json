@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "minecraft:nether_wastes",
+	"step": "local_modifications",
+	"spawn_overrides": {},
+	"terrain_adaptation": "none",
+	"start_pool": "hearths:netherrack_spiral/base",
+	"size": 6,
+	"start_height": {
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"absolute": 18
+		},
+		"max_inclusive": {
+			"absolute": 22
+		}
+	},
+	"max_distance_from_center": 80,
+	"use_expansion_hack": false
+}

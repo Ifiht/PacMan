@@ -1,0 +1,42 @@
+{
+  "name": "",
+	"fallback": "minecraft:empty",
+	"elements": [
+    {
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "hearths:warped_tower/interior/chest",
+				"processors": "minecraft:empty"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "hearths:warped_tower/interior/lava",
+				"processors": "minecraft:empty"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "hearths:warped_tower/interior/blaze",
+				"processors": "minecraft:empty"
+			}
+		},
+    {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "hearths:warped_tower/interior/vines",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "",
+	"fallback": "hearths:crimson_tower/base/top",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "hearths:crimson_tower/base/top/0",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}
