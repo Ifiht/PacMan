@@ -142,7 +142,7 @@
       "wythers:terrain/extended/scree"
     ],
     [
-      "minecraft:lake_lava_underground"
+      "minecraft:lake_lava_underground",
       "wythers:terrain/extended/base_mangrove_swamp_forest"
     ],
     [
