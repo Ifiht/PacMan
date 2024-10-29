@@ -1,6 +1,11 @@
 {
+  "replace": true,
   "values": [
-    "#terralith:reference/temperature/cold",
-    "#terralith:reference/temperature/frozen_all"
+    "minecraft:warm_ocean",
+    "#minecraft:is_jungle",
+    "minecraft:mangrove_swamp",
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:lush_caves"
   ]
 }
