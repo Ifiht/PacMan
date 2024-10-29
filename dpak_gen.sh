@@ -8,6 +8,9 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
+# https://modrinth.com/datapack/terralith
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
+rm -rf ./data/minecraft/worldgen/biome
 # https://modrinth.com/datapack/hearths
 rsync -avh ./sources/datapaks/hearths_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/hearths_mc1-21-1/f41/data/ ./data/
@@ -17,8 +20,6 @@ rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/terratonic
 rsync -avh ./sources/datapaks/terratonic_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
