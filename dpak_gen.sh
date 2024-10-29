@@ -22,10 +22,8 @@ rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/terratonic
 rsync -avh ./sources/datapaks/terratonic_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
-# only the dark forest (-_-)
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/ ./data/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/ ./data/
 # https://modrinth.com/datapack/continents
 rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
@@ -34,8 +32,8 @@ rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
 
 ## Make continents larger:
-sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.09,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
-sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.13,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
+sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
 ## Overworld Noise Settings
 # Remove noise caves:
