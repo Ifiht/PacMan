@@ -9,12 +9,17 @@ mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biom_tag_villagers ./data/
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/c ./data/
+#>> Add density functions:
+mkdir -p ./data/minecraft/worldgen
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/density_function ./data/minecraft/worldgen/
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise ./data/minecraft/worldgen/
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_settings ./data/minecraft/worldgen/
 #>> Add fortified villages:
-mkdir -p ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/worldgen/structure/
+mkdir -p ./data/minecraft/tags/worldgen/structure
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/tags/worldgen/structure/
 # https://modrinth.com/datapack/hopo-better-underwater-ruins
 #rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
@@ -33,7 +38,7 @@ rsync -avh ./sources/datapaks/tectonic_mc1-21-0/data/ ./data/
 #>> only the dark forest (-_-)
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
-mkdir -p ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/biome
+mkdir -p ./data/minecraft/worldgen/biome
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
 #>> and tepui's /^\
 rsync -avh ./sources/datapaks/towertepui_mc1-21-0/data/ ./data/
