@@ -1,8 +1,6 @@
 {
   "type": "minecraft:range_choice",
   "input": {
-    // Temporary hack to fix aquifer issues.
-    // TODO: actually fix the issue
     "type": "minecraft:range_choice",
     "input": "minecraft:y",
     "min_inclusive": 48,

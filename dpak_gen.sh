@@ -18,8 +18,8 @@ rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/density
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise ./data/minecraft/worldgen/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_settings ./data/minecraft/worldgen/
 #>> Add fortified villages:
-mkdir -p ./data/minecraft/tags/worldgen/structure
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/tags/worldgen/structure/
+#mkdir -p ./data/minecraft/tags/worldgen/structure
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/tags/worldgen/structure/
 # https://modrinth.com/datapack/hopo-better-underwater-ruins
 #rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
