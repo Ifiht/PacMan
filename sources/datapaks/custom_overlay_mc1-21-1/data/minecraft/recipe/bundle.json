@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "equipment",
     "pattern": [
         " S ",
         " R ",
@@ -14,7 +15,8 @@
         }
     },
     "result": {
-        "item": "minecraft:bundle",
+        "id": "minecraft:bundle",
         "count": 1
-    }
+    },
+    "show_notification": true
 }
