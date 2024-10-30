@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"pack_format": 48,	
+		"supported_formats": {
+			"min_inclusive": 48,
+			"max_inclusive": 60
+		},
+		"description": "§3Explore new ocean ruins to your world"
+	}
+}
+
