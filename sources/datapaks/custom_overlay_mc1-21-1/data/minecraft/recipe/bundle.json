@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#R#",
-        "R R",
-        "RRR"
+        " S ",
+        " R ",
+        "   "
     ],
     "key": {
-        "#": {
+        "S": {
             "item": "minecraft:string"
         },
         "R": {
