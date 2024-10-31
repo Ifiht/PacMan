@@ -12,13 +12,13 @@ mkdir data
 rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/data/ ./data/
 rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/biomes_1_21/data/ ./data/
 # https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/c ./data/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/c ./data/
 #>> Add density functions:
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/density_function ./data/minecraft/worldgen/
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise ./data/minecraft/worldgen/
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_settings ./data/minecraft/worldgen/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/density_function ./data/minecraft/worldgen/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise ./data/minecraft/worldgen/
+#rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_settings ./data/minecraft/worldgen/
 #>> Add fortified villages:
 #mkdir -p ./data/minecraft/tags/worldgen/structure
 #rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/tags/worldgen/structure/
