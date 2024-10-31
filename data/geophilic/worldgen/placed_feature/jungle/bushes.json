@@ -2,37 +2,35 @@
   "feature": "geophilic:bush/jungle",
   "placement": [
     {
-      "type": "minecraft:count",
       "count": {
-        "type": "minecraft:biased_to_bottom",
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 5
-        }
-      }
+        "max_inclusive": 5,
+        "min_inclusive": 2,
+        "type": "minecraft:biased_to_bottom"
+      },
+      "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:surface_water_depth_filter",
-      "max_water_depth": 0
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
     },
     {
-      "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
     },
     {
-      "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:would_survive",
         "state": {
           "Name": "minecraft:jungle_sapling",
           "Properties": {
             "stage": "0"
           }
-        }
-      }
+        },
+        "type": "minecraft:would_survive"
+      },
+      "type": "minecraft:block_predicate_filter"
     },
     {
       "type": "minecraft:biome"

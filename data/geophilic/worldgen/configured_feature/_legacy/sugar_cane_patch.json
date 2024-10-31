@@ -1,62 +1,55 @@
 {
-  "type": "minecraft:random_patch",
   "config": {
     "feature": {
       "feature": {
-        "type": "minecraft:block_column",
         "config": {
           "allowed_placement": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+            "blocks": "minecraft:air",
+            "type": "minecraft:matching_blocks"
           },
           "direction": "up",
           "layers": [
             {
               "height": {
-                "type": "minecraft:biased_to_bottom",
-                "value": {
-                  "max_inclusive": 4,
-                  "min_inclusive": 2
-                }
+                "max_inclusive": 4,
+                "min_inclusive": 2,
+                "type": "minecraft:biased_to_bottom"
               },
               "provider": {
-                "type": "minecraft:simple_state_provider",
                 "state": {
                   "Name": "minecraft:sugar_cane",
                   "Properties": {
                     "age": "0"
                   }
-                }
+                },
+                "type": "minecraft:simple_state_provider"
               }
             }
           ],
           "prioritize_tip": false
-        }
+        },
+        "type": "minecraft:block_column"
       },
       "placement": [
         {
-          "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:all_of",
             "predicates": [
               {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:air"
+                "blocks": "minecraft:air",
+                "type": "minecraft:matching_blocks"
               },
               {
-                "type": "minecraft:would_survive",
                 "state": {
                   "Name": "minecraft:sugar_cane",
                   "Properties": {
                     "age": "0"
                   }
-                }
+                },
+                "type": "minecraft:would_survive"
               },
               {
-                "type": "minecraft:any_of",
                 "predicates": [
                   {
-                    "type": "minecraft:matching_fluids",
                     "fluids": [
                       "minecraft:water",
                       "minecraft:flowing_water"
@@ -65,10 +58,10 @@
                       1,
                       -1,
                       0
-                    ]
+                    ],
+                    "type": "minecraft:matching_fluids"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
                     "fluids": [
                       "minecraft:water",
                       "minecraft:flowing_water"
@@ -77,10 +70,10 @@
                       -1,
                       -1,
                       0
-                    ]
+                    ],
+                    "type": "minecraft:matching_fluids"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
                     "fluids": [
                       "minecraft:water",
                       "minecraft:flowing_water"
@@ -89,10 +82,10 @@
                       0,
                       -1,
                       1
-                    ]
+                    ],
+                    "type": "minecraft:matching_fluids"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
                     "fluids": [
                       "minecraft:water",
                       "minecraft:flowing_water"
@@ -101,17 +94,22 @@
                       0,
                       -1,
                       -1
-                    ]
+                    ],
+                    "type": "minecraft:matching_fluids"
                   }
-                ]
+                ],
+                "type": "minecraft:any_of"
               }
-            ]
-          }
+            ],
+            "type": "minecraft:all_of"
+          },
+          "type": "minecraft:block_predicate_filter"
         }
       ]
     },
     "tries": 96,
     "xz_spread": 8,
     "y_spread": 0
-  }
+  },
+  "type": "minecraft:random_patch"
 }

@@ -1,30 +1,30 @@
 {
-  "type": "minecraft:random_patch",
   "config": {
     "feature": {
       "feature": {
-        "type": "minecraft:simple_block",
         "config": {
           "to_place": {
-            "type": "minecraft:simple_state_provider",
             "state": {
               "Name": "minecraft:sandstone"
-            }
+            },
+            "type": "minecraft:simple_state_provider"
           }
-        }
+        },
+        "type": "minecraft:simple_block"
       },
       "placement": [
         {
-          "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:sand"
-          }
+            "blocks": "minecraft:sand",
+            "type": "minecraft:matching_blocks"
+          },
+          "type": "minecraft:block_predicate_filter"
         }
       ]
     },
     "tries": 496,
     "xz_spread": 7,
     "y_spread": 3
-  }
+  },
+  "type": "minecraft:random_patch"
 }

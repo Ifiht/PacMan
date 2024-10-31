@@ -1,19 +1,19 @@
 {
-	"feature": "geophilic:flower/sunflower",
-	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 2
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "MOTION_BLOCKING"
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "geophilic:flower/sunflower",
+  "placement": [
+    {
+      "chance": 2,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

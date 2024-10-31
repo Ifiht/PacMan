@@ -1,25 +1,25 @@
 {
-	"feature": "geophilic:flower/blue_orchid",
-	"placement": [
-		{
-			"type": "minecraft:noise_threshold_count",
-			"noise_level": -2,
-			"below_noise": 12,
-			"above_noise": 5
-		},
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 6
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "geophilic:flower/blue_orchid",
+  "placement": [
+    {
+      "above_noise": 5,
+      "below_noise": 12,
+      "noise_level": -2,
+      "type": "minecraft:noise_threshold_count"
+    },
+    {
+      "chance": 6,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

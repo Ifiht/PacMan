@@ -1,33 +1,33 @@
 {
-	"feature": {
-		"type": "minecraft:simple_random_selector",
-		"config": {
-			"features": [
-				{
-					"feature": "minecraft:patch_red_mushroom",
-					"placement": []
-				},
-				{
-					"feature": "minecraft:patch_brown_mushroom",
-					"placement": []
-				}
-			]
-		}
-	},
-	"placement": [
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 2
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:heightmap",
-			"heightmap": "MOTION_BLOCKING_NO_LEAVES"
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "minecraft:patch_red_mushroom",
+          "placement": []
+        },
+        {
+          "feature": "minecraft:patch_brown_mushroom",
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  },
+  "placement": [
+    {
+      "chance": 2,
+      "type": "minecraft:rarity_filter"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }
