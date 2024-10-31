@@ -40,14 +40,13 @@ rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/tectonic_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
 #>> only the dark forest (-_-)
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/lithosphere ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/towns_and_towers ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
-mkdir -p ./data/minecraft/worldgen/biome
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
+#rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
+#rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/lithosphere ./data/
+#rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/towns_and_towers ./data/
+#rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
+#rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
 #>> and tepui's /^\
-rsync -avh ./sources/datapaks/towertepui_mc1-21-0/data/ ./data/
+#rsync -avh ./sources/datapaks/towertepui_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/continents
 rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
