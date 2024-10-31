@@ -27,7 +27,7 @@ rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/biomes_1_21/data/ ./data/
 # https://modrinth.com/datapack/hopo-better-underwater-ruins
 #rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
-#rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 #rsync -avh ./sources/datapaks/incendium_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
@@ -35,9 +35,9 @@ rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/true-ending
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
-#rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/tectonic
-#rsync -avh ./sources/datapaks/tectonic_mc1-21-0/data/ ./data/
+rsync -avh ./sources/datapaks/tectonic_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
 #>> only the dark forest (-_-)
 #rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
