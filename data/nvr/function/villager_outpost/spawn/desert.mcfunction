@@ -1,0 +1,23 @@
+summon villager ~ ~ ~ \
+{\
+Tags:["nvr.outpost.desert"],\
+VillagerData:\
+{\
+level:99,\
+profession:"minecraft:toolsmith",\
+type:"minecraft:desert"\
+},\
+Offers:\
+{\
+Recipes:\
+[\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:12},sell:{id:"minecraft:sand",count:6}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:12},sell:{id:"minecraft:red_sand",count:4}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:3},sell:{id:"minecraft:decorated_pot",count:1}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:16},sell:{id:"minecraft:bundle",count:1}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:7},sell:{id:"minecraft:terracotta",count:2}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:dead_bush",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:cactus",count:2}}\
+]\
+}\
+}

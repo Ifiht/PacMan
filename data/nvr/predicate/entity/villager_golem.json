@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:iron_golem",
+      "nbt": "{PlayerCreated: 0b}"
+    }
+  }
+  

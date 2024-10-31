@@ -1,0 +1,9 @@
+{
+    "values": [
+        {"id": "minecraft:desert","required": false},
+        {"id": "eden:desert","required": false},
+        {"id": "terralith:desert_canyon","required": false},
+        {"id": "terralith:desert_oasis","required": false},
+        {"id": "terralith:desert_spires","required": false}
+    ]
+}

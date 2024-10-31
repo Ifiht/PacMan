@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:lead"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.lead_on_trader_llama",
+        "fallback": "They are mine now!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.lead_on_trader_llama",
+        "fallback": "Leash a Trader Llama"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/kill_wandering_trader",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": "minecraft:lead"
+          },
+          "entity": {
+            "type": "minecraft:trader_llama"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,23 @@
+summon villager ~ ~ ~ \
+{\
+Tags:["nvr.outpost.plains"],\
+VillagerData:\
+{\
+level:99,\
+profession:"minecraft:toolsmith",\
+type:"minecraft:plains"\
+},\
+Offers:\
+{\
+Recipes:\
+[\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:12},sell:{id:"minecraft:oak_log",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:red_tulip",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:pink_tulip",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:white_tulip",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:orange_tulip",count:3}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:dirt",count:8}},\
+{rewardExp:1b,maxUses:8,xp:10,priceMultiplier:0.05f,demand:-12,buy:{id:"minecraft:emerald",count:8},sell:{id:"minecraft:grass_block",count:5}}\
+]\
+}\
+}

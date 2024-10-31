@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:emerald"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.traded_w_master",
+        "fallback": "Master of all trades"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.traded_w_master",
+        "fallback": "Trade with a Villager which has a Master level"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/traded_below_0",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "nbt": "{VillagerData: {level: 5}}"
+          }
+        }
+      }
+    }
+  }
+  

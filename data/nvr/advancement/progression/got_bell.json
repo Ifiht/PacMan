@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:bell"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.got_bell",
+        "fallback": "Ready, Set, Alarm Bell!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.got_bell",
+        "fallback": "Obtain a Bell"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/visit_village",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:bell"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

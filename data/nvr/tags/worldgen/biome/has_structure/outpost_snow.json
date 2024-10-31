@@ -1,0 +1,12 @@
+{
+    "values": [
+        { "id": "minecraft:snowy_slopes","required": false},
+        { "id": "terralith:glacial_chasm","required": false},
+        { "id": "terralith:alpha_islands_winter","required": false},
+        { "id": "terralith:wintry_forest","required": false},
+        { "id": "terralith:snowy_badlands","required": false},
+        { "id": "minecraft:ice_spikes","required": false},
+        { "id": "eden:ice_spikes","required": false},
+        { "id": "eden:snowy_slopes","required": false}
+    ]
+}

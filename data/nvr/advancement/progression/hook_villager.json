@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:fishing_rod"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.hook_villager",
+        "fallback": "That ain't how it works!"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.hook_villager",
+        "fallback": "Hook a Villager with a Fishing Rod"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/root",
+    "criteria": {
+      "hooked": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:villager"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:deepslate_emerald_ore"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.traded_below_0",
+        "fallback": "I can't see my change"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.traded_below_0",
+        "fallback": "Trade with a Villager below Y level 0"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/changed_type",
+    "criteria": {
+      "spyglass_at_ghast": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "y": {
+                      "max": -1
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

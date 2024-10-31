@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.chest_opened",
+        "fallback": "Communist Mindset"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.chest_opened",
+        "fallback": "Open a Chest when a Villager is nearby"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/pick_up_bread",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

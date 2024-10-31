@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "title": {
+        "translate": "nvr.advancement.title.book_wandering_trader",
+        "fallback": "A magical offering"
+      },
+      "description": {
+        "translate": "nvr.advancement.desc.book_wandering_trader",
+        "fallback": "Trade with a Wandering Trader for an Enchanted Book"
+      },
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "nvr:progression/traded_wandering_trader",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "type": "minecraft:wandering_trader"
+          },
+          "item": {
+            "items": "minecraft:enchanted_book"
+          }
+        }
+      }
+    }
+  }
+  

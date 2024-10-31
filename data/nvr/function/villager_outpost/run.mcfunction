@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=!nvr.outpost.trade.set,predicate=nvr:entity/is_outpost_trader] at @s run function nvr:villager_outpost/modify_trades

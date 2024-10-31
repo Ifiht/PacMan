@@ -1,0 +1,13 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 85,
+        "separation": 50,
+        "salt": 36147891,
+        "spread_type": "triangular"
+    },
+    "structures": [{
+        "structure": "nvr:villager_outpost/snow",
+        "weight": 1
+    }]
+}

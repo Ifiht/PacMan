@@ -48,11 +48,11 @@ rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/biomes_1_21/data/ ./data/
 #>> and tepui's /^\
 #rsync -avh ./sources/datapaks/towertepui_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/continents
-#rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
-#rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 ### always keep custom changes last..
-#rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
 
 ## Make continents larger:
 sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
