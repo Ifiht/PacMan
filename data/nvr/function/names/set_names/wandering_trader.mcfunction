@@ -1,1 +1,0 @@
-$data merge entity @s {CustomName:'{"bold":false,"color":"blue","italic":false,"text":"$(first_name) $(last_name)"}'}
