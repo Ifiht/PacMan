@@ -13,6 +13,12 @@ rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/data/ ./data/
 rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/f26data/data/ ./data/
 rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/f41data/data/ ./data/
 rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/biomes_1_21/data/ ./data/
+# https://modrinth.com/datapack/incendium ; terralith for the Nether
+rsync -avh ./sources/datapaks/incendium_mc1-21-1/data/ ./data/
+rm -rf ./data/minecraft/loot_table
+rm -rf ./data/minecraft/recipe
+rm -rf ./data/minecraft/tags/block
+rm -rf ./data/minecraft/tags/damage_type
 # https://modrinth.com/datapack/terralith
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
@@ -28,8 +34,6 @@ rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/st
 rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
 rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/incendium ; terralith for the Nether
-rsync -avh ./sources/datapaks/incendium_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/true-ending
