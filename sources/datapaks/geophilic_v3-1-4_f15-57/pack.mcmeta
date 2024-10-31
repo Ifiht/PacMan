@@ -1,0 +1,58 @@
+{
+	"pack": {
+		"name": "Geophilic",
+		"description": "\u00A77Geophilic\u00A7r\nA biome overhaul data pack",
+		"version": "3.1.4",
+		"pack_format": 15,
+		"supported_formats": [
+			15,
+			57
+		]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"formats": [
+					26,
+					57
+				],
+				"directory": "f26data"
+			},
+			{
+				"formats": [
+					41,
+					57
+				],
+				"directory": "f41data"
+			},
+			{
+				"formats": [
+					18,
+					26
+				],
+				"directory": "biomes_1_20_2"
+			},
+			{
+				"formats": [
+					41,
+					41
+				],
+				"directory": "biomes_1_20_5"
+			},
+			{
+				"formats": [
+					48,
+					48
+				],
+				"directory": "biomes_1_21"
+			},
+			{
+				"formats": [
+					57,
+					57
+				],
+				"directory": "biomes_1_21_2"
+			}
+		]
+	}
+}

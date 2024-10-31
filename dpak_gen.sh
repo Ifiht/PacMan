@@ -8,12 +8,14 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
+# https://modrinth.com/datapack/geophilic
+rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/data/ ./data/
+rsync -avh ./sources/datapaks/geophilic_v3-1-4_f15-57/biomes_1_21/data/ ./data/
 # https://modrinth.com/datapack/terralith
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/c ./data/
 #>> Add density functions:
-mkdir -p ./data/minecraft/worldgen
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/density_function ./data/minecraft/worldgen/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise ./data/minecraft/worldgen/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_settings ./data/minecraft/worldgen/
@@ -37,6 +39,8 @@ rsync -avh ./sources/datapaks/tectonic_mc1-21-0/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
 #>> only the dark forest (-_-)
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/lithosphere ./data/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/towns_and_towers ./data/
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
 mkdir -p ./data/minecraft/worldgen/biome
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
