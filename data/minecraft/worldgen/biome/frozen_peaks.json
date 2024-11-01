@@ -116,12 +116,6 @@
         "weight": 100
       },
       {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
         "type": "minecraft:breeze",
         "maxCount": 1,
         "minCount": 1,
