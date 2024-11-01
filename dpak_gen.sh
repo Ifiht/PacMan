@@ -19,6 +19,10 @@ rm -rf ./data/minecraft/loot_table
 rm -rf ./data/minecraft/recipe
 rm -rf ./data/minecraft/tags/block
 rm -rf ./data/minecraft/tags/damage_type
+# https://modrinth.com/datapack/hopo-better-underwater-ruins
+rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
+rm -rf ./data/hopo/worldgen/template_pool/features
+rm -rf ./data/hopo/worldgen/template_pool/mobs
 # https://modrinth.com/datapack/terralith
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/biome_tag_villagers ./data/
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/terralith ./data/
@@ -30,8 +34,6 @@ rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/worldgen/noise_s
 #>> Add fortified villages:
 mkdir -p ./data/minecraft/tags/worldgen/structure
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/minecraft/tags/worldgen/structure/ ./data/minecraft/tags/worldgen/structure/
-# https://modrinth.com/datapack/hopo-better-underwater-ruins
-rsync -avh ./sources/datapaks/hopouwruins_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
 rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End

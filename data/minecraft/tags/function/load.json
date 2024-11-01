@@ -6,7 +6,6 @@
       "required": false
     },
     "true_ending:load",
-    "#load:_private/load",
     "nvr:load"
   ]
 }
