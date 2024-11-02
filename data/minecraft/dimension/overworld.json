@@ -5616,7 +5616,7 @@
           }
         },
         {
-          "biome": "windswept_gravelly_hills",
+          "biome": "minecraft:windswept_gravelly_hills",
           "parameters": {
             "continentalness": [
               0.03,
@@ -9066,7 +9066,7 @@
           }
         },
         {
-          "biome": "minecraft.old_growth_pine_taiga",
+          "biome": "minecraft:old_growth_pine_taiga",
           "parameters": {
             "continentalness": [
               0.62,
@@ -15666,7 +15666,7 @@
           }
         },
         {
-          "biome": "minecraft.old_growth_spruce_taiga",
+          "biome": "minecraft:old_growth_spruce_taiga",
           "parameters": {
             "continentalness": [
               0.03,
@@ -17946,7 +17946,7 @@
           }
         },
         {
-          "biome": "windswept_gravelly_hills",
+          "biome": "minecraft:windswept_forest",
           "parameters": {
             "continentalness": [
               0.03,
@@ -19956,7 +19956,7 @@
           }
         },
         {
-          "biome": "minecraft.old_growth_birch_forest",
+          "biome": "minecraft:old_growth_birch_forest",
           "parameters": {
             "continentalness": [
               0.62,
