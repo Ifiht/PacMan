@@ -16,8 +16,6 @@ rm -rf ./data/minecraft/tags/block
 rm -rf ./data/minecraft/tags/damage_type
 # https://modrinth.com/datapack/terralith
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
-rm -rf ./data/terralith/worldgen/noise/highlands/terracotta.json
-rm -rf ./data/terralith/worldgen/noise/highlands/white_terracotta.json
 # https://modrinth.com/datapack/fancier-mansions
 rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
