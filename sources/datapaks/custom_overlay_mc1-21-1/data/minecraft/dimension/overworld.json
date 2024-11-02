@@ -160,7 +160,7 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.05
+              -1.03
             ],
             "depth": [
               -0.005,
@@ -190,7 +190,7 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.05
+              -1.03
             ],
             "depth": [
               -0.005,
@@ -460,7 +460,7 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.05
+              -1.03
             ],
             "depth": [
               -0.005,
@@ -640,7 +640,7 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.05
+              -1.03
             ],
             "depth": [
               -0.005,
@@ -670,7 +670,7 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.05
+              -1.03
             ],
             "depth": [
               -0.005,
@@ -699,7 +699,7 @@
           "biome": "minecraft:deep_frozen_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.455
             ],
             "depth": [
@@ -729,7 +729,7 @@
           "biome": "minecraft:deep_cold_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.455
             ],
             "depth": [
@@ -759,7 +759,7 @@
           "biome": "minecraft:deep_cold_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.745
             ],
             "depth": [
@@ -789,7 +789,7 @@
           "biome": "minecraft:deep_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.455
             ],
             "depth": [
@@ -819,7 +819,7 @@
           "biome": "minecraft:deep_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.745
             ],
             "depth": [
@@ -849,7 +849,7 @@
           "biome": "minecraft:deep_lukewarm_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.455
             ],
             "depth": [
@@ -879,7 +879,7 @@
           "biome": "minecraft:deep_lukewarm_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.745
             ],
             "depth": [
@@ -909,7 +909,7 @@
           "biome": "minecraft:warm_ocean",
           "parameters": {
             "continentalness": [
-              -1.05,
+              -1.03,
               -0.2
             ],
             "depth": [
