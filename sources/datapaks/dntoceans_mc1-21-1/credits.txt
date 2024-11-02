@@ -1,9 +1,0 @@
-Nova Wostra - Lead developer of Dungeons and Taverns and all its related datapacks, builds the structures and codes the whole placement of them
-
-Walls - Loot tables and enchantments as well as second voice in development
-
-Konci - Coded the allay to vex conversion system as well as made the resourcepack part for the keys
-
-Badooga - Helped coding most of the advancements
-
-Whity Lee https://twitter.com/WhityLee_ - Implemented the Tavern Quest Trader system
