@@ -8,22 +8,29 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
-# https://modrinth.com/datapack/hearths
-rsync -avh ./sources/datapaks/hearths_mc1-21-1/data/ ./data/
-rsync -avh ./sources/datapaks/hearths_mc1-21-1/f41/data/ ./data/
-# https://modrinth.com/datapack/nullscape
+# https://modrinth.com/datapack/incendium ; terralith for the Nether
+rsync -avh ./sources/datapaks/incendium_mc1-21-1/data/ ./data/
+rm -rf ./data/minecraft/loot_table
+rm -rf ./data/minecraft/recipe
+rm -rf ./data/minecraft/tags/block
+rm -rf ./data/minecraft/tags/damage_type
+# https://modrinth.com/datapack/terralith
+rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/fancier-mansions
+rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/true-ending
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/terratonic
-rsync -avh ./sources/datapaks/terratonic_mc1-21-0/data/ ./data/
+## https://modrinth.com/datapack/tectonic
+rsync -avh ./sources/datapaks/terratonic_v3-2/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
-# only the dark forest (-_-)
+#>> only the dark forest (-_-)
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/lithosphere ./data/
+rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/towns_and_towers ./data/
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
 # https://modrinth.com/datapack/continents
@@ -34,8 +41,8 @@ rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
 
 ## Make continents larger:
-sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.09,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
-sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.13,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
+sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
 ## Overworld Noise Settings
 # Remove noise caves:

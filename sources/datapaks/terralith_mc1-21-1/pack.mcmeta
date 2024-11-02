@@ -3,7 +3,7 @@
 		"id": "terralith",
 		"supported_formats": [
 			48,
-			51
+			57
 		],
 		"pack_format": 48,
 		"description": [
@@ -24,11 +24,15 @@
 	"overlays": {
 		"entries": [
 			{
-				"formats": [
-					49,
-					51
-				],
+				"formats": 57,
 				"directory": "1-21-2-overlay"
+			},
+			{
+				"formats": [
+					99,
+					99
+				],
+				"directory": "winter-drop"
 			}
 		]
 	}
