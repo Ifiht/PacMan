@@ -18,6 +18,8 @@ rm -rf ./data/minecraft/tags/damage_type
 rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/fancier-mansions
 rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/fancier-mansions
+rsync -avh ./sources/datapaks/dntoceans_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/true-ending
