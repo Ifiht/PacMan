@@ -160,36 +160,6 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.0
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              -0.78,
-              -0.2225
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "offset": 0,
-            "temperature": [
-              -1.0047858741932016,
-              0.2
-            ],
-            "weirdness": [
-              -1,
-              1
-            ]
-          }
-        },
-        {
-          "biome": "minecraft:deep_ocean",
-          "parameters": {
-            "continentalness": [
-              -1.0,
               -1.05
             ],
             "depth": [
@@ -216,7 +186,7 @@
           }
         },
         {
-          "biome": "minecraft:deep_ocean",
+          "biome": "minecraft:deep_lukewarm_ocean",
           "parameters": {
             "continentalness": [
               -1.2,
@@ -490,36 +460,6 @@
           "parameters": {
             "continentalness": [
               -1.2,
-              -1.0
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              0.05,
-              0.4
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "offset": 0,
-            "temperature": [
-              -1.0047858741932016,
-              1
-            ],
-            "weirdness": [
-              -1,
-              1
-            ]
-          }
-        },
-        {
-          "biome": "minecraft:deep_ocean",
-          "parameters": {
-            "continentalness": [
-              -1.0,
               -1.05
             ],
             "depth": [
@@ -696,7 +636,7 @@
           }
         },
         {
-          "biome": "minecraft:deep_ocean",
+          "biome": "minecraft:deep_cold_ocean",
           "parameters": {
             "continentalness": [
               -1.2,
@@ -2796,7 +2736,7 @@
           }
         },
         {
-          "biome": "terralith:moonlight_grove",
+          "biome": "minecraft:windswept_hills",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -5676,7 +5616,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "minecraft:windswept_gravelly_hills",
           "parameters": {
             "continentalness": [
               0.03,
@@ -9126,7 +9066,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "minecraft:old_growth_pine_taiga",
           "parameters": {
             "continentalness": [
               0.62,
@@ -14646,7 +14586,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "windswept_gravelly_hills",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -15726,7 +15666,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "minecraft:old_growth_spruce_taiga",
           "parameters": {
             "continentalness": [
               0.03,
@@ -18006,7 +17946,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "minecraft:windswept_forest",
           "parameters": {
             "continentalness": [
               0.03,
@@ -20016,7 +19956,7 @@
           }
         },
         {
-          "biome": "terralith:yellowstone",
+          "biome": "minecraft:old_growth_birch_forest",
           "parameters": {
             "continentalness": [
               0.62,
