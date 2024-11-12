@@ -186,7 +186,7 @@
           }
         },
         {
-          "biome": "minecraft:deep_lukewarm_ocean",
+          "biome": "terralith:warped_mesa",
           "parameters": {
             "continentalness": [
               -1.2,
@@ -636,7 +636,7 @@
           }
         },
         {
-          "biome": "minecraft:deep_cold_ocean",
+          "biome": "terralith:alpha_islands_winter",
           "parameters": {
             "continentalness": [
               -1.2,
@@ -666,7 +666,7 @@
           }
         },
         {
-          "biome": "minecraft:deep_ocean",
+          "biome": "terralith:alpha_islands",
           "parameters": {
             "continentalness": [
               -1.2,
@@ -2736,7 +2736,7 @@
           }
         },
         {
-          "biome": "minecraft:windswept_hills",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -5016,7 +5016,7 @@
           }
         },
         {
-          "biome": "terralith:taiga",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -5616,7 +5616,7 @@
           }
         },
         {
-          "biome": "minecraft:windswept_gravelly_hills",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               0.03,
@@ -5976,7 +5976,7 @@
           }
         },
         {
-          "biome": "minecraft:snowy_slopes",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -6486,7 +6486,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -8046,7 +8046,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -9066,7 +9066,7 @@
           }
         },
         {
-          "biome": "minecraft:old_growth_pine_taiga",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               0.62,
@@ -14076,7 +14076,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.2,
@@ -14586,7 +14586,7 @@
           }
         },
         {
-          "biome": "windswept_gravelly_hills",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -15666,7 +15666,7 @@
           }
         },
         {
-          "biome": "minecraft:old_growth_spruce_taiga",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               0.03,
@@ -16056,7 +16056,7 @@
           }
         },
         {
-          "biome": "terralith:snowy_maple_forest",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -17946,7 +17946,7 @@
           }
         },
         {
-          "biome": "minecraft:windswept_forest",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               0.03,
@@ -18306,7 +18306,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -19656,7 +19656,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -19956,7 +19956,7 @@
           }
         },
         {
-          "biome": "minecraft:old_growth_birch_forest",
+          "biome": "terralith:yellowstone",
           "parameters": {
             "continentalness": [
               0.62,
@@ -20616,7 +20616,7 @@
           }
         },
         {
-          "biome": "terralith:siberian_taiga",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -22116,7 +22116,7 @@
           }
         },
         {
-          "biome": "terralith:siberian_taiga",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -22656,7 +22656,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -22686,7 +22686,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:forested_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -24246,7 +24246,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -25746,7 +25746,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.62,
@@ -26556,7 +26556,7 @@
           }
         },
         {
-          "biome": "terralith:highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.62,
@@ -27966,7 +27966,7 @@
           }
         },
         {
-          "biome": "terralith:siberian_taiga",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.2,
@@ -29106,7 +29106,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -31116,7 +31116,7 @@
           }
         },
         {
-          "biome": "terralith:forested_highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -31836,7 +31836,7 @@
           }
         },
         {
-          "biome": "terralith:highlands",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -33516,7 +33516,7 @@
           }
         },
         {
-          "biome": "minecraft:snowy_slopes",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
@@ -39456,7 +39456,7 @@
           }
         },
         {
-          "biome": "minecraft:snowy_slopes",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -44946,7 +44946,7 @@
           }
         },
         {
-          "biome": "minecraft:snowy_slopes",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -46956,7 +46956,7 @@
           }
         },
         {
-          "biome": "terralith:taiga",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               -0.11,
@@ -49266,7 +49266,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.03,
@@ -50196,7 +50196,7 @@
           }
         },
         {
-          "biome": "terralith:cold_shrubland",
+          "biome": "terralith:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.3,
