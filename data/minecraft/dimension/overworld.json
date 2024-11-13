@@ -5016,7 +5016,7 @@
           }
         },
         {
-          "biome": "terralith:taiga",
+          "biome": "minecraft:taiga",
           "parameters": {
             "continentalness": [
               0.03,
@@ -46956,7 +46956,7 @@
           }
         },
         {
-          "biome": "terralith:taiga",
+          "biome": "minecraft:taiga",
           "parameters": {
             "continentalness": [
               -0.11,
