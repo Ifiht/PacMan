@@ -1,321 +1,78 @@
 {
-  "anvil_cost": 2,
-  "description": {
-    "translate": "Solar Aegis"
-  },
-  "effects": {
-    "minecraft:location_changed": [
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "head"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "head"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "chest"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "chest"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "legs"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "legs"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "feet"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": 0,
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "feet"
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "head"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 0.5
-          },
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "head"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 0.5
-          },
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "chest"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "legs"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 0.5
-          },
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "legs"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 1.0,
-            "per_level_above_first": 1.0
-          },
-          "attribute": "minecraft:generic.armor",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "feet"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:attribute",
-          "amount": {
-            "type": "minecraft:linear",
-            "base": 0.5,
-            "per_level_above_first": 0.5
-          },
-          "attribute": "minecraft:generic.armor_toughness",
-          "id": "ifiht:enchantment.solar_aegis",
-          "operation": "add_value",
-          "slot": "feet"
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "light": {
-                "light": {
-                  "min": 9
-                }
-              }
-            }
-          }
-        }
-      }
-    ]
-  },
-  "item_modifier": "ifiht:solarized_description",
-  "max_cost": {
-    "base": 18,
-    "per_level_above_first": 8
-  },
-  "max_level": 2,
-  "min_cost": {
-    "base": 10,
-    "per_level_above_first": 8
-  },
-  "slots": [
-    "armor"
-  ],
-  "supported_items": "#ifiht:enchantable/gold_armor",
-  "weight": 10
+	"anvil_cost": 2,
+	"description": {
+	"translate": "Solar Aegis"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:generic.armor",
+				"id": "ifiht:enchantment.solar_aegis",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1.0,
+					"per_level_above_first": 1.0
+				}
+			}
+		],
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 1.0,
+					"per_level_above_first": 1.0
+				}
+				},
+				"requirements": {
+				"condition": "minecraft:damage_source_properties",
+				"predicate": {
+					"tags": [
+					{
+						"expected": true,
+						"id": "minecraft:bypasses_invulnerability"
+					}
+					]
+				}
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:ignite",
+					"duration": {
+						"type": "minecraft:linear",
+						"base": 3.0,
+						"per_level_above_first": 3.0
+					}
+				},
+				"enchanted": "victim",
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": true
+					}
+				}
+			}
+    	]
+	},
+	"item_modifier": "ifiht:solarized_description",
+	"max_cost": {
+		"base": 18,
+		"per_level_above_first": 8
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 8
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#ifiht:enchantable/gold_armor",
+	"weight": 10
 }
