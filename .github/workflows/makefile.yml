@@ -20,9 +20,13 @@ jobs:
 
     - name: Archive the data folder
       run: zip -r Ithavollr_dpack-${SHORT_HASH}.zip data
+      env:
+        SHORT_HASH: ${{ env.SHORT_HASH }}
 
     - name: Archive the resource folder
       run: zip -r Ithavollr_rpack-${SHORT_HASH}.zip assets pack.mcmeta pack.png
+      env:
+        SHORT_HASH: ${{ env.SHORT_HASH }}
       
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
