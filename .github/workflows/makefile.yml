@@ -16,7 +16,7 @@ jobs:
 
     - name: Get short commit hash
       id: get-commit-hash
-      run: echo "commit_hash=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      run: echo "short_hash=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
     - name: Archive the data folder
       run: zip -r Ithavollr-dpack.zip data
@@ -27,11 +27,11 @@ jobs:
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Ithavollr-dpack_${GITHUB_SHA::7}
+        name: Ithavollr-dpack_${{ env.short_hash }}
         path: Ithavollr-dpack.zip
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Ithavollr_rpack_${GITHUB_SHA::7}
+        name: Ithavollr_rpack_${{ env.short_hash }}
         path: Ithavollr_rpack.zip
