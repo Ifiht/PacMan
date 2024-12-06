@@ -14,20 +14,24 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Get short commit hash
+      id: get-commit-hash
+      run: echo "commit_hash=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
     - name: Archive the data folder
       run: zip -r Ithavollr-dpack.zip data
 
     - name: Archive the resource folder
-      run: zip -r Ithavollr_rpack000.zip assets
+      run: zip -r Ithavollr_rpack.zip assets
       
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
       with:
-        name: datazip
+        name: Ithavollr-dpack_${GITHUB_SHA::7}
         path: Ithavollr-dpack.zip
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
       with:
-        name: assetzip
-        path: Ithavollr_rpack000.zip
+        name: Ithavollr_rpack_${GITHUB_SHA::7}
+        path: Ithavollr_rpack.zip
