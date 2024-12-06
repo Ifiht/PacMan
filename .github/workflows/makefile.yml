@@ -16,22 +16,22 @@ jobs:
 
     - name: Get short commit hash
       id: get-commit-hash
-      run: export short_hash="${GITHUB_SHA::7}"
+      run: echo "short_hash=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
     - name: Archive the data folder
-      run: zip -r Ithavollr-dpack.zip data
+      run: zip -r Ithavollr-dpack_${SHORT_HASH}.zip data
 
     - name: Archive the resource folder
-      run: zip -r Ithavollr_rpack.zip assets
+      run: zip -r Ithavollr-rpack_${SHORT_HASH}.zip assets pack.mcmeta pack.png
       
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr-dpack_${{ env.short_hash }}
-        path: data
+        path: Ithavollr-dpack.zip
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_rpack_${{ env.short_hash }}
-        path: assets
+        path: Ithavollr_rpack.zip
