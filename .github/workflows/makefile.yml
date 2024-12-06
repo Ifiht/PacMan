@@ -15,10 +15,10 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Archive the data folder
-      run: zip -r data.zip data
+      run: zip -r Ithavollr-dpack.zip data
 
     - name: Archive the resource folder
-      run: zip -r data.zip data
+      run: zip -r Ithavollr_rpack000.zip assets
       
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
