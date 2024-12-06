@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build paks:
+  build_paks:
 
     runs-on: ubuntu-latest
 
