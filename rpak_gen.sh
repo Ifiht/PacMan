@@ -9,7 +9,7 @@ mkdir assets
 
 ## Sync sources with assets, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/resourcepack/blockpixel
-rsync -avh ./sources/resourcepaks/blockpixel_mc1-21-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/blockpixel_v1-21-0-02/assets/ ./assets/
 rm -rf ./assets/minecraft/blockstates
 rm -rf ./assets/minecraft/models
 rm -rf ./assets/minecraft/sounds
