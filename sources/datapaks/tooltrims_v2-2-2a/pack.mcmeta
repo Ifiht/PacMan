@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "pack_format": 45,
+    "supported_formats": [45,57],
+    "description": "§2Tool Trims DP §7by §3JoeFly\n§7v2.2.2 | Minecraft 1.21+"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory":"1_21_2",
+        "formats": 57
+      }
+    ]
+  }
+}

@@ -8,6 +8,8 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
+# https://modrinth.com/plugin/tooltrims ; trims for tools ;)
+rsync -avh ./sources/datapaks/tooltrims/data/ ./data/
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avh ./sources/datapaks/incendium_v5-4-3/data/ ./data/
 # https://modrinth.com/datapack/terralith
