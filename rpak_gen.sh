@@ -25,6 +25,6 @@ rsync -avh ./sources/resourcepaks/vanillatweaks_mc1-21-1/assets/ ./assets/
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
-rsync -avh ./sources/resourcepaks/roundista_mc1-21-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/roundista_128xR29/assets/ ./assets/
 ### always keep custom changes last..
 rsync -avh ./sources/resourcepaks/custom_overlay_mc1-21-1/assets/ ./assets/

@@ -1,20 +1,19 @@
 {
-	"__comment": "Designed by Shivamzter with Cubik Studio - https://cubik.studio",
+	"credit": "Created by Stridey",
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "block/iron_bars",
-		"bars": "block/iron_bars"
+		"edge": "block/iron_bars"
 	},
-	"elements": [ 	 
+	"elements": [
 		{
-			"__comment": "Element",
-			"from": [ 7, 0.5, 7 ],
-			"to": [ 9, 15.5, 9 ],
+			"from": [6.9688, 0, 6.9688],
+			"to": [9.0313, 16, 9.0313],
 			"faces": {
-				"north": { "uv": [ 7, 0, 8, 16 ], "texture": "#bars" },
-				"south": { "uv": [ 8, 0, 9, 16 ], "texture": "#bars" },
-				"west": { "uv": [ 7, 0, 9, 16 ], "texture": "#bars" },
-				"east": { "uv": [ 9, 0, 7, 16 ], "texture": "#bars" }
+				"north": {"uv": [9, 0, 7, 16], "texture": "#edge"},
+				"east": {"uv": [9, 0, 7, 16], "texture": "#edge"},
+				"south": {"uv": [9, 0, 7, 16], "texture": "#edge"},
+				"west": {"uv": [9, 0, 7, 16], "texture": "#edge"}
 			}
 		}
 	]
