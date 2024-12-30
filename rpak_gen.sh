@@ -14,6 +14,7 @@ rm -rf ./assets/minecraft/blockstates
 rm -rf ./assets/minecraft/models
 rm -rf ./assets/minecraft/sounds
 rm -rf ./assets/minecraft/textures/block
+rm -rf ./assets/minecraft/textures/colormap
 rm -rf ./assets/minecraft/textures/entity
 rm -rf ./assets/minecraft/textures/environment
 rm -rf ./assets/minecraft/textures/font
