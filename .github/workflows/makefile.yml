@@ -16,7 +16,7 @@ jobs:
 
     - name: Get short commit hash
       id: get-commit-hash
-      run: echo "short_hash=${GITHUB_SHA::7}" >> $GITHUB_ENV
+      run: echo "SHORT_HASH=${GITHUB_SHA::7}" >> $GITHUB_ENV
 
     - name: Archive the data folder
       run: zip -r Ithavollr_dpack-${SHORT_HASH}.zip data
