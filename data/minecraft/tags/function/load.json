@@ -5,6 +5,7 @@
       "id": "terralith:setup",
       "required": false
     },
+    "spawnanimations:install",
     "tooltrims:load",
     "true_ending:load",
     "nvr:load"

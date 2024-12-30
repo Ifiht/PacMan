@@ -33,6 +33,9 @@ rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wy
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
 # https://modrinth.com/datapack/continents
 rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/spawn-animations
+rsync -avh ./sources/datapaks/spawnanims_v1-10/data/ ./data/
+rsync -avh ./sources/datapaks/spawnanims_v1-10/data/overlay_33/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
 rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 ### always keep custom changes last..
