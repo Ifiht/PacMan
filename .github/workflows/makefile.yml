@@ -31,11 +31,11 @@ jobs:
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Ithavollr_dpack-${{ env.short_hash }}
-        path: Ithavollr_dpack-${{ env.SHORT_HASH }}.zip
+        name: Ithavollr_dpack-${{ env.SHORT_HASH }}
+        path: data
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
       with:
-        name: Ithavollr_rpack-${{ env.short_hash }}
-        path: Ithavollr_rpack-${{ env.SHORT_HASH }}.zip
+        name: Ithavollr_rpack-${{ env.SHORT_HASH }}
+        path: assets
