@@ -22,6 +22,8 @@ rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
+# https://modrinth.com/datapack/qraftys-archeology-dig-sites
+rsync -avh ./sources/datapaks/qraftydigs_mc1-21-1/data/ ./data/
 ## https://modrinth.com/datapack/tectonic
 rsync -avh ./sources/datapaks/terratonic_v3-2/data/ ./data/
 # https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)

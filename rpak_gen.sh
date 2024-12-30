@@ -20,6 +20,7 @@ rm -rf ./assets/minecraft/textures/font
 rm -rf ./assets/minecraft/textures/item
 rm -rf ./assets/minecraft/textures/mob_effect
 rm -rf ./assets/minecraft/textures/models
+rm -rf ./assets/minecraft/textures/particle
 rm -rf ./assets/minecraft/textures/trims
 rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://vanillatweaks.net/picker/resource-packs/
