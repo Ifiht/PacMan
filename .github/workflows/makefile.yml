@@ -17,16 +17,6 @@ jobs:
     - name: Get short commit hash
       id: get-commit-hash
       run: echo "SHORT_HASH=${GITHUB_SHA::7}" >> $GITHUB_ENV
-
-    - name: Archive the data folder
-      run: zip -r Ithavollr_dpack-${SHORT_HASH}.zip data
-      env:
-        SHORT_HASH: ${{ env.SHORT_HASH }}
-
-    - name: Archive the resource folder
-      run: zip -r Ithavollr_rpack-${SHORT_HASH}.zip assets pack.mcmeta pack.png
-      env:
-        SHORT_HASH: ${{ env.SHORT_HASH }}
       
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
@@ -38,4 +28,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_rpack-${{ env.SHORT_HASH }}
-        path: assets
+        path: |
+          assets
+          pack.mcmeta
+          pack.png
