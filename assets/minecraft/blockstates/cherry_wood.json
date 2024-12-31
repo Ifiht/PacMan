@@ -1,0 +1,20 @@
+{
+    "__comment": "Aetheris_2023",
+    "variants": {
+        "axis=x": [
+            { "model": "minecraft:block/cherry_wood/cherry_wood_1", "x": 90, "y": 90 },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_2", "x": 90, "y": 90 },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_3", "x": 90, "y": 90 }
+        ],
+        "axis=y": [
+            { "model": "minecraft:block/cherry_wood/cherry_wood_1" },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_2" },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_3" }
+        ],
+        "axis=z": [
+            { "model": "minecraft:block/cherry_wood/cherry_wood_1", "x": 90 },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_2", "x": 90 },
+            { "model": "minecraft:block/cherry_wood/cherry_wood_3", "x": 90 }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/crimson_roots/1", "weight": 10 },
+            { "model": "minecraft:block/crimson_roots/1", "weight": 10, "y": 90 },
+            { "model": "minecraft:block/crimson_roots/1", "weight": 10, "y": 180 },
+            { "model": "minecraft:block/crimson_roots/1", "weight": 10, "y": 270 },
+            { "model": "minecraft:block/crimson_roots/2", "weight": 10 },
+            { "model": "minecraft:block/crimson_roots/2", "weight": 10, "y": 90 },
+            { "model": "minecraft:block/crimson_roots/2", "weight": 10, "y": 180 },
+            { "model": "minecraft:block/crimson_roots/2", "weight": 10, "y": 270 },
+            { "model": "minecraft:block/crimson_roots/3", "weight": 10 },
+            { "model": "minecraft:block/crimson_roots/3", "weight": 10, "y": 90 },
+            { "model": "minecraft:block/crimson_roots/3", "weight": 10, "y": 180 },
+            { "model": "minecraft:block/crimson_roots/3", "weight": 10, "y": 270 },
+            { "model": "minecraft:block/crimson_roots/4", "weight": 10 },
+            { "model": "minecraft:block/crimson_roots/4", "weight": 10, "y": 90 },
+            { "model": "minecraft:block/crimson_roots/4", "weight": 10, "y": 180 },
+            { "model": "minecraft:block/crimson_roots/4", "weight": 10, "y": 270 }
+        ]
+    }
+}

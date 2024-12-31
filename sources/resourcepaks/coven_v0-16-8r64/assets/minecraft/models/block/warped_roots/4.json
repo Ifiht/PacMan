@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/warped_roots",
+		"2": "block/warped_roots_2"
+	},
+	"elements": [
+		{
+			"from": [-0.5, 0.17, 5.96],
+			"to": [15.82, 16.49, 5.96],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [-0.16, -0.8075, 4.09]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#2"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#2"}
+			}
+		},
+		{
+			"from": [11.5525, 0.0425, -1.4975],
+			"to": [11.5525, 15.5125, 13.9725],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [2.84, -0.8075, 0.84]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		}
+	]
+}

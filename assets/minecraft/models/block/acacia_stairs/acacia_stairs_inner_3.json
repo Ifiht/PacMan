@@ -1,0 +1,9 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/acacia_planks/acacia_planks_3",
+        "top": "minecraft:block/acacia_planks/acacia_planks_3",
+        "side": "minecraft:block/acacia_planks/acacia_planks_3"
+    }
+}

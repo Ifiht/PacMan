@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/gold_ore/gold_ore_1" },
+            { "model": "minecraft:block/gold_ore/gold_ore_2" },
+            { "model": "minecraft:block/gold_ore/gold_ore_3" }
+        ]
+    }
+}

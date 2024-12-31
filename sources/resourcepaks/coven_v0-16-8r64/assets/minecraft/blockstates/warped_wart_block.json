@@ -1,0 +1,12 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/warped_wart_block", "weight": 4 },
+            { "model": "minecraft:block/warped_wart_block_2", "weight": 18 },
+            { "model": "minecraft:block/warped_wart_block_3", "weight": 4 },
+            { "model": "minecraft:block/warped_wart_block_4", "weight": 4 },
+            { "model": "minecraft:block/warped_wart_block_5", "weight": 4 }
+        ]
+    }
+}

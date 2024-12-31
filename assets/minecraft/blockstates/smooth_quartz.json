@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/smooth_quartz/smooth_quartz_1", "weight": 17 },
+            { "model": "minecraft:block/smooth_quartz/smooth_quartz_2", "weight": 14 },
+            { "model": "minecraft:block/smooth_quartz/smooth_quartz_3", "weight": 14 }
+        ]
+    }
+}

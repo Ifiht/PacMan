@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/mangrove_planks/mangrove_planks_top_3",
+        "side": "minecraft:block/mangrove_planks/mangrove_planks_3"
+    }
+}

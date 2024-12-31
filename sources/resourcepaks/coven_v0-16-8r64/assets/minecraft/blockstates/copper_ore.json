@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/copper_ore/copper_ore_1" },
+            { "model": "minecraft:block/copper_ore/copper_ore_2" },
+            { "model": "minecraft:block/copper_ore/copper_ore_3" }
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/lilac/lilac_hd_1",
+		"3": "block/lilac/lilac_leaves_1",
+		"4": "block/lilac/lilac_leaves_2",
+		"5": "block/lilac/lilac_hd_2",
+		"particle": "block/lilac/lilac_hd_1"
+	},
+	"elements": [
+		{
+			"from": [10.87107, -1.7, -1.74315],
+			"to": [10.87107, 28.3, 14.25685],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9.27107, 13.3, 4.25685]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"from": [3.31396, -1.7, 5.46396],
+			"to": [19.31396, 29.3, 5.46396],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.56396, 13.8, 4.96396]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.92848, -1.7, 5.2778],
+			"to": [7.92848, 29.3, 21.2778],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.9143, 13.55, 13.37814]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.00158, -1.7, 5.42964],
+			"to": [8.00158, 28.3, 21.42964],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.9143, 13.55, 13.37814]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"from": [-5.72893, -1.7, 7.65685],
+			"to": [10.27107, 28.3, 7.65685],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.07107, 13.3, 5.65685]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"from": [2.56396, -1.7, -0.23604],
+			"to": [2.56396, 29.3, 15.76396],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [6.36396, 13.8, 6.36396]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-4.54848, -1.7, 1.96223],
+			"to": [11.45152, 29.3, 1.96223],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [5.56018, 13.55, 4.00029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3.66884, -1.7, -5.96165],
+			"to": [3.66884, 28.3, 10.03835],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [5.56018, 13.55, 4.00029]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"}
+			}
+		},
+		{
+			"from": [6.67, 1.76, -2.64],
+			"to": [6.67, 23.04, 18.64],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [0.02, 9.74, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"from": [4.01, -10.21, -2.64],
+			"to": [4.01, 11.07, 18.64],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [0.02, 9.74, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		},
+		{
+			"from": [-3.20548, -5.00181, 9.99],
+			"to": [18.07452, 16.27819, 9.99],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [9.42452, 5.97819, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		},
+		{
+			"from": [-2.54548, 6.69045, -7.01955],
+			"to": [18.73452, 6.69045, 14.26045],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [5.43452, 10.68045, 8.94045]},
+			"faces": {
+				"up": {"uv": [0, 16, 16, 0], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3"}
+			}
+		}
+	]
+}

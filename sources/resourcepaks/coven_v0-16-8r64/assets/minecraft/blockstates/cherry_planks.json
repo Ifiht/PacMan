@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/cherry_planks/cherry_planks_1", "weight": 17 },
+            { "model": "minecraft:block/cherry_planks/cherry_planks_2", "weight": 14 },
+            { "model": "minecraft:block/cherry_planks/cherry_planks_3", "weight": 14 }
+        ]
+    }
+}

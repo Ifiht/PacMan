@@ -27,8 +27,13 @@ rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
-rsync -avh ./sources/resourcepaks/rdista_basic_256xR28/assets/ ./assets/
-rsync -avh ./sources/resourcepaks/rdista_bonus_256xR28/assets/ ./assets/
+#rsync -avh ./sources/resourcepaks/rdista_basic_256xR28/assets/ ./assets/
+# NEED TO IGNORE GUI UPDATES FOR BLOCKPIXEL!
+#rsync -avh ./sources/resourcepaks/rdista_bonus_256xR28/assets/minecraft/optifine/ ./assets/minecraft/optifine/
+#rsync -avh ./sources/resourcepaks/rdista_bonus_256xR28/assets/minecraft/textures/entity/ ./assets/minecraft/textures/entity/
+#rsync -avh ./sources/resourcepaks/rdista_bonus_256xR28/assets/minecraft/textures/particle/ ./assets/minecraft/textures/particle/
+# https://modrinth.com/resourcepack/coven
+rsync -avh ./sources/resourcepaks/coven_v0-16-8r64/assets/ ./assets/
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
 # https://modrinth.com/resourcepack/3ddripstone

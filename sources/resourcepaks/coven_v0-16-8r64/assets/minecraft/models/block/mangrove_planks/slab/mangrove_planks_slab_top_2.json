@@ -1,0 +1,9 @@
+{
+    "__comment": "_Aetheris 2023",
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/mangrove_planks/mangrove_planks_2",
+        "top": "minecraft:block/mangrove_planks/mangrove_planks_2",
+        "side": "minecraft:block/mangrove_planks/mangrove_planks_2"
+    }
+}

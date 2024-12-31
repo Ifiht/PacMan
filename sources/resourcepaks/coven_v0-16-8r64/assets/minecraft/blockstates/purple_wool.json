@@ -1,0 +1,11 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/wool/purple/purple_wool_1", "weight": 27 },
+            { "model": "minecraft:block/wool/purple/purple_wool_2", "weight": 25 },
+            { "model": "minecraft:block/wool/purple/purple_wool_3", "weight": 25 },
+            { "model": "minecraft:block/wool/purple/purple_wool_4", "weight": 25 }
+        ]
+    }
+}

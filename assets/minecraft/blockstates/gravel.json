@@ -1,0 +1,12 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/gravel/gravel_1", "weight": 15 },
+            { "model": "minecraft:block/gravel/gravel_2", "weight": 14 },
+            { "model": "minecraft:block/gravel/gravel_3", "weight": 10 },
+            { "model": "minecraft:block/gravel/gravel_4", "weight": 12 },
+            { "model": "minecraft:block/gravel/gravel_5", "weight": 12 }
+        ]
+    }
+}

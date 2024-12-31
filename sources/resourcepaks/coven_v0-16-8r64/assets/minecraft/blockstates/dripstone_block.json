@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+		    { "model": "block/dripstone/dripstone_block_1" },
+			{ "model": "block/dripstone/dripstone_block_2" },		
+			{ "model": "block/dripstone/dripstone_block_3" }
+		]
+    }
+}

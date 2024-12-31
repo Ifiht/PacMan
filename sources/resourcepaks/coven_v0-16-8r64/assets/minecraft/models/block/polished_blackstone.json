@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/polished_blackstone_top",
+        "side": "minecraft:block/polished_blackstone"
+    }
+}

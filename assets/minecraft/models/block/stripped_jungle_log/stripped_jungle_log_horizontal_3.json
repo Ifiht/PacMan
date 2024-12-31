@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+        "end": "minecraft:block/stripped_jungle_log/stripped_jungle_log_top_1",
+        "side": "minecraft:block/stripped_jungle_log/stripped_jungle_log_3"
+    }
+}

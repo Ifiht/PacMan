@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"all": "block/candles_2"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 6, 9],
+			"faces": {
+				"north": {"uv": [6.03125, 8, 7.96875, 14], "texture": "#all"},
+				"east": {"uv": [6.0625, 8, 7.96875, 14], "texture": "#all"},
+				"south": {"uv": [6.03125, 8, 7.96875, 14], "texture": "#all"},
+				"west": {"uv": [6.03125, 8, 7.96875, 14], "texture": "#all"},
+				"up": {"uv": [6.03125, 6.03125, 7.96875, 8.03125], "texture": "#all"},
+				"down": {"uv": [6.03125, 14, 7.96875, 16], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7.85, 6, 8],
+			"to": [8.15, 7, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [6.375, 5, 6.675, 6], "texture": "#all"},
+				"south": {"uv": [6.375, 5, 6.675, 6], "texture": "#all"}
+			}
+		},
+		{
+			"from": [8, 6, 7.85],
+			"to": [8, 7, 8.15],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"east": {"uv": [6.375, 5, 6.675, 6], "texture": "#all"},
+				"west": {"uv": [6.375, 5, 6.675, 6], "texture": "#all"}
+			}
+		}
+	]
+}

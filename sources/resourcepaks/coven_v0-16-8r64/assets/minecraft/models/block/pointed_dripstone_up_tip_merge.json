@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/dripstone/dripstone",
+		"1": "block/dripstone/dripstone_block_1",
+		"particle": "block/dripstone/dripstone"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 6, 10],
+			"faces": {
+				"north": {"uv": [6, 10, 10, 16], "texture": "#0"},
+				"east": {"uv": [6, 10, 10, 16], "texture": "#0"},
+				"south": {"uv": [6, 10, 10, 16], "texture": "#0"},
+				"west": {"uv": [6, 10, 10, 16], "texture": "#0"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#1"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [7, 6, 7],
+			"to": [9.75, 12, 9.75],
+			"faces": {
+				"north": {"uv": [6.25, 4, 9, 10], "texture": "#0"},
+				"east": {"uv": [6.25, 4, 9, 10], "texture": "#0"},
+				"south": {"uv": [7, 4, 9.75, 10], "texture": "#0"},
+				"west": {"uv": [7, 4, 9.75, 10], "texture": "#0"},
+				"up": {"uv": [7, 7, 9.75, 9.75], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 12, 7],
+			"to": [9.25, 16, 9.25],
+			"faces": {
+				"north": {"uv": [6.75, 0, 9, 4], "texture": "#0"},
+				"east": {"uv": [6.75, 0, 9, 4], "texture": "#0"},
+				"south": {"uv": [7, 0, 9.25, 4], "texture": "#0"},
+				"west": {"uv": [7, 0, 9.25, 4], "texture": "#0"},
+				"up": {"uv": [7, 7, 9.25, 9.25], "texture": "#1", "cullface": "up"}
+			}
+		}
+	]
+}

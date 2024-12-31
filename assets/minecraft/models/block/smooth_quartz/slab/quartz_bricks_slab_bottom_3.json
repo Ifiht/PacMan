@@ -1,0 +1,9 @@
+{
+    "__comment": "_Aetheris 2023",
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/quartz_bricks/quartz_bricks_3",
+        "top": "minecraft:block/quartz_bricks/quartz_bricks_3",
+        "side": "minecraft:block/quartz_bricks/quartz_bricks_3"
+    }
+}

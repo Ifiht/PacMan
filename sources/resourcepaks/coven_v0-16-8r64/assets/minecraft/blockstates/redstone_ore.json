@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/redstone_ore/redstone_ore_1", "weight": 15 },
+            { "model": "minecraft:block/redstone_ore/redstone_ore_2", "weight": 13 },
+            { "model": "minecraft:block/redstone_ore/redstone_ore_3", "weight": 10 }
+        ]
+    }
+}

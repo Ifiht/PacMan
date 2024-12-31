@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/chiseled_deepslate/chiseled_deepslate_top",
+        "side": "minecraft:block/chiseled_deepslate/chiseled_deepslate"
+    }
+}

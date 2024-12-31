@@ -1,0 +1,7 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "minecraft:block/magenta_terracotta/2"
+    }
+}

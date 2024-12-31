@@ -1,0 +1,11 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/raw_iron_block/raw_iron_block_1" },
+            { "model": "minecraft:block/raw_iron_block/raw_iron_block_2" },
+            { "model": "minecraft:block/raw_iron_block/raw_iron_block_3" }
+
+        ]
+    }
+}

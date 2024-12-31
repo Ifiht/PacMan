@@ -1,0 +1,70 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/vine/vine_leaves_2",
+		"1": "block/vine/vine_2",
+		"2": "block/vine/vine_leaves_3",
+		"particle": "block/vine/vine_leaves_2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.5],
+			"to": [16, 16, 0.5],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0.5, 6.1, 1.55],
+			"to": [16.5, 16.1, 1.55],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 12, 2]},
+			"faces": {
+				"north": {"uv": [1.1875, 0, 14.625, 8.09375], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [1.1875, 0, 14.625, 8.09375], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-1.75, -1.4, -1.9],
+			"to": [14.25, 8.6, -1.9],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 12, 2]},
+			"faces": {
+				"north": {"uv": [0.5625, 7.90625, 15.21875, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [0.5625, 7.90625, 15.21875, 16], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4.65, -0.30739, 2.34918],
+			"to": [14.65, 9.69261, 2.34918],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [6.75, 6.09261, 1.84918]},
+			"faces": {
+				"north": {"uv": [0, 8.21875, 8, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 8.21875, 8, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.75, 8.6415, 2.77553],
+			"to": [12.75, 18.6415, 2.77553],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [7.75, 13.9415, 3.47553]},
+			"faces": {
+				"north": {"uv": [8, 7.75, 15.46875, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [8, 7.75, 15.46875, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-1.45, 3.1, 0.3],
+			"to": [8.55, 13.1, 0.3],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 12, 2]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

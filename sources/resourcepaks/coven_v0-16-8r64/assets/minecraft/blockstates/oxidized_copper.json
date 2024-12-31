@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/oxidized_copper/oxidized_copper_1", "weight": 15 },
+            { "model": "minecraft:block/oxidized_copper/oxidized_copper_2", "weight": 14 },
+            { "model": "minecraft:block/oxidized_copper/oxidized_copper_3", "weight": 14 }
+        ]
+    }
+}

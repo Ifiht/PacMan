@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_all",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/redstone_torch",
+		"particle": "block/redstone_torch"
+	},
+	"elements": [
+		{
+			"from": [6.425, 0, 6.425],
+			"to": [9.575, 1.4, 9.575],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8.03125, 0, 11.96875, 7.96875], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [8.03125, 0, 11.96875, 7.96875], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.03125, 0, 11.96875, 7.96875], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [8.03125, 0, 11.96875, 7.96875], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0.09375, 0.28125, 8, 7.9375], "texture": "#0"},
+				"down": {"uv": [0.09375, 0.28125, 8, 7.9375], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.25, 0.85, 6.25],
+			"to": [9.75, 4.1, 9.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.85, 8]},
+			"faces": {
+				"north": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "texture": "#0"},
+				"east": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "texture": "#0"},
+				"south": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "texture": "#0"},
+				"west": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.95, 1.4, 6.95],
+			"to": [9.05, 11.2, 9.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [12.125, 0, 15.875, 11.9375], "texture": "#0"},
+				"east": {"uv": [12.125, 0, 15.875, 11.9375], "texture": "#0"},
+				"south": {"uv": [12.125, 0, 15.875, 11.9375], "texture": "#0"},
+				"west": {"uv": [12.125, 0, 15.875, 11.9375], "texture": "#0"},
+				"up": {"uv": [12.03125, 12, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [9.75, 4.1, 9.75],
+			"to": [6.25, 0.85, 6.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.85, 8]},
+			"faces": {
+				"north": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [2.01563, 8.99219, 10.02344, 15.54688], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

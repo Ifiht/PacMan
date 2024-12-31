@@ -1,0 +1,10 @@
+{
+    "__comment": "_Aetheris",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/chiseled_sandstone/chiseled_sandstone_1" },
+            { "model": "minecraft:block/chiseled_sandstone/chiseled_sandstone_2" },
+            { "model": "minecraft:block/chiseled_sandstone/chiseled_sandstone_3" }
+        ]
+    }
+}

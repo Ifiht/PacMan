@@ -1,0 +1,9 @@
+{
+    "__comment": "_Aetheris 2023",
+    "parent": "minecraft:block/slab",
+    "textures": {
+        "bottom": "minecraft:block/diorite_slab/top/diorite_slab_top_2",
+        "top": "minecraft:block/diorite_slab/top/diorite_slab_top_2",
+        "side": "minecraft:block/diorite_slab/diorite_slab_2"
+    }
+}

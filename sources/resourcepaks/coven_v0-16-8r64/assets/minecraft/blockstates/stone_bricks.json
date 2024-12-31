@@ -1,0 +1,12 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/stone_bricks/stone_bricks_1" },
+            { "model": "minecraft:block/stone_bricks/stone_bricks_2" },
+            { "model": "minecraft:block/stone_bricks/stone_bricks_3" },
+            { "model": "minecraft:block/stone_bricks/stone_bricks_4" },
+            { "model": "minecraft:block/stone_bricks/stone_bricks_5" }
+        ]
+    }
+}

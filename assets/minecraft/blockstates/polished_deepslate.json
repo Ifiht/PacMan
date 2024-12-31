@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/smooth_deepslate/smooth_deepslate_1", "weight": 2 },
+            { "model": "minecraft:block/smooth_deepslate/smooth_deepslate_2", "weight": 2 },
+            { "model": "minecraft:block/smooth_deepslate/smooth_deepslate_3", "weight": 2 }
+        ]
+    }
+}

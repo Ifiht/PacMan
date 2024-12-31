@@ -1,0 +1,20 @@
+{
+    "__comment": "_Aetheris - 2023",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/stone_plate/stone_plate_bottom_1", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_bottom_2", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_bottom_3", "weight": 1 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/stone_plate/stone_plate_top_1", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_top_2", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_top_3", "weight": 1 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/stone_plate/stone_plate_1", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_2", "weight": 1 },
+            { "model": "minecraft:block/stone_plate/stone_plate_3", "weight": 1 }
+        ]
+    }
+}

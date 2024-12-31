@@ -1,0 +1,9 @@
+{
+    "__comment": "Aetheris 2022",
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "minecraft:block/cobblestone/cobblestone_2",
+        "top": "minecraft:block/cobblestone/cobblestone_2",
+        "side": "minecraft:block/cobblestone/cobblestone_2"
+    }
+}

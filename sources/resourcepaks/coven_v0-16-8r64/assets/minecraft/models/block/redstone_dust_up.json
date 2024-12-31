@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"3": "block/redstone_dust_line_base",
+		"particle": "block/redstone_dust_dot",
+		"line": "block/redstone_dust_line"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0.525],
+			"to": [16, 16, 0.525],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#line", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#line", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 0.525],
+			"to": [16, 16, 0.525],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#line", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#line", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0, 0.5],
+			"to": [16, 16, 0.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		}
+	]
+}

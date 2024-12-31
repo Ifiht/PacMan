@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+        "end": "minecraft:block/warped_stem_top",
+        "side": "minecraft:block/warped_stem_4"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/jungle_planks/jungle_planks_1", "weight": 17 },
+            { "model": "minecraft:block/jungle_planks/jungle_planks_2", "weight": 14 },
+            { "model": "minecraft:block/jungle_planks/jungle_planks_3", "weight": 14 },
+            { "model": "minecraft:block/jungle_planks/jungle_planks_4", "weight": 14 }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"1": "block/sunflower_leave",
+		"particle": "block/sunflower_leave",
+		"cross": "block/sunflower_bottom"
+	},
+	"elements": [
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0.8, 0, 15.2, 16], "texture": "#cross"},
+				"south": {"uv": [15.2, 0, 0.8, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0.8, 0, 15.2, 16], "texture": "#cross"},
+				"west": {"uv": [15.2, 0, 0.8, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [3.30041, 12.59254, 1.1],
+			"to": [17.30041, 12.59254, 15.1],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.2, 8.89213, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"from": [-0.10041, 14.09254, 0.9],
+			"to": [13.89959, 14.09254, 14.9],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.2, 8.89213, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [1.1, 9.59254, 6.70041],
+			"to": [15.1, 9.59254, 20.70041],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8.2, 8.89213, 8]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#1"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#1"}
+			}
+		}
+	]
+}

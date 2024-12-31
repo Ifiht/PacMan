@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/moss/moss_1", "weight": 5 },
+            { "model": "minecraft:block/moss/moss_2", "weight": 5 },
+            { "model": "minecraft:block/moss/moss_3", "weight": 5 }
+        ]
+    }
+}

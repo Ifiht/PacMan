@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/quartz_pillar/quartz_pillar_top",
+        "side": "minecraft:block/quartz_pillar/quartz_pillar_3"
+    }
+}

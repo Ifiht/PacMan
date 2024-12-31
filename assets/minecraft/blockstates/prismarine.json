@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/prismarine/prismarine_1" },
+            { "model": "minecraft:block/prismarine/prismarine_2" },
+            { "model": "minecraft:block/prismarine/prismarine_3" }
+        ]
+    }
+}

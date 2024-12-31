@@ -1,0 +1,11 @@
+{
+    "__comment": "Aetheris_ex 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/purple_terracotta/1", "weight": 26 },
+            { "model": "minecraft:block/purple_terracotta/2", "weight": 25 },
+            { "model": "minecraft:block/purple_terracotta/3", "weight": 25 },
+            { "model": "minecraft:block/purple_terracotta/4", "weight": 25 }
+        ]
+    }
+}

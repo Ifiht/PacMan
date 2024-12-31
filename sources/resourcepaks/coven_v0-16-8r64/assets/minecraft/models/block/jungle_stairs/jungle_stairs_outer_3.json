@@ -1,0 +1,9 @@
+{
+    "__comment": "Aetheris 2023",
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "minecraft:block/jungle_planks/jungle_planks_3",
+        "top": "minecraft:block/jungle_planks/jungle_planks_3",
+        "side": "minecraft:block/jungle_planks/jungle_planks_3"
+    }
+}

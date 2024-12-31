@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/mossy_cobblestone/top/mossy_cobblestone_top_3",
+        "side": "minecraft:block/mossy_cobblestone/mossy_cobblestone_3"
+    }
+}

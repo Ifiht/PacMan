@@ -1,0 +1,7 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "minecraft:block/gold_ore/gold_ore_2"
+    }
+}

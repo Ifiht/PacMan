@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/crimson_roots",
+		"3": "block/crimson_roots_2"
+	},
+	"elements": [
+		{
+			"from": [-7.33, -0.042, 14.544],
+			"to": [8.798, 16.086, 14.544],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [-0.064, -0.798, 0.936]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.816, 0.126, 1.136],
+			"to": [2.816, 15.414, 16.424],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [-3.064, -0.798, -3.064]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3", "tintindex": 0}
+			}
+		}
+	]
+}

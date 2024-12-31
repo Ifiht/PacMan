@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"half=lower":[
+            { "model": "block/flowers/rose/rose_bottom" },
+            { "model": "block/flowers/rose/rose_bottom", "y": 90 },
+            { "model": "block/flowers/rose/rose_bottom", "y": 180 },
+            { "model": "block/flowers/rose/rose_bottom", "y": 270 }
+			],
+		"half=upper":[
+            { "model": "block/flowers/rose/rose_top" },
+            { "model": "block/flowers/rose/rose_top", "y": 90 },
+            { "model": "block/flowers/rose/rose_top", "y": 180 },
+            { "model": "block/flowers/rose/rose_top", "y": 270 }
+			]
+    }
+}

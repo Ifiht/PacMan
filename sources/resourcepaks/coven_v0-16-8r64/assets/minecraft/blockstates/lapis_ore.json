@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/lapis_ore/lapis_ore_1" },
+            { "model": "minecraft:block/lapis_ore/lapis_ore_2" },
+            { "model": "minecraft:block/lapis_ore/lapis_ore_3" }
+        ]
+    }
+}

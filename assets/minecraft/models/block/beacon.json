@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/beacon_side",
+		"particle": "block/beacon_side",
+		"beacon": "block/beacon"
+	},
+	"elements": [
+		{
+			"name": "1",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "2",
+			"from": [1, 1, 1],
+			"to": [15, 15, 15],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#beacon"},
+				"east": {"uv": [1, 1, 15, 15], "texture": "#beacon"},
+				"south": {"uv": [1, 1, 15, 15], "texture": "#beacon"},
+				"west": {"uv": [1, 1, 15, 15], "texture": "#beacon"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#beacon"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#beacon"}
+			}
+		}
+	]
+}

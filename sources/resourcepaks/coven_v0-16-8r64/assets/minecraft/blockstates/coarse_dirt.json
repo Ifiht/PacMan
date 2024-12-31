@@ -1,0 +1,12 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/coarse_dirt/coarse_dirt_1", "weight": 1 },
+            { "model": "minecraft:block/coarse_dirt/coarse_dirt_2", "weight": 1 },
+            { "model": "minecraft:block/coarse_dirt/coarse_dirt_3", "weight": 1 },
+            { "model": "minecraft:block/coarse_dirt/coarse_dirt_4", "weight": 1 },
+            { "model": "minecraft:block/coarse_dirt/coarse_dirt_5", "weight": 1 }
+        ]
+    }
+}

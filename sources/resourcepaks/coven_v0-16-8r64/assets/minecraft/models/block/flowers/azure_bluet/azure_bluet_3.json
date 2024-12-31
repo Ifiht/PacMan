@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/azure_bluet/azure_bluet_2",
+		"3": "block/azure_bluet/azure_bluet_1",
+		"particle": "block/azure_bluet/azure_bluet_2"
+	},
+	"elements": [
+		{
+			"from": [7.79678, -0.2639, 1.73905],
+			"to": [7.79678, 13.1231, 15.52305],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.12599, 5.69082, 7.98003]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 15.387], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 15.387], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0.68071, -0.2639, 8.45551],
+			"to": [14.46471, 13.1231, 8.45551],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.57271, 6.4296, 8.45551]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 15.387], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 15.387], "texture": "#1"}
+			}
+		}
+	]
+}

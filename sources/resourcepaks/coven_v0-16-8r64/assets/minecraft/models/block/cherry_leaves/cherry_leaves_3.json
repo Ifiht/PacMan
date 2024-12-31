@@ -1,0 +1,65 @@
+{
+	"credit": "Made by Aetheris_ex",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/cherry_leaves/cherry_leaves_2",
+		"3": "block/cherry_leaves/cherry_leaves_1",
+		"particle": "block/cherry_leaves/cherry_leaves_3"
+	},
+	"elements": [
+		{
+			"from": [19.52428, -5.82584, -8.84],
+			"to": [19.52428, 25.85416, 22.84],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [16.44428, -6.78584, 11]},
+			"faces": {
+				"east": {"uv": [0, 16, 16, 0], "texture": "#3", "cullface": "up", "tintindex": 0},
+				"west": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#3", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.88428, -5.92, -10.76],
+			"to": [6.88428, 25.76, 20.92],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [6.88428, 9.92, 5.08]},
+			"faces": {
+				"east": {"uv": [16, 16, 0, 0], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-5.31572, -5.92, 2.56],
+			"to": [26.36428, 25.76, 2.56],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [16.44428, -6.78584, 11]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#3", "tintindex": 0},
+				"south": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#3", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"gui": {
+			"rotation": [33, 78, -3],
+			"scale": [0.5, 0.36, 0.47]
+		},
+		"head": {
+			"scale": [0.2, 0.2, 0.2]
+		}
+	}
+}

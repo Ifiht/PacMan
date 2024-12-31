@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "minecraft:block/mud/mud_1" },
+            { "model": "minecraft:block/mud/mud_2" },
+            { "model": "minecraft:block/mud/mud_3" },
+            { "model": "minecraft:block/mud/mud_4" }
+        ]
+    }
+}

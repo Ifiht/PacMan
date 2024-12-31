@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/blue_orchid/blue_orchid_1" },
+            { "model": "block/blue_orchid/blue_orchid_1", "y": 90 },
+            { "model": "block/blue_orchid/blue_orchid_1", "y": 180 },
+            { "model": "block/blue_orchid/blue_orchid_1", "y": 270 },
+            { "model": "block/blue_orchid/blue_orchid_2" },
+            { "model": "block/blue_orchid/blue_orchid_2", "y": 90 },
+            { "model": "block/blue_orchid/blue_orchid_2", "y": 180 },
+            { "model": "block/blue_orchid/blue_orchid_2", "y": 270 }
+        ]
+    }
+}

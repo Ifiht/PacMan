@@ -1,0 +1,9 @@
+{
+    "__comment": "Aetheris 2022",
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "minecraft:block/spruce_planks/spruce_planks_4",
+        "top": "minecraft:block/spruce_planks/spruce_planks_4",
+        "side": "minecraft:block/spruce_planks/spruce_planks_4"
+    }
+}

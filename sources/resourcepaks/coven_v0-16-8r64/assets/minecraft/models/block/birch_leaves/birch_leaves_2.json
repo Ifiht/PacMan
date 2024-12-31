@@ -1,0 +1,76 @@
+{
+	"credit": "Made by Aetheris_ex",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/birch_leaves/birch_leaves_3",
+		"2": "block/birch_leaves/birch_leaves_1",
+		"3": "block/birch_leaves/birch_leaves_2",
+		"particle": "block/birch_leaves/birch_leaves_1"
+	},
+	"elements": [
+		{
+			"from": [3.35731, -5, -3.48],
+			"to": [3.35731, 19.70933, 21.48],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [17.07731, 1.22933, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3", "cullface": "north", "tintindex": 0},
+				"west": {"uv": [0, 16, 16, 0], "texture": "#3", "cullface": "north", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-5.64269, 8.66933, -11.68],
+			"to": [19.31731, 8.66933, 13.28],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [13.07731, -7.77067, 5]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-4.72269, -1.36, 7.82],
+			"to": [20.23731, 23.6, 7.82],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [14.07731, -1.77067, 1]},
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "texture": "#2", "cullface": "south", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2", "cullface": "south", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4.96, -3.28, -5.48],
+			"to": [4.96, 21.68, 19.48],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [0, 20.64, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#3", "cullface": "down", "tintindex": 0},
+				"west": {"uv": [16, 16, 0, 0], "texture": "#3", "cullface": "down", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"ground": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"gui": {
+			"rotation": [33, 78, -3],
+			"scale": [0.5, 0.36, 0.47]
+		},
+		"head": {
+			"scale": [0.2, 0.2, 0.2]
+		}
+	}
+}

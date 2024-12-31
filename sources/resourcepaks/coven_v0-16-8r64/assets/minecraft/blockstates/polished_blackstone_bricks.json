@@ -1,0 +1,11 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/blackstone_bricks/blackstone_bricks_1", "weight": 3 },
+            { "model": "minecraft:block/blackstone_bricks/blackstone_bricks_2", "weight": 3 },
+            { "model": "minecraft:block/blackstone_bricks/blackstone_bricks_3", "weight": 3 },
+            { "model": "minecraft:block/blackstone_bricks/blackstone_bricks_4", "weight": 3 }
+        ]
+    }
+}

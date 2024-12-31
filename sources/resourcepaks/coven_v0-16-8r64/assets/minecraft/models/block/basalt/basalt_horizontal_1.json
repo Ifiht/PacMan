@@ -1,0 +1,8 @@
+{
+    "__comment": "Aetheris_ex 2022",
+    "parent": "minecraft:block/cube_column_horizontal",
+    "textures": {
+        "end": "minecraft:block/basalt/basalt_top_1",
+        "side": "minecraft:block/basalt/basalt_side_1"
+    }
+}

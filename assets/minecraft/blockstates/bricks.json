@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/bricks/bricks_1" },
+            { "model": "minecraft:block/bricks/bricks_2" },
+            { "model": "minecraft:block/bricks/bricks_3" }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "__comment": "Aetheris_ex 2024",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/tuff_bricks", "weight": 3 },
+            { "model": "minecraft:block/tuff_bricks/tuff_bricks_2", "weight": 3 },
+            { "model": "minecraft:block/tuff_bricks/tuff_bricks_3", "weight": 3 }
+        ]
+    }
+}

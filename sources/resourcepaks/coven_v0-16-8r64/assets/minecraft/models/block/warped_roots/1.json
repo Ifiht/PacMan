@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/warped_roots",
+		"particle": "block/warped_roots_2"
+	},
+	"elements": [
+		{
+			"from": [-2.8576, 0.16356, 11.25728],
+			"to": [14.51456, 17.53572, 11.25728],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [-0.68608, -0.65076, -0.68608]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [3.66392, 0.07308, 1.12352],
+			"to": [3.66392, 17.44524, 18.49568],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [3.66392, -0.65076, -0.68608]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}
