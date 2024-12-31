@@ -8,6 +8,10 @@ rm -rf assets
 mkdir assets
 
 ## Sync sources with assets, first here is "last" to load, ones farther down will overwrite
+# https://vanillatweaks.net/picker/resource-packs/
+rsync -avh ./sources/resourcepaks/vanillatweaks_mc1-21-1/assets/ ./assets/
+# https://modrinth.com/resourcepack/3ddripstone
+rsync -avh ./sources/resourcepaks/3ddripstone_v1-0-1/assets/ ./assets/
 # https://modrinth.com/resourcepack/blockpixel
 rsync -avh ./sources/resourcepaks/blockpixel_v1-21-0-02/assets/ ./assets/
 rm -rf ./assets/minecraft/blockstates
@@ -24,8 +28,6 @@ rm -rf ./assets/minecraft/textures/models
 rm -rf ./assets/minecraft/textures/particle
 rm -rf ./assets/minecraft/textures/trims
 rm -rf ./assets/minecraft/textures/gui/sprites/hud
-# https://vanillatweaks.net/picker/resource-packs/
-rsync -avh ./sources/resourcepaks/vanillatweaks_mc1-21-1/assets/ ./assets/
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
