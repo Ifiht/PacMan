@@ -32,3 +32,4 @@ jobs:
           assets
           pack.mcmeta
           pack.png
+        compression-level: 9
