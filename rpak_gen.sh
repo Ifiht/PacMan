@@ -32,8 +32,6 @@ rm -rf ./assets/minecraft/textures/gui/sprites/hud
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
 rsync -avh ./sources/resourcepaks/roundista_128xR29/assets/ ./assets/
-# https://modrinth.com/resourcepack/metals-ultra/gallery
-rsync -avh ./sources/resourcepaks/metalsultra_v1-3/assets/ ./assets/
 # https://modrinth.com/resourcepack/fresh-animations
 rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
 # https://modrinth.com/resourcepack/icon-xaeros-x-freshanimations
