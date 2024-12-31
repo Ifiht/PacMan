@@ -24,14 +24,18 @@ rm -rf ./assets/minecraft/textures/models
 rm -rf ./assets/minecraft/textures/particle
 rm -rf ./assets/minecraft/textures/trims
 rm -rf ./assets/minecraft/textures/gui/sprites/hud
+# https://vanillatweaks.net/picker/resource-packs/
+rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
 # https://modrinth.com/resourcepack/3ddripstone
 rsync -avh ./sources/resourcepaks/3ddripstone_v1-0-1/assets/ ./assets/
-# https://vanillatweaks.net/picker/resource-packs/
-rsync -avh ./sources/resourcepaks/vanillatweaks_mc1-21-1/assets/ ./assets/
+# https://modrinth.com/resourcepack/farm-3d
+rsync -avh ./sources/resourcepaks/3dfarm_mc1-21-0/assets/ ./assets/
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
-rsync -avh ./sources/resourcepaks/roundista_128xR29/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdsta_basic_512xR29/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdsta_bonus_512xR29/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdsta_foliage_512xR29/assets/ ./assets/
 # https://modrinth.com/resourcepack/fresh-animations
 rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
 # https://modrinth.com/resourcepack/icon-xaeros-x-freshanimations
