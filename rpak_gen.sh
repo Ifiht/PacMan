@@ -27,10 +27,8 @@ rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/roundista
-rsync -avh ./sources/resourcepaks/smplista_basic_128xR35/assets/ ./assets/
-rsync -avh ./sources/resourcepaks/smplista_bonus_128xR35/assets/ ./assets/
-rsync -avh ./sources/resourcepaks/smplista_foliage_128xR35/assets/ ./assets/
-rsync -avh ./sources/resourcepaks/smplista_mobs_128xR35/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdista_basic_256xR28/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdista_bonus_256xR28/assets/ ./assets/
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
 # https://modrinth.com/resourcepack/3ddripstone
