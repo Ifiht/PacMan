@@ -1,33 +1,20 @@
 {
-	"credit": "Created by Stridey",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/pointed_dripstone_dark",
-		"2": "block/pointed_dripstone_light",
-		"particle": "block/pointed_dripstone_middle",
-		"cross": "block/pointed_dripstone_middle"
+		"0": "block/dripstone_block",
+		"particle": "block/dripstone_block"
 	},
 	"elements": [
 		{
-			"from": [3, 8, 3],
-			"to": [13, 16, 13],
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
 			"faces": {
-				"north": {"uv": [3, 0, 13, 8], "texture": "#cross"},
-				"east": {"uv": [3, 0, 13, 8], "texture": "#cross"},
-				"south": {"uv": [3, 0, 13, 8], "texture": "#cross"},
-				"west": {"uv": [3, 0, 13, 8], "texture": "#cross"},
-				"up": {"uv": [3, 3, 13, 13], "texture": "#2", "cullface": "up"}
-			}
-		},
-		{
-			"from": [2, 0, 2],
-			"to": [14, 8, 14],
-			"faces": {
-				"north": {"uv": [2, 8, 14, 16], "texture": "#cross"},
-				"east": {"uv": [2, 8, 14, 16], "texture": "#cross"},
-				"south": {"uv": [2, 8, 14, 16], "texture": "#cross"},
-				"west": {"uv": [2, 8, 14, 16], "texture": "#cross"},
-				"up": {"uv": [2, 2, 14, 14], "texture": "#2"},
-				"down": {"uv": [2, 2, 14, 14], "texture": "#1", "cullface": "down"}
+				"north": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#0"},
+				"up": {"uv": [12, 12, 4, 4], "texture": "#0"},
+				"down": {"uv": [12, 4, 4, 12], "texture": "#0"}
 			}
 		}
 	]
