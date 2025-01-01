@@ -1,7 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2022",
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "minecraft:block/lapis_lazuli_ore/lapis_lazuli_ore_3"
-    }
-}

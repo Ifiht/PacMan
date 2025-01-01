@@ -1,9 +1,0 @@
-{
-    "__comment": "_Aetheris 2023",
-    "parent": "minecraft:block/slab",
-    "textures": {
-        "bottom": "minecraft:block/oak_planks/oak_planks_2",
-        "top": "minecraft:block/oak_planks/oak_planks_2",
-        "side": "minecraft:block/oak_planks/oak_planks_2"
-    }
-}

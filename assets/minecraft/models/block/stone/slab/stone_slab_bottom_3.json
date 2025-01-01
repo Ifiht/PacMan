@@ -1,9 +1,0 @@
-{
-    "__comment": "_Aetheris 2023",
-    "parent": "minecraft:block/slab",
-    "textures": {
-        "bottom": "minecraft:block/stone/stone_3",
-        "top": "minecraft:block/stone/stone_3",
-        "side": "minecraft:block/stone/stone_3"
-    }
-}

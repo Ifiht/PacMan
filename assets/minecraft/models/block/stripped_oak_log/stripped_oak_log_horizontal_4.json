@@ -1,8 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2022",
-    "parent": "minecraft:block/cube_column_horizontal",
-    "textures": {
-        "end": "minecraft:block/stripped_oak_log/stripped_oak_log_top_1",
-        "side": "minecraft:block/stripped_oak_log/stripped_oak_log_4"
-    }
-}

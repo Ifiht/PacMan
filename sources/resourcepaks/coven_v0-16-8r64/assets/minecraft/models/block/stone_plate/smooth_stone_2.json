@@ -1,7 +1,0 @@
-{
-    "__comment": "_Aetheris - 2023",
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "minecraft:block/stone_plate/top/stone_plate_top_2"
-    }
-}

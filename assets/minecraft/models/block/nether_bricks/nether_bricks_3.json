@@ -1,7 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2024",
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "minecraft:block/nether_bricks_3"
-    }
-}

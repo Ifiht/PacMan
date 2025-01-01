@@ -1,9 +1,0 @@
- { "pack": {
-  "supported_formats":{
-    "min_inclusive": 7,
-    "max_inclusive": 80
-    },
-  "pack_format": 34,
-  "description": "\u00A79▌ Сonfigure the shaders!\n\u00A77▌ buymeacoffee.com/aetheris"
-  }
- }

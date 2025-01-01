@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "minecraft:block/cut_sandstone/cut_sandstone_1" },
-            { "model": "minecraft:block/cut_sandstone/cut_sandstone_2" },
-            { "model": "minecraft:block/cut_sandstone/cut_sandstone_3" }
-        ]
-    }
-}

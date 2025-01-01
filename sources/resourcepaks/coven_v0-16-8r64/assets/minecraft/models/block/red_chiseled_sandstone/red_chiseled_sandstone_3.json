@@ -1,8 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2022",
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "minecraft:block/red_sandstone/red_sandstone_top_3",
-        "side": "minecraft:block/red_chiseled_sandstone/red_chiseled_sandstone_3"
-    }
-}

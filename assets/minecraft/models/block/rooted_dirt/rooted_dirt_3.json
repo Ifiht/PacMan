@@ -1,7 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2023",
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "block/rooted_dirt/rooted_dirt_3"
-    }
-}

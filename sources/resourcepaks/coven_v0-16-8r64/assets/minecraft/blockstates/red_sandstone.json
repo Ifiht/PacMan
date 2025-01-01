@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "minecraft:block/red_sandstone/red_sandstone_1" },
-            { "model": "minecraft:block/red_sandstone/red_sandstone_2" },
-            { "model": "minecraft:block/red_sandstone/red_sandstone_3" }
-        ]
-    }
-}

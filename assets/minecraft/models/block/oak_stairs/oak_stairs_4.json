@@ -1,9 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2022",
-    "parent": "minecraft:block/stairs",
-    "textures": {
-        "bottom": "minecraft:block/oak_planks/oak_planks_4",
-        "top": "minecraft:block/oak_planks/oak_planks_4",
-        "side": "minecraft:block/oak_planks/oak_planks_4"
-    }
-}

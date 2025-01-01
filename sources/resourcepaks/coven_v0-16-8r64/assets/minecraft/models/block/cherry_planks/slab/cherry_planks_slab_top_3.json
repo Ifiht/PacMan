@@ -1,9 +1,0 @@
-{
-    "__comment": "_Aetheris 2023",
-    "parent": "minecraft:block/slab_top",
-    "textures": {
-        "bottom": "minecraft:block/cherry_planks/cherry_planks_3",
-        "top": "minecraft:block/cherry_planks/cherry_planks_3",
-        "side": "minecraft:block/cherry_planks/cherry_planks_3"
-    }
-}

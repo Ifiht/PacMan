@@ -1,8 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2023",
-    "parent": "minecraft:block/cube_column",
-    "textures": {
-        "end": "minecraft:block/bricks/bricks_top_2",
-        "side": "minecraft:block/bricks/bricks_2"
-    }
-}

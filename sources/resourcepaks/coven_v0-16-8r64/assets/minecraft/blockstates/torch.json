@@ -1,8 +1,0 @@
-{
-    "__comment": "_Aetheris - 2023",
-    "variants": {
-        "": [
-            { "model": "minecraft:block/torch" }
-        ]
-    }
-}

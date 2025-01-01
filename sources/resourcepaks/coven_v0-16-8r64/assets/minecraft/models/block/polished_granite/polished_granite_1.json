@@ -1,7 +1,0 @@
-{
-    "__comment": "Aetheris_ex 2022",
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "minecraft:block/polished_granite/polished_granite_1"
-    }
-}
