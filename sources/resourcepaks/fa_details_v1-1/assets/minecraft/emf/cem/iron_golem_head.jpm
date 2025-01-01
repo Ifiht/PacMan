@@ -1,0 +1,16 @@
+{
+	"texture": "textures/entity/iron_golem/iron_golem",
+	"textureSize": [128, 128],
+	"credit": "Made with Blockbench | Created_by_FreshLX_for_Fresh_Animations",
+	"boxes": [
+		{
+			"coordinates": [-4.25, -10.25, -4.25, 8.5, 10.5, 8.5],
+			"uvNorth": [8, 29, 16, 39],
+			"uvEast": [0, 29, 8, 39],
+			"uvSouth": [24, 29, 32, 39],
+			"uvWest": [16, 29, 24, 39],
+			"uvUp": [16, 29, 8, 21],
+			"uvDown": [24, 21, 16, 29]
+		}
+	]
+}

@@ -42,8 +42,14 @@ rsync -avh ./sources/resourcepaks/3ddripstone_v1-0-1/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/3dfarm_mc1-21-0/assets/ ./assets/
 # https://modrinth.com/resourcepack/fresh-animations
 rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
-# https://modrinth.com/resourcepack/icon-xaeros-x-freshanimations
-rsync -avh ./sources/resourcepaks/faxaeros_v2-4/assets/ ./assets/
+##====+ FRESH ANIMS ADDONS!! +====##
+# https://www.planetminecraft.com/collection/137810/fresh-animations-add-ons/
+rsync -avh ./sources/resourcepaks/fa_emissive_v1-2/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/fa_xaeros_v2-4/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/fa_quivers_v1-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/fa_details_v1-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/nitpick_creeprs_v1-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/fa_biome_creeprs_mc1-21-1/assets/ ./assets/
 ### always keep custom changes last..
 rsync -avh ./sources/resourcepaks/custom_overlay_mc1-21-1/assets/ ./assets/
 ## Clean unneaded top-files:
