@@ -8,8 +8,6 @@ rm -rf data
 mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
-# https://modrinth.com/plugin/tooltrims ; trims for tools ;)
-rsync -avh ./sources/datapaks/tooltrims_v2-2-2a/data/ ./data/
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avh ./sources/datapaks/incendium_v5-4-3/data/ ./data/
 # https://modrinth.com/datapack/terralith
@@ -35,6 +33,8 @@ rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wy
 rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
 # https://modrinth.com/datapack/continents
 rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
+# https://modrinth.com/plugin/tooltrims ; trims for tools ;)
+rsync -avh ./sources/datapaks/tooltrims_plug_v2-2-2a/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
 rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 ### always keep custom changes last..

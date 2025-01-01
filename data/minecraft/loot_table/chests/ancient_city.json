@@ -80,7 +80,7 @@
                 "max": 50.0,
                 "min": 30.0
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ],
           "name": "minecraft:diamond_hoe",
@@ -142,7 +142,7 @@
                 "max": 50.0,
                 "min": 30.0
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ],
           "name": "minecraft:diamond_leggings",
@@ -152,8 +152,10 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:swift_sneak"
+              "enchantments": [
+                "minecraft:swift_sneak"
+              ],
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
@@ -265,7 +267,7 @@
                 "max": 39.0,
                 "min": 20.0
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ],
           "name": "minecraft:iron_leggings",
@@ -327,8 +329,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ],
           "name": "minecraft:book",
@@ -419,12 +420,81 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:silence_armor_trim_smithing_template"
+          "name": "minecraft:structure_block",
+          "weight": 4,
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 2.0,
+            "min": 1.0
+          },
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.tooltrims.smithing_template",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_components",
+              "components" : {
+                "minecraft:custom_model_data":313003,
+                "minecraft:custom_data": {
+                  "tool_trim_smithing_template": 1
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate" : "tool_trim_pattern.tooltrims.charge",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text" : "",
+                  "italic": false
+                },
+                {                  
+                  "translate": "item.tooltrims.smithing_template.applies_to",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": " ",
+                  "extra": [
+                    {
+                        "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                  ]
+                },
+                {
+                  "translate": "item.tooltrims.smithing_template.ingredients",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": " ",
+                  "extra": [
+                    {
+                        "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "tooltrims:items/charge_smithing_template",
-          "weight": 3
+          "type": "minecraft:item",
+          "name": "minecraft:silence_armor_trim_smithing_template"
         }
       ],
       "rolls": 1.0
