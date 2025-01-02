@@ -1,0 +1,291 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.tooltrims.smithing_template",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "set_components",
+                "components" : {
+                  "minecraft:custom_model_data":313003,
+                  "minecraft:custom_data": {
+                    "tool_trim_smithing_template": 1
+                  }
+                }
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                  {
+                    "translate" : "tool_trim_pattern.tooltrims.charge",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text" : "",
+                    "italic": false
+                  },
+                  {                  
+                    "translate": "item.tooltrims.smithing_template.applies_to",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.tooltrims.smithing_template.ingredients",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.tooltrims.smithing_template",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "set_components",
+                "components" : {
+                  "minecraft:custom_model_data":313004,
+                  "minecraft:custom_data": {
+                    "tool_trim_smithing_template": 1
+                  }
+                }
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                  {
+                    "translate" : "tool_trim_pattern.tooltrims.frost",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text" : "",
+                    "italic": false
+                  },
+                  {                  
+                    "translate": "item.tooltrims.smithing_template.applies_to",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.tooltrims.smithing_template.ingredients",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "weight": 1,
+            "functions": [
+              {
+                "add": false,
+                "count": 2.0,
+                "function": "minecraft:set_count"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.tooltrims.smithing_template",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "set_components",
+                "components" : {
+                  "minecraft:custom_model_data":313002,
+                  "minecraft:custom_data": {
+                    "tool_trim_smithing_template": 1
+                  }
+                }
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                  {
+                    "translate" : "tool_trim_pattern.tooltrims.tracks",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text" : "",
+                    "italic": false
+                  },
+                  {                  
+                    "translate": "item.tooltrims.smithing_template.applies_to",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.tooltrims.smithing_template.ingredients",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:structure_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "item.tooltrims.smithing_template",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "set_components",
+                "components" : {
+                  "minecraft:custom_model_data":313001,
+                  "minecraft:custom_data": {
+                    "tool_trim_smithing_template": 1
+                  }
+                }
+              },
+              {
+                "function": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                  {
+                    "translate" : "tool_trim_pattern.tooltrims.linear",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text" : "",
+                    "italic": false
+                  },
+                  {                  
+                    "translate": "item.tooltrims.smithing_template.applies_to",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "item.tooltrims.smithing_template.ingredients",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": " ",
+                    "extra": [
+                      {
+                          "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                          "italic": false,
+                          "color": "blue"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
