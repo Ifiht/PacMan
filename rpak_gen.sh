@@ -27,7 +27,7 @@ rm -rf ./assets/minecraft/textures/trims
 rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be second.. it overwrites too many things..
-rsync -avh ./sources/resourcepaks/rdista_basic_512xR29/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdista_basic_128xR29/assets/ ./assets/
 # NEED TO IGNORE GUI UPDATES FOR BLOCKPIXEL!
 rsync -avh ./sources/resourcepaks/rdista_bonus_512xR29/assets/minecraft/optifine/ ./assets/minecraft/optifine/
 rsync -avh ./sources/resourcepaks/rdista_bonus_512xR29/assets/minecraft/textures/entity/ ./assets/minecraft/textures/entity/

@@ -9,7 +9,7 @@
       },
       "description": {
         "translate": "nvr.advancement.desc.chest_opened",
-        "fallback": "Open a Chest when a Villager is nearby"
+        "fallback": "Anger a Villager by opening a chest when one is nearby"
       },
       "show_toast": true,
       "announce_to_chat": true,

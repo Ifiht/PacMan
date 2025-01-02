@@ -5,7 +5,8 @@ function nvr:schedules/on_load
 scoreboard objectives add nvr.health dummy
 
 ## add scoreboard for chest opening
-scoreboard objectives add nvr.open.chest minecraft.custom:minecraft.open_chest
+#scoreboard objectives add nvr.open.chest minecraft.custom:minecraft.open_chest
+scoreboard objectives remove nvr.open.chest
 
 ## add technical scoreboard
 scoreboard objectives add nvr.technical dummy
