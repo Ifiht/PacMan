@@ -8,3 +8,25 @@ This repo contains two scripts, `dpak_gen.sh` & `rpak_gen.sh` for datapacks and 
 2. allows for precise editing and changing from a known state.
 
 It also allows for easy updating, as soon as a new datapack version comes out, just update the sources folder with the new version, change the name in the script, and re-generate!
+
+## Sources
+### Datapacks
+ - [True Ending](https://modrinth.com/datapack/true-ending)
+ - [Nice Villagers](https://modrinth.com/organization/explorers-eden)
+   - Nice Talking Villager
+   - Nice Village Names
+   - Nice Villager Leashing
+   - Nice Villager Names
+
+ - 
+### Resourcpacks
+ - [BlockPixel](https://modrinth.com/resourcepack/blockpixel)
+ - [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
+
+## 1.21.4 Upgrade
+### Datapacks not updated yet:
+### Resourcepacks not updated yet:
+ - https://modrinth.com/resourcepack/biome-creepers-fresh
+ - https://modrinth.com/resourcepack/icon-xaeros-x-freshanimations
+ - https://modrinth.com/resourcepack/fresh-animations-extensions/versions
+ - 3d crops???
