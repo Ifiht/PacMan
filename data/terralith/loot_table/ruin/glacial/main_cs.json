@@ -134,7 +134,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+                            "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -164,7 +164,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+                            "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -194,7 +194,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+                            "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -224,7 +224,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -254,7 +254,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -284,7 +284,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -314,7 +314,7 @@
                 },
                 "min": 1
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -346,7 +346,7 @@
                 "max": 17,
                 "min": 0
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -373,7 +373,7 @@
                 "max": 17,
                 "min": 0
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -400,7 +400,7 @@
                 "max": 17,
                 "min": 0
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {
@@ -427,7 +427,7 @@
                 "max": 17,
                 "min": 0
               },
-              "options": "#minecraft:non_treasure"
+              "options": "#minecraft:on_random_loot"
             },
             {
               "damage": {

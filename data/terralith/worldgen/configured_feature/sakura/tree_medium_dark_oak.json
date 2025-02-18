@@ -19,7 +19,7 @@
             "entries": [
                 {
                     "data": {
-                        "Name": "minecraft:jungle_leaves",
+                        "Name": "minecraft:azalea_leaves",
                         "Properties": {
                             "distance": "7",
                             "persistent": "false",
@@ -30,14 +30,14 @@
                 },
                 {
                     "data": {
-                        "Name": "minecraft:dark_oak_leaves",
+                        "Name": "minecraft:flowering_azalea_leaves",
                         "Properties": {
                             "distance": "7",
                             "persistent": "false",
                             "waterlogged": "false"
                         }
                     },
-                    "weight": 12
+                    "weight": 1
                 }
             ]
         },

@@ -23,12 +23,6 @@
                                     "Name": "minecraft:dead_fire_coral_block"
                                 }
                             },
-                            "sapling_provider": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:stone"
-                                }
-                            },
                             "trunk_provider": {
                                 "type": "minecraft:simple_state_provider",
                                 "state": {
@@ -80,12 +74,6 @@
                         "type": "minecraft:simple_state_provider",
                         "state": {
                             "Name": "minecraft:dead_fire_coral_block"
-                        }
-                    },
-                    "sapling_provider": {
-                        "type": "minecraft:simple_state_provider",
-                        "state": {
-                            "Name": "minecraft:stone"
                         }
                     },
                     "trunk_provider": {

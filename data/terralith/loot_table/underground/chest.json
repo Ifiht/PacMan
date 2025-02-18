@@ -51,7 +51,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -106,7 +107,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -161,7 +163,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -216,7 +219,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -243,7 +247,8 @@
                             "levels": {
                                 "max": 15,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -309,7 +314,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -364,7 +370,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -391,7 +398,8 @@
                             "levels": {
                                 "max": 25,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {
@@ -418,7 +426,8 @@
                             "levels": {
                                 "max": 12,
                                 "min": 4
-                            }
+                            },
+                            "options": "#minecraft:on_random_loot"
                         },
                         {
                             "damage": {

@@ -9,8 +9,22 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
                     "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -23,28 +37,14 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 4,
-                    "name": "minecraft:amethyst_shard",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 9
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 5,
                     "name": "minecraft:bread",
+                    "weight": 5,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 3,
-                                "max": 11
+                                "min": 2,
+                                "max": 6
                             }
                         }
                     ]
@@ -56,11 +56,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
                     "name": "minecraft:bow",
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
+                            "options": "#minecraft:on_random_loot",
                             "levels": {
                                 "min": 10,
                                 "max": 20
@@ -76,11 +77,12 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
                     "name": "minecraft:crossbow",
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:enchant_with_levels",
+                            "options": "#minecraft:on_random_loot",
                             "levels": {
                                 "min": 10,
                                 "max": 20
@@ -98,39 +100,39 @@
         },
         {
             "rolls": {
-                "min": 2,
-                "max": 3
+                "min": 1,
+                "max": 2
             },
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "weight": 1,
                     "name": "minecraft:tipped_arrow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 10,
+                                "p": 0.6
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_potion",
+                            "id": "minecraft:weakness"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "weight": 9,
                     "functions": [
                         {
                             "function": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:binomial",
                                 "n": 15,
-                                "p": 0.6
-                            }
-                        },
-                        {
-                          "function": "minecraft:set_potion",
-                          "id": "minecraft:weakness"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 9,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "type": "minecraft:binomial",
-                                "n": 40,
                                 "p": 0.6
                             }
                         }

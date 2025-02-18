@@ -49,77 +49,8 @@
           "name": "minecraft:host_armor_trim_smithing_template"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:structure_block",
-          "count": {
-            "type": "minecraft:uniform",
-            "max": 2.0,
-            "min": 1.0
-          },
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.tooltrims.smithing_template",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "set_components",
-              "components" : {
-                "minecraft:custom_model_data":313001,
-                "minecraft:custom_data": {
-                  "tool_trim_smithing_template": 1
-                }
-              }
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate" : "tool_trim_pattern.tooltrims.linear",
-                  "italic": false,
-                  "color": "gray"
-                },
-                {
-                  "text" : "",
-                  "italic": false
-                },
-                {                  
-                  "translate": "item.tooltrims.smithing_template.applies_to",
-                  "italic": false,
-                  "color": "gray"
-                },
-                {
-                  "text": " ",
-                  "extra": [
-                    {
-                        "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
-                        "italic": false,
-                        "color": "blue"
-                    }
-                  ]
-                },
-                {
-                  "translate": "item.tooltrims.smithing_template.ingredients",
-                  "italic": false,
-                  "color": "gray"
-                },
-                {
-                  "text": " ",
-                  "extra": [
-                    {
-                        "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
-                        "italic": false,
-                        "color": "blue"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "tooltrims:items/linear_tool_trim_smithing_template"
         },
         {
           "type": "minecraft:item",

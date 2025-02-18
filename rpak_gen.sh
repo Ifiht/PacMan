@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 ## Remove BS Windows metafiles
 find . -name "*:Zone.Identifier" -type f -delete
@@ -10,7 +10,7 @@ mkdir assets
 ## Sync sources with assets, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/resourcepack/blockpixel
 # BlockPixel MUST be first, bc of the rm -rf statements!!
-rsync -avh ./sources/resourcepaks/blockpixel_v1-21-0-02/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/blockpixel_v4_mc1214/assets/ ./assets/
 rm -rf ./assets/minecraft/blockstates
 rm -rf ./assets/minecraft/models
 rm -rf ./assets/minecraft/sounds
@@ -27,13 +27,9 @@ rm -rf ./assets/minecraft/textures/trims
 rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be second.. it overwrites too many things..
-rsync -avh ./sources/resourcepaks/rdista_basic_128xR29/assets/ ./assets/
-# NEED TO IGNORE GUI UPDATES FOR BLOCKPIXEL!
-#rsync -avh ./sources/resourcepaks/rdista_bonus_512xR29/assets/minecraft/optifine/ ./assets/minecraft/optifine/
-#rsync -avh ./sources/resourcepaks/rdista_bonus_512xR29/assets/minecraft/textures/entity/ ./assets/minecraft/textures/entity/
-#rsync -avh ./sources/resourcepaks/rdista_bonus_512xR29/assets/minecraft/textures/particle/ ./assets/minecraft/textures/particle/
+rsync -avh ./sources/resourcepaks/rdista_basic_128xR29_mc1214/assets/ ./assets/
 # https://modrinth.com/plugin/tooltrims
-rsync -avh ./sources/resourcepaks/tooltrims_v2-2-2a/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/tooltrims_rp_v2v2-2-2a/assets/ ./assets/
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
 # https://modrinth.com/resourcepack/3ddripstone
@@ -51,7 +47,7 @@ rsync -avh ./sources/resourcepaks/fa_details_v1-1/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/nitpick_creeprs_v1-1/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/fa_biome_creeprs_mc1-21-1/assets/ ./assets/
 ### always keep custom changes last..
-rsync -avh ./sources/resourcepaks/custom_overlay_mc1-21-1/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/custom_overlay_mc1214/assets/ ./assets/
 ## Clean unneaded top-files:
 rm -rf ./assets/detailab
 

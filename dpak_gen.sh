@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash
 
 ## Remove BS Windows metafiles
 find . -name "*:Zone.Identifier" -type f -delete
@@ -9,36 +9,35 @@ mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
-rsync -avh ./sources/datapaks/incendium_v5-4-3/data/ ./data/
-# https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_mc1-21-1/data/ ./data/
-# https://modrinth.com/datapack/fancier-mansions
-rsync -avh ./sources/datapaks/fancyman_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
-rsync -avh ./sources/datapaks/nullscape_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
+# https://modrinth.com/datapack/terralith
+rsync -avh ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
 # https://modrinth.com/datapack/true-ending
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
+# Grand Capitals
+rsync -avh ./sources/datapaks/luki_grandcapitals_v1-1-1_mc1214/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
-rsync -avh ./sources/datapaks/qraftyshroom_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
-rsync -avh ./sources/datapaks/qraftydigs_mc1-21-1/data/ ./data/
-## https://modrinth.com/datapack/tectonic
-rsync -avh ./sources/datapaks/terratonic_v3-2/data/ ./data/
-# https://modrinth.com/datapack/william-wythers-overhauled-overworld-(datapack)
-#>> only the dark forest (-_-)
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/wythers ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/lithosphere ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/data/towns_and_towers ./data/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/wythers/ ./data/wythers/
-rsync -avh ./sources/datapaks/wwoo_mc1-21-0/1-21-overlay/data/minecraft/worldgen/biome/dark_forest.json ./data/minecraft/worldgen/biome/
-# https://modrinth.com/datapack/continents
-rsync -avh ./sources/datapaks/continents_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data/
+# NV Packs
+rsync -avh ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_villagenames_v1-2_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_villagernames_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data/
+# YUNG's betters
+rsync -avh ./sources/datapaks/yungs_better_mc1214/data/ ./data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
-rsync -avh ./sources/datapaks/tooltrims_plug_v2-2-2a/data/ ./data/
+rsync -avh ./sources/datapaks/tooltrims_dp_v2-3-0a_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
 rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 ### always keep custom changes last..
-rsync -avh ./sources/datapaks/custom_overlay_mc1-21-1/data/ ./data/
+rsync -avh ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
 
 ## Make continents larger:
 sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json

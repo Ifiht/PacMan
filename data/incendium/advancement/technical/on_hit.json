@@ -71,7 +71,9 @@
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
+            "predicate": {
               "nbt": "{Tags:[\"in.eid_0\"]}"
+            }
           }
         ]
       }

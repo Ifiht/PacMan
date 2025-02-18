@@ -9,7 +9,7 @@
     "downfall": 0.8,
     "effects": {
         "fog_color": 13822975,
-        "foliage_color": 16764123,
+        "foliage_color": 8896601,
         "grass_color": 7982981,
         "mood_sound": {
             "block_search_extent": 8,
@@ -27,7 +27,8 @@
             "terralith:canyon/cliff/grass_lower"
         ],
         [
-            "minecraft:lake_lava_underground"
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
         ],
         [
             "minecraft:amethyst_geode"

@@ -57,9 +57,7 @@
     },
     "carvers": {},
     "features": [
-        [
-            "nullscape:asteroid_carver"
-        ],
+        [],
         [
             "minecraft:end_gateway_return"
         ],

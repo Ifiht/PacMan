@@ -1,11 +1,5 @@
 {
-  "replace": false,
-  "values": [
-    {
-      "id": "terralith:setup",
-      "required": false
-    },
-    "true_ending:load",
-    "nvr:load"
-  ]
-}
+    "values":[
+      "trader_trades:load"
+    ]
+  }
