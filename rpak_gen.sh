@@ -28,14 +28,20 @@ rm -rf ./assets/minecraft/textures/gui/sprites/hud
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be second.. it overwrites too many things..
 rsync -avh ./sources/resourcepaks/rdista_basic_128xR29_mc1214/assets/ ./assets/
-# https://modrinth.com/plugin/tooltrims
-rsync -avh ./sources/resourcepaks/tooltrims_rp_v2v2-2-2a/assets/ ./assets/
+### 3D Packs +=============================##
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
-# https://modrinth.com/resourcepack/3ddripstone
-rsync -avh ./sources/resourcepaks/3ddripstone_v1-0-1/assets/ ./assets/
-# https://modrinth.com/resourcepack/farm-3d
-rsync -avh ./sources/resourcepaks/3dfarm_mc1-21-0/assets/ ./assets/
+# https://modrinth.com/resourcepack/3d-dripstone
+rsync -avh ./sources/resourcepaks/simple_dripstone_v1-4_mc1214/assets/ ./assets/
+# https://modrinth.com/resourcepack/3d-plants
+rsync -avh ./sources/resourcepaks/verv_plants_v1-0-3_mc1214/assets/ ./assets/
+# https://modrinth.com/resourcepack/mikapika-s-3d-mushrooms
+rsync -avh ./sources/resourcepaks/mkpk_shrooms_v1-2_mc1214/assets/ ./assets/
+# https://modrinth.com/resourcepack/mase-3d-(by-nestter)
+rsync -avh ./sources/resourcepaks/3d_mace_v4_mc1214/assets/ ./assets/
+##====+ TOOL TRIMS +==============##
+# https://modrinth.com/plugin/tooltrims
+rsync -avh ./sources/resourcepaks/tooltrims_rp_v2v2-2-2a/assets/ ./assets/
 # https://modrinth.com/resourcepack/fresh-animations
 rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
 ##====+ FRESH ANIMS ADDONS!! +====##
