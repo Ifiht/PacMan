@@ -1,6 +1,6 @@
 {
-    "values": [
-      "minecraft:bedrock"
-    ]
-  }
-  
+  "replace": false,
+  "values": [
+    "minecraft:blue_ice"
+  ]
+}

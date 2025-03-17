@@ -10,6 +10,8 @@
 *.userosscache
 *.sln.docstates
 *Zone.Identifier
+*.DS_Store
+desktop.ini
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
