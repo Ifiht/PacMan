@@ -10,12 +10,17 @@
             "sound": "minecraft:ambient.basalt_deltas.additions",
             "tick_chance": 0.02
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.basalt_deltas",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "particle": {
             "options": {
                 "type": "minecraft:dust",
@@ -34,11 +39,7 @@
         "water_color": 4159204,
         "water_fog_color": 329011
     },
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave"
-        ]
-    },
+    "carvers": "minecraft:nether_cave",
     "features": [
         [
             "incendium:toxic_heap/spike",

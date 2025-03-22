@@ -10,12 +10,17 @@
             "sound": "minecraft:ambient.warped_forest.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.warped_forest",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "particle": {
             "options": {
                 "type": "minecraft:warped_spore"
@@ -28,12 +33,10 @@
         "water_color": 4159204,
         "water_fog_color": 329011
     },
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave",
-            "incendium:big_cave"
-        ]
-    },
+    "carvers": [
+        "minecraft:nether_cave",
+        "incendium:big_cave"
+    ],
     "features": [
         [
             "incendium:inverted_forest/trees_extra",

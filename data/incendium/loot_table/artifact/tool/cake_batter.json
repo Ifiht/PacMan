@@ -11,7 +11,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "id": "cake_power",
                   "amount": {
                     "type": "minecraft:binomial",
@@ -45,18 +45,19 @@
               "tag": "{incendium:{item:'cake_batter'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450402
-              }
-            },
-            {
               "function": "minecraft:set_name",
               "name": {
                 "translate":"incendium.item.cake.name","fallback":"Cake Batter",
                 "color": "#ffddf4",
                 "italic": false
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450402],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

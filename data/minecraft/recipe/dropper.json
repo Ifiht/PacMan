@@ -1,19 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###",
-        "# #",
-        "#R#"
+      "###",
+      "# #",
+      "#R#"
     ],
     "key": {
-        "R": {
-            "item": "minecraft:redstone"
-        },
-        "#": {
-            "tag": "minecraft:stone_crafting_materials"
-        }
+      "R":"minecraft:redstone",
+      "#": "#minecraft:stone_crafting_materials"
     },
     "result": {
-        "id": "minecraft:dropper"
+      "id": "minecraft:dropper"
     }
-}
+  }

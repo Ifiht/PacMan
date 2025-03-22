@@ -49,10 +49,11 @@
               "tag": "{incendium:{item:'withersbane'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450007
-              }
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450007],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

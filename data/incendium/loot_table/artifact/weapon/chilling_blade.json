@@ -29,18 +29,19 @@
               "tag": "{incendium:{item:'chilling_blade'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450003
-              }
-            },
-            {
               "function": "minecraft:set_name",
               "name": {
                 "translate":"incendium.item.chilling_blade.name","fallback":"Chilling Blade",
                 "color": "#0088ff",
                 "italic": false
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450003],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

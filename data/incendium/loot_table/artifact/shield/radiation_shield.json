@@ -49,7 +49,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1450302,
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:banner_patterns": [
                   {
@@ -82,6 +81,13 @@
                   }
                 ]
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450302],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

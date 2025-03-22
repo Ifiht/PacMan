@@ -10,24 +10,27 @@
             "sound": "minecraft:ambient.nether_wastes.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.nether_wastes",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "ambient_sound": "minecraft:ambient.nether_wastes.loop",
         "sky_color": 7254527,
         "fog_color": 3344392,
         "water_color": 4159204,
         "water_fog_color": 329011
     },
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave",
-            "incendium:big_cave"
-        ]
-    },
+    "carvers": [
+        "minecraft:nether_cave",
+        "incendium:big_cave"
+    ],
     "features": [
         [],
         [],

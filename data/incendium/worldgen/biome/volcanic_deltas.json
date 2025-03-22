@@ -11,12 +11,17 @@
             "sound": "minecraft:ambient.basalt_deltas.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.basalt_deltas",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "fog_color": 8215650,
         "water_color": 6116194,
         "water_fog_color": 4341314,
@@ -28,12 +33,10 @@
             "probability": 0.1
         }
     },
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave",
-            "incendium:big_cave"
-        ]
-    },
+    "carvers": [
+        "minecraft:nether_cave",
+        "incendium:big_cave"
+    ],
     "features": [
         [
             "incendium:volcanic_deltas/eruption"

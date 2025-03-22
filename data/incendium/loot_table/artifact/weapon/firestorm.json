@@ -56,10 +56,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1450101,
                 "minecraft:repair_cost": 1000,
-                "fire_resistant": {}
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450101],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

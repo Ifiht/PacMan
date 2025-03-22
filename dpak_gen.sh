@@ -10,6 +10,13 @@ mkdir data
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data/
+rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data/
+rm -rf ./data/incendium/advancement
+rm -rf ./data/incendium/function
+rm -rf ./data/incendium/item_modifier
+rm -rf ./data/incendium/predicate
+rm -rf ./data/incendium/recipe
+rm -rf ./data/minecraft/loot_table
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
 # https://modrinth.com/datapack/terralith
@@ -35,13 +42,13 @@ rsync -avh ./sources/datapaks/yungs_better_mc1214/data/ ./data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
 rsync -avh ./sources/datapaks/tooltrims_dp_v2-3-0a_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nice-villagers-remastered
-rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
+#rsync -avh ./sources/datapaks/nicevillagers_mc1-21-1/data/ ./data/
 ### always keep custom changes last..
 rsync -avh ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
 
 ## Make continents larger:
-sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
-sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+#sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
+#sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
 ## Overworld Noise Settings
 # Remove noise caves:

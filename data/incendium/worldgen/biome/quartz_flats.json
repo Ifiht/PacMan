@@ -10,12 +10,17 @@
             "sound": "minecraft:ambient.warped_forest.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.soul_sand_valley",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "particle": {
             "options": {
                 "type": "minecraft:end_rod"
@@ -30,11 +35,7 @@
         "water_color": 4159204,
         "water_fog_color": 4341314
     },
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave"
-        ]
-    },
+    "carvers": "minecraft:nether_cave",
     "features": [
         [
             "incendium:quartz_flats/quartz_delta",

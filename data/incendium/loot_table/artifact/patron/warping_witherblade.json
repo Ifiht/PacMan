@@ -11,7 +11,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.movement_speed",
+                  "attribute": "minecraft:movement_speed",
                   "id": "d",
                   "amount": {
                     "min": -0.225,
@@ -21,14 +21,14 @@
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "id": "d",
                   "amount": -2.4,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "id": "d",
                   "amount": 13,
                   "operation": "add_value",
@@ -106,10 +106,11 @@
               "tag": "{incendium:{item:'warping_witherblade'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450001
-              }
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450001],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

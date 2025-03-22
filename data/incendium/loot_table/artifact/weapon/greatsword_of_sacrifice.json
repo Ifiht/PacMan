@@ -11,21 +11,21 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "id": "base",
                   "amount": -2.4,
                   "operation": "add_value",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "id": "base",
                   "amount": -0.45,
                   "operation": "add_multiplied_base",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "id": "base",
                   "amount": {
                     "min": 13,
@@ -77,10 +77,11 @@
               "tag": "{incendium:{item:'greatsword_of_sacrifice'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450004
-              }
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450004],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

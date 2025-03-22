@@ -57,12 +57,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1450200,
                 "minecraft:trim": {
                   "material": "minecraft:emerald",
                   "pattern": "minecraft:sentry"
                 }
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450200],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

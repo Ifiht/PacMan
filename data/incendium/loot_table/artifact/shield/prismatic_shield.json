@@ -12,7 +12,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
                   "id": "weaken",
                   "amount": {
                     "min": -0.05,
@@ -68,7 +68,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1450301,
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:banner_patterns": [
                   {
@@ -99,8 +98,18 @@
                     "pattern": "minecraft:curly_border",
                     "color": "white"
                   }
-                ]
+                ],
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450301],
+                      "mode": "replace_all"
+                  }
             }
           ]
         },
@@ -113,7 +122,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
                   "id": "weaken",
                   "amount": {
                     "min": -0.05,
@@ -169,7 +178,6 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1450303,
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:banner_patterns": [
                   {
@@ -201,8 +209,17 @@
                     "color": "gray"
                   }
                 ],
-                "fire_resistant": {}
+                "damage_resistant": {
+                  "types": "#minecraft:no_knockback"
+                }
               }
+            },
+            {
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450303],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

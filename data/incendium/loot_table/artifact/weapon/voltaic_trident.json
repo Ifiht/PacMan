@@ -17,7 +17,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "id": "voltic",
                   "amount": {
                     "min": 11,
@@ -59,10 +59,11 @@
               "tag": "{incendium:{item:'voltaic_trident'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450006
-              }
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450006],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

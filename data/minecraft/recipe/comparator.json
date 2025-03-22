@@ -1,22 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " # ",
-        "#X#",
-        "III"
+      " # ",
+      "#X#",
+      "III"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:redstone_torch"
-        },
-        "X": {
-            "item": "minecraft:quartz"
-        },
-        "I": {
-            "tag": "incendium:smooth_stone_crafting_materials"
-        }
+      "#": "minecraft:redstone_torch",
+      "X": "minecraft:quartz",
+      "I": "#incendium:smooth_stone_crafting_materials"
     },
     "result": {
-        "id": "minecraft:comparator"
+      "id": "minecraft:comparator"
     }
-}
+  }

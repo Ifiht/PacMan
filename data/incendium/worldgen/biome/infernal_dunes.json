@@ -17,12 +17,17 @@
             "sound": "minecraft:ambient.nether_wastes.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.nether_wastes",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
+            },
+            "weight": 1
         }
+    ]
     },
     "spawners": {
         "water_ambient": [],
@@ -53,12 +58,10 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": [
+    "carvers": [
             "minecraft:nether_cave",
             "incendium:big_cave"
-        ]
-    },
+        ],
     "features": [
         [
             "incendium:infernal_dunes/dune"

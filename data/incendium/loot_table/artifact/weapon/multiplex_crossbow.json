@@ -44,10 +44,11 @@
               "tag": "{incendium:{item:'multiplex_crossbow'}}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 1450102
-              }
+                "function": "minecraft:set_custom_model_data",
+                  "floats": {
+                      "values": [1450102],
+                      "mode": "replace_all"
+                  }
             }
           ]
         }

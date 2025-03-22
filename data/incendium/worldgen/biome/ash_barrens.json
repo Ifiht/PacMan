@@ -34,11 +34,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": [
-            "minecraft:nether_cave"
-        ]
-    },
+    "carvers": "minecraft:nether_cave",
     "features": [
         [
             "incendium:ash_barrens/ash_delta",
@@ -87,12 +83,17 @@
             "sound": "minecraft:ambient.basalt_deltas.additions",
             "tick_chance": 0.0111
         },
-        "music": {
+        "music": [
+            {
+            "data": {
             "sound": "minecraft:music.nether.basalt_deltas",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
-        },
+            },
+            "weight": 1
+        }
+    ],
         "fog_color": 6184034,
         "water_color": 4143428,
         "water_fog_color": 4341314,
