@@ -50,7 +50,7 @@ rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
 ##====+ FRESH ANIMS ADDONS!! +====##
 # https://www.planetminecraft.com/collection/137810/fresh-animations-add-ons/
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-2/assets/ ./assets/
-rsync -avh ./sources/resourcepaks/fa_xaeros_v2-4/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/fa_xaeros_v1-1_mc1214/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/fa_quivers_v1-1/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/fa_details_v1-1/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/nitpick_creeprs_v1-1/assets/ ./assets/

@@ -1,7 +1,0 @@
-
-{
-	"variants" : {
-		"default" : "sprite:minecraft/horse/horse_skeleton.png",
-		"layersAllowed": true
-	  }
-  }

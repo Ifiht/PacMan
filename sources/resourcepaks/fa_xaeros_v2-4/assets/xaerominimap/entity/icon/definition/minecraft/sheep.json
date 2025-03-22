@@ -1,7 +1,0 @@
-
-{
-	"variants" : {
-		"default" : "sprite:minecraft/sheep/sheep.png",
-		"layersAllowed": true
-	  }
-  }
