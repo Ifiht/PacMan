@@ -22,7 +22,9 @@ rsync -avh ./sources/datapaks/ampnether_v1-2-7_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
 # https://modrinth.com/datapack/terralith
-rsync -avh ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
+#rsync -avh ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
+# https://modrinth.com/datapack/tectonic
+rsync -avh ./sources/datapaks/tectonic_mc1214/data/ ./data/
 # https://modrinth.com/datapack/true-ending
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # Grand Capitals
@@ -90,26 +92,26 @@ sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/old
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/old_growth_spruce_taiga.json
 # (( TERRALITH BIOMES ))
 # -= Sakura Grove =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_grove.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_grove.json
 # -= Sakura Grove =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_valley.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_valley.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_valley.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_valley.json
 # -= Skylands Spring =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_spring.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_spring.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_spring.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_spring.json
 # -= Skylands Summer =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_summer.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_summer.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_summer.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_summer.json
 # -= Skylands Autumn =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_autumn.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_autumn.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_autumn.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_autumn.json
 # -= Skylands Winter =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_winter.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_winter.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_winter.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_winter.json
 # -= Cold Shrubland =-
-sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
-sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
+#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
+#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
 
 
 #========== REMOVE TICK.JSON =============#
