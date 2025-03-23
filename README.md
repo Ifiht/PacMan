@@ -2,6 +2,7 @@
 
 # PacMan
 Merge all the Minecraft Packs :package:  
+This repository automatically generates and hosts the latest data & resource packs for Ithavollr - just checkout the artifacts in the Package action.
 :basecamp: world [repo](https://github.com/Ifiht/Ithavollr)
 
 ## Usage
