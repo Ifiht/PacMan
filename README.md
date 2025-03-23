@@ -1,8 +1,10 @@
-# ![Package](https://github.com/Ifiht/PacMan/actions/workflows/makefile.yml/badge.svg)
+![Package](https://github.com/Ifiht/PacMan/actions/workflows/makefile.yml/badge.svg)
+![Package](https://github.com/Ifiht/PacMan/actions/workflows/runserver.yml/badge.svg)
 
 # PacMan
 Merge all the Minecraft Packs :package:  
-This repository automatically generates and hosts the latest data & resource packs for Ithavollr - just checkout the artifacts in the Package action.
+This repository automatically generates and hosts the latest data & resource packs for Ithavollr - just checkout the artifacts in the `Package Packs` action.  
+
 :basecamp: world [repo](https://github.com/Ifiht/Ithavollr)
 
 ## Usage
