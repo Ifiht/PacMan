@@ -8,7 +8,7 @@ This repository automatically generates and hosts the latest data & resource pac
 :basecamp: world [repo](https://github.com/Ifiht/Ithavollr)
 
 ## Usage
-This repo contains two scripts, `dpak_gen.sh` & `rpak_gen.sh` for datapacks and resourcepacks respectively, that work their way through all the sources specified, and overlay them on eachother to create one monolithic data folder and assets folder that 
+All edits to source material _must_ be done in the `sources` directory. New content may also be added here in the datapaks or resourcepaks folders as applicable. This repo contains two scripts, `dpak_gen.sh` & `rpak_gen.sh` for datapacks and resourcepacks, that work their way through all the sources specified, and overlay them on eachother to create one monolithic data folder and assets folder that 
 1. solves the issue of loading order for SpigotMC servers, and
 2. allows for precise editing and changing from a known state.
 
