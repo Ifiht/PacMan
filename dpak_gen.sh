@@ -9,14 +9,16 @@ mkdir data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
-rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data/
-rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data/
-rm -rf ./data/incendium/advancement
-rm -rf ./data/incendium/function
-rm -rf ./data/incendium/item_modifier
-rm -rf ./data/incendium/predicate
-rm -rf ./data/incendium/recipe
-rm -rf ./data/minecraft/loot_table
+#rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data/
+#rsync -avh ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data/
+#rm -rf ./data/incendium/advancement
+#rm -rf ./data/incendium/function
+#rm -rf ./data/incendium/item_modifier
+#rm -rf ./data/incendium/predicate
+#rm -rf ./data/incendium/recipe
+#rm -rf ./data/minecraft/loot_table
+# https://modrinth.com/datapack/amplified-nether ; tectonic for the Nether
+rsync -avh ./sources/datapaks/ampnether_v1-2-7_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
 # https://modrinth.com/datapack/terralith
