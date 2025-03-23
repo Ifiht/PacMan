@@ -1,3 +1,5 @@
+# ![Package](https://github.com/Ifiht/PacMan/actions/workflows/makefile.yml/badge.svg)
+
 # PacMan
 Merge all the Minecraft Packs :package:  
 :basecamp: world [repo](https://github.com/Ifiht/Ithavollr)
