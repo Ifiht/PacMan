@@ -17,6 +17,7 @@ dependencies {
     implementation(kotlin("stdlib"))
 }
 
+
 val prodPlugins = runPaper.downloadPluginsSpec {
     modrinth("terra", "6.6.1-BETA-bukkit")
 }
@@ -29,6 +30,19 @@ val testPlugins = runPaper.downloadPluginsSpec {
 
 // Function to delete & copy data and pack.mcmeta before running the server
 fun syncDataPack() {
+    val worldDirs = listOf(
+        file("run/world").toPath(),
+        file("run/world_nether").toPath(),
+        file("run/world_the_end").toPath()
+    )
+    // Delete existing world directories if they exist
+    worldDirs.forEach { worldDir ->
+        if (worldDir.exists()) {
+            worldDir.toFile().deleteRecursively()
+            println("Deleted existing world directory: $worldDir")
+        }
+    }
+    // Create new world directories
     val sourceDataDir = file("data").toPath()
     val targetDataDir = file("run/world/datapacks/test/data").toPath()
     val sourcePackMcmeta = file("pack.mcmeta").toPath()

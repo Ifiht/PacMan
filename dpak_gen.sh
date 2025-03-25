@@ -20,11 +20,13 @@ mkdir data
 # https://modrinth.com/datapack/amplified-nether ; tectonic for the Nether
 rsync -avh ./sources/datapaks/ampnether_v1-2-7_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
-rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
+#rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
+#rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-2-overlay/data/ ./data/
+#rsync -avh ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-4-overlay/data/ ./data/
 # https://modrinth.com/datapack/terralith
 #rsync -avh ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
 # https://modrinth.com/datapack/tectonic
-rsync -avh ./sources/datapaks/tectonic_mc1214/data/ ./data/
+#rsync -avh ./sources/datapaks/tectonic_mc1214/data/ ./data/
 # https://modrinth.com/datapack/true-ending
 rsync -avh ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # Grand Capitals
@@ -56,9 +58,9 @@ rsync -avh ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
 
 ## Overworld Noise Settings
 # Remove noise caves:
-sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data/minecraft/worldgen/noise_settings/overworld.json
+#sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data/minecraft/worldgen/noise_settings/overworld.json
 # Fix noise height:
-sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
+#sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
 
 ## Remove lava lakes from vegetation biomes:
 # (( MINECRAFT BIOMES ))

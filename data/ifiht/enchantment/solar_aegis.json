@@ -6,7 +6,7 @@
 	"effects": {
 		"minecraft:attributes": [
 			{
-				"attribute": "minecraft:generic.armor",
+				"attribute": "minecraft:armor",
 				"id": "ifiht:enchantment.solar_aegis",
 				"operation": "add_value",
 				"amount": {

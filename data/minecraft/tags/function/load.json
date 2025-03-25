@@ -5,7 +5,13 @@
       "id": "terralith:setup",
       "required": false
     },
-    "true_ending:load",
-    "nvr:load"
+    {
+      "id": "true_ending:load",
+      "required": false
+    },
+    {
+      "id": "nvr:load",
+      "required": false
+    }
   ]
 }
