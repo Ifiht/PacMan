@@ -17,6 +17,7 @@ dependencies {
     implementation(kotlin("stdlib"))
 }
 
+val mcVersion = "1.21.4"
 
 val prodPlugins = runPaper.downloadPluginsSpec {
     modrinth("terra", "6.6.1-BETA-bukkit")
@@ -71,15 +72,13 @@ fun syncDataPack() {
 
 // Test PaperMC run & immediately shut down, for github actions
 tasks.register<RunServer>("runServerTest") {
-    //dependsOn(tasks.shadowJar)
-    minecraftVersion("1.21.4")
+    minecraftVersion(mcVersion)
     downloadPlugins.from(testPlugins)
     doFirst { syncDataPack() } // Run before the server starts
 }
 // Start a local PaperMC test server for login & manual testing
 tasks.register<RunServer>("runServerInteractive") {
-    //dependsOn(tasks.shadowJar)
-    minecraftVersion("1.21.4")
+    minecraftVersion(mcVersion)
     downloadPlugins.from(prodPlugins)
     doFirst { syncDataPack() } // Run before the server starts
 }
