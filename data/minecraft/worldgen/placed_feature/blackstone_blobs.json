@@ -20,20 +20,20 @@
 				}
 			}
 		},
-		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:matching_blocks",
-				"offset": [
-					0,
-					0,
-					0
-				],
-				"blocks": [
-					"minecraft:netherrack"
-				]
-			}
-		},
+		    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "blocks": [
+          "minecraft:netherrack"
+        ]
+      }
+    },
 		{
 			"type": "minecraft:biome"
 		}

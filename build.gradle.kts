@@ -21,6 +21,7 @@ val mcVersion = "1.21.4"
 
 val prodPlugins = runPaper.downloadPluginsSpec {
     modrinth("terra", "6.6.1-BETA-bukkit")
+    modrinth("flycraft", "1.4.2")
 }
 
 val testPlugins = runPaper.downloadPluginsSpec {
