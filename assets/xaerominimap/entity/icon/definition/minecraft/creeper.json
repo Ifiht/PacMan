@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/creeper/creeper.png",
+	"variants": {
+		"default": "outlined_sprite:minecraft/creeper/creeper.png",
 		"layersAllowed": true
-	  }
-  }
+	}
+}

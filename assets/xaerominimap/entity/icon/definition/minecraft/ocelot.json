@@ -1,7 +1,7 @@
 
 {
 	"variants" : {
-		"default" : "sprite:minecraft/cat/ocelot.png",
+		"default" : "outlined_sprite:minecraft/cat/ocelot.png",
 		"layersAllowed": true
 	  }
   }

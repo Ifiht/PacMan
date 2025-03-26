@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/horse/horse_skeleton.png",
-		"layersAllowed": true
-	  }
+  "variants": {
+    "default": "outlined_sprite:minecraft/house/horse_skeleton.png",
+    "layersAllowed": true
   }
+}

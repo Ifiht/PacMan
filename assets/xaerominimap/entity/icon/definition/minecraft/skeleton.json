@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/skeleton/skeleton.png",
+	"variants": {
+		"default": "outlined_sprite:minecraft/skeleton/skeleton.png",
 		"layersAllowed": true
-	  }
-  }
+	}
+}

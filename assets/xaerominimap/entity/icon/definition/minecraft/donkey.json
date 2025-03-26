@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/horse/donkey.png",
-		"layersAllowed": true
-	  }
+  "variants": {
+    "default": "outlined_sprite:minecraft/house/donkey.png",
+    "layersAllowed": true
   }
+}

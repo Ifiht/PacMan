@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/horse/horse_zombie.png",
-		"layersAllowed": true
-	  }
+  "variants": {
+    "default": "outlined_sprite:minecraft/house/horse_zombie.png",
+    "layersAllowed": true
   }
+}

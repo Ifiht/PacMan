@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/chicken.png",
-		"layersAllowed": true
-	  }
+  "variants": {
+    "default": "outlined_sprite:minecraft/chicken.png",
+    "layersAllowed": true
   }
+}

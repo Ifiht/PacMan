@@ -70,6 +70,7 @@ fun syncDataPack() {
     }
 }
 
+
 // Test PaperMC run & immediately shut down, for github actions
 tasks.register<RunServer>("runServerTest") {
     minecraftVersion(mcVersion)
@@ -81,4 +82,10 @@ tasks.register<RunServer>("runServerInteractive") {
     minecraftVersion(mcVersion)
     downloadPlugins.from(prodPlugins)
     doFirst { syncDataPack() } // Run before the server starts
+}
+
+// Test PaperMC run & immediately shut down, but don't delete or modify anything
+tasks.register<RunServer>("runServerUnmodified") {
+    minecraftVersion(mcVersion)
+    downloadPlugins.from(testPlugins)
 }

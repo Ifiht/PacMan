@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/skeleton/wither_skeleton.png",
+	"variants": {
+		"default": "outlined_sprite:minecraft/skeleton/wither_skeleton.png",
 		"layersAllowed": true
-	  }
-  }
+	}
+}

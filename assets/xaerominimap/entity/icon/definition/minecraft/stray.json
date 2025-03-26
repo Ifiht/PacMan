@@ -1,7 +1,6 @@
-
 {
-	"variants" : {
-		"default" : "sprite:minecraft/skeleton/stray.png",
+	"variants": {
+		"default": "outlined_sprite:minecraft/skeleton/stray.png",
 		"layersAllowed": true
-	  }
-  }
+	}
+}
