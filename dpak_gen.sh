@@ -16,12 +16,6 @@ rm -rf ./data/minecraft/loot_table
 rm -rf ./data/minecraft/tags/block
 rm -rf ./data/minecraft/tags/damage_type
 rm -rf ./data/minecraft/tags/function
-# https://modrinth.com/datapack/terralith
-#rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
-# https://modrinth.com/datapack/tectonic
-#rsync -avhc ./sources/datapaks/tectonic_mc1214/data/ ./data/
-# https://modrinth.com/datapack/amplified-nether ; tectonic for the Nether
-#rsync -avhc ./sources/datapaks/ampnether_v1-2-7_mc1214/data/ ./data/
 # https://modrinth.com/datapack/nullscape ; terralith for the End
 rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-2-overlay/data/ ./data/
@@ -30,6 +24,14 @@ rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-4-overlay/data/ ./d
 #rsync -avhc ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
 # Grand Capitals
 rsync -avhc ./sources/datapaks/luki_grandcapitals_v1-1-1_mc1214/data/ ./data/
+# https://modrinth.com/datapack/terralith
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-2-overlay/data/ ./data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-4-overlay/data/ ./data/
+# https://modrinth.com/datapack/tectonic
+#rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data/
+# https://modrinth.com/datapack/terratonic
+rsync -avhc ./sources/datapaks/terratonic_v3-2_mc1214/data/ ./data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
