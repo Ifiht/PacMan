@@ -39,13 +39,13 @@ rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data/
 # NV Packs
 rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_villagenames_v1-2_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_villagernames_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data/
 # YUNG's betters
-rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data/
+#rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
 rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0a_mc1214/data/ ./data/
 ### always keep custom changes last..
@@ -57,9 +57,9 @@ rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
 
 ## Overworld Noise Settings
 # Remove noise caves:
-#sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data/minecraft/worldgen/noise_settings/overworld.json
+sed -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data/minecraft/worldgen/noise_settings/overworld.json
 # Fix noise height:
-#sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
+sed -i 's/"height": 384,/"height": 480,/g' data/minecraft/worldgen/noise_settings/overworld.json
 
 ## Remove lava lakes from vegetation biomes:
 # (( MINECRAFT BIOMES ))
@@ -93,26 +93,26 @@ sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/minecraft/worldgen/biome/old
 sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/minecraft/worldgen/biome/old_growth_spruce_taiga.json
 # (( TERRALITH BIOMES ))
 # -= Sakura Grove =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_grove.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_grove.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_grove.json
 # -= Sakura Grove =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_valley.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_valley.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/sakura_valley.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/sakura_valley.json
 # -= Skylands Spring =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_spring.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_spring.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_spring.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_spring.json
 # -= Skylands Summer =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_summer.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_summer.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_summer.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_summer.json
 # -= Skylands Autumn =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_autumn.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_autumn.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_autumn.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_autumn.json
 # -= Skylands Winter =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_winter.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_winter.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/skylands_winter.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/skylands_winter.json
 # -= Cold Shrubland =-
-#sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
-#sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
+sed -i '/^.*"minecraft:lake_lava_surface".*/d' data/terralith/worldgen/biome/cold_shrubland.json
+sed -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data/terralith/worldgen/biome/cold_shrubland.json
 
 
 #========== REMOVE TICK.JSON =============#
