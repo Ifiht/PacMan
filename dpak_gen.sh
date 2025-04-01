@@ -44,6 +44,7 @@ rsync -avhc ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data/
 rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data/
 # YUNG's betters
 #rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)

@@ -47,7 +47,7 @@ fun syncDataPack() {
     // Create new world directories
     val sourceDataDir = file("data").toPath()
     val targetDataDir = file("run/world/datapacks/test/data").toPath()
-    val sourcePackMcmeta = file("pack.mcmeta").toPath()
+    val sourcePackMcmeta = file("dpack.mcmeta").toPath()
     val targetPackMcmeta = file("run/world/datapacks/test/pack.mcmeta").toPath()
 
     // Sync data directory
