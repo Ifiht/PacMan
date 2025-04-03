@@ -18,11 +18,20 @@ jobs:
       id: get-commit-hash
       run: echo "SHORT_HASH=${GITHUB_SHA::7}" >> $GITHUB_ENV
       
+    - name: Rename dpack.mcmeta to pack.mcmeta
+      run: mv dpack.mcmeta pack.mcmeta
+    
     - name: Upload data artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_dpack-${{ env.SHORT_HASH }}
-        path: data
+        path: |
+          assets
+          pack.mcmeta
+        compression-level: 9
+
+    - name: Rename rpack.mcmeta to pack.mcmeta
+      run: mv rpack.mcmeta pack.mcmeta
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
