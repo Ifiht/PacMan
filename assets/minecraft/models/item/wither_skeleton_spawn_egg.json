@@ -1,6 +1,6 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "minecraft:item/wither_skeleton_spawn_egg"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/wither_skeleton_spawn_egg"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "minecraft:item/pufferfish_spawn_egg"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/pufferfish_spawn_egg"
   }
 }
