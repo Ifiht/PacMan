@@ -30,9 +30,10 @@ rsync -avh ./sources/resourcepaks/verv_plants_v1-0-3_mc1214/assets/ ./assets/
 rm -rf ./assets/minecraft/textures/block/*leaves_top.png
 rm -rf ./assets/minecraft/textures/block/*leaves_bottom.png
 rm -rf ./assets/minecraft/models/block/*_leaves.json
+rm -rf ./assets/minecraft/optifine
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be next.. it overwrites too many things..
-rsync -avh ./sources/resourcepaks/rdista_basic_128xR29_mc1214/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/rdista_basic_128xR30_mc1214/assets/ ./assets/
 ### 3D Packs +=============================##
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets/
