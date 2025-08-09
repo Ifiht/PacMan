@@ -60,7 +60,7 @@ jobs:
     - name: Download Artifact
       uses: actions/download-artifact@v4
       with:
-        name: ${{ needs.build_paks.outputs.artifact_name }}
+        name: ${{ needs.build_paks.outputs.name }}
 
     # Get the token from NokNokRok
     - name: Generate App Token
