@@ -37,7 +37,7 @@ jobs:
 
     - name: Set asset artifact name
       id: set-artifact-name
-      run: echo "name=Ithavollr_rpack-${{ env.SHORT_HASH }}.zip" >> $GITHUB_OUTPUT
+      run: echo "name=Ithavollr_rpack-${{ env.SHORT_HASH }}" >> $GITHUB_OUTPUT
 
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
@@ -60,7 +60,7 @@ jobs:
     - name: Download Artifact
       uses: actions/download-artifact@v4
       with:
-        name: ${{ needs.build_paks.outputs.name }}
+        name: ${{ needs.build_paks.outputs.artifact_name }}
 
     # Get the token from NokNokRok
     - name: Generate App Token
@@ -80,7 +80,8 @@ jobs:
     - name: Deploy Artifacts
       run: |
         rm cmp/resourcepacks/Ithavollr_rpack.zip
-        cp '${{ needs.build_paks.outputs.artifact_name }}' cmp/resourcepacks/Ithavollr_rpack.zip
+        zip -r Ithavollr_rpack.zip ${{ needs.build_paks.outputs.artifact_name }}
+        mv Ithavollr_rpack.zip cmp/resourcepacks/
         cd cmp
         git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
         git config --global user.email '${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
