@@ -10,6 +10,8 @@ jobs:
   build_paks:
 
     runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.set-artifact-name.outputs.name }}
 
     steps:
     - uses: actions/checkout@v4
@@ -33,6 +35,10 @@ jobs:
     - name: Rename rpack.mcmeta to pack.mcmeta
       run: mv rpack.mcmeta pack.mcmeta
 
+    - name: Set asset artifact name
+      id: set-artifact-name
+      run: echo "name=Ithavollr_rpack-${{ env.SHORT_HASH }}.zip" >> $GITHUB_OUTPUT
+
     - name: Upload asset artifact
       uses: actions/upload-artifact@v4
       with:
@@ -54,7 +60,7 @@ jobs:
     - name: Download Artifact
       uses: actions/download-artifact@v4
       with:
-        name: Ithavollr_rpack-${{ env.SHORT_HASH }}
+        name: ${{ needs.build_paks.outputs.name }}
     # Get the token from NokNokRok
     - name: Generate App Token
       uses: actions/create-github-app-token@v2
