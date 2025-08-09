@@ -80,7 +80,6 @@ jobs:
     - name: Deploy Artifacts
       run: |
         rm cmp/resourcepacks/Ithavollr_rpack.zip
-        ls -al
         zip -9r Ithavollr_rpack.zip assets pack.mcmeta pack.png
         mv Ithavollr_rpack.zip cmp/resourcepacks/
         cd cmp
