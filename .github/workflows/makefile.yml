@@ -80,6 +80,7 @@ jobs:
     - name: Deploy Artifacts
       run: |
         rm cmp/resourcepacks/Ithavollr_rpack.zip
+        ls -al
         zip -r Ithavollr_rpack.zip ${{ needs.build_paks.outputs.artifact_name }}
         mv Ithavollr_rpack.zip cmp/resourcepacks/
         cd cmp
