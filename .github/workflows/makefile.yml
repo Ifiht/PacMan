@@ -42,3 +42,45 @@ jobs:
           pack.mcmeta
           pack.png
         compression-level: 9
+
+  update_client:
+    needs: build_paks
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    # Get the authoritative zip file
+    - name: Download Artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: Ithavollr_rpack-${{ env.SHORT_HASH }}
+    # Get the token from NokNokRok
+    - name: Generate App Token
+      uses: actions/create-github-app-token@v2
+      id: app-token
+      with:
+        app-id: ${{ secrets.NOK_APP_ID }}
+        private-key: ${{ secrets.NOK_PRIVATE_KEY }}
+
+    - name: Checkout ClientModpack
+      uses: actions/checkout@v4
+      with:
+        repository: Ithavollr/ClientModpack
+        token: ${{ steps.app-token.outputs.token }}
+        path: cmp
+
+    - name: Deploy Artifacts
+      run: |
+        rm cmp/resourcepacks/Ithavollr_rpack.zip
+        cp Ithavollr_rpack-${{ env.SHORT_HASH }}.zip cmp/resourcepacks/Ithavollr_rpack.zip
+        cd cmp
+        git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
+        git config --global user.email '${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+        git add .
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit."
+        else
+          git commit -m "Deploy rpack ${{ env.SHORT_HASH }}"
+          git push
+        fi
