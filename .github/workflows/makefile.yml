@@ -49,48 +49,7 @@ jobs:
           pack.png
         compression-level: 9
 
-  update_client:
-    needs: build_paks
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
-    steps:
-    # Get the authoritative zip file
-    - name: Download Artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ needs.build_paks.outputs.artifact_name }}
-
-    # Get the token from NokNokRok
-    - name: Generate App Token
-      uses: actions/create-github-app-token@v2
-      id: app-token
-      with:
-        app-id: ${{ secrets.NOK_APP_ID }}
-        private-key: ${{ secrets.NOK_PRIVATE_KEY }}
-
-    - name: Checkout ClientModpack
-      uses: actions/checkout@v4
-      with:
-        repository: Ithavollr/ClientModpack
-        token: ${{ steps.app-token.outputs.token }}
-        path: cmp
-
-    - name: Deploy Artifacts
+    - name: Notify Jenkins
+      if: success()
       run: |
-        rm cmp/resourcepacks/Ithavollr_rpack.zip
-        zip -9r Ithavollr_rpack.zip assets pack.mcmeta pack.png
-        mv Ithavollr_rpack.zip cmp/resourcepacks/
-        cd cmp
-        git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
-        git config --global user.email '${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
-        git add .
-        if git diff-index --quiet HEAD; then
-          echo "No changes to commit."
-        else
-          git commit -m "Deploy ${{ needs.build_paks.outputs.artifact_name }}"
-          git push
-        fi
+        curl -X POST "${{ secrets.JENKINS_URL }}/generic-webhook-trigger/invoke?token=${{ secrets.JENKINS_WEBHOOK_TOKEN }}"
