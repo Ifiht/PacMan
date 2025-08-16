@@ -61,4 +61,3 @@ jobs:
               "asset_artifact_id":"${{ steps.upload-asset-artifact.outputs.artifact-id }}"
             }' \
             ${{ secrets.JENKINS_URL }}/pacman
-
