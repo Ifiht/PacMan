@@ -10,8 +10,6 @@ jobs:
   build_paks:
 
     runs-on: ubuntu-latest
-    outputs:
-      artifact_name: ${{ steps.set-artifact-name.outputs.name }}
 
     steps:
     - uses: actions/checkout@v4
@@ -24,6 +22,7 @@ jobs:
       run: mv dpack.mcmeta pack.mcmeta
     
     - name: Upload data artifact
+      id: upload-data-artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_dpack-${{ env.SHORT_HASH }}
@@ -40,6 +39,7 @@ jobs:
       run: echo "name=Ithavollr_rpack-${{ env.SHORT_HASH }}" >> $GITHUB_OUTPUT
 
     - name: Upload asset artifact
+      id: upload-asset-artifact
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_rpack-${{ env.SHORT_HASH }}
@@ -52,6 +52,13 @@ jobs:
     - name: Alert Jenkins
       if: success()
       run: |
-        curl -X POST "${{ secrets.JENKINS_URL }}/job/pacman_artifact/build?token=${{ secrets.JENKINS_WEBHOOK_TOKEN }}" \
-        --user "${{ secrets.JENKINS_USER }}:${{ secrets.JENKINS_API_TOKEN }}"
+        curl -X POST \
+          -H "Content-Type: application/json" \
+          -d '{
+              "token":"${{ secrets.JENKINS_WEBHOOK_TOKEN }}",
+              "run_id":"${{ github.run_id }}",
+              "data_artifact_id":"${{ steps.upload-data-artifact.outputs.artifact-id }}",
+              "asset_artifact_id":"${{ steps.upload-asset-artifact.outputs.artifact-id }}"
+            }' \
+            ${{ secrets.JENKINS_URL }}/pacman
 
