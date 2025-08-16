@@ -49,7 +49,11 @@ jobs:
           pack.png
         compression-level: 9
 
-    - name: Notify Jenkins
+    - name: Alert Jenkins
+      uses: sbitio/trigger-jenkins-job@master
       if: success()
-      run: |
-        curl -X POST "${{ secrets.JENKINS_URL }}/job/Staging%20Server/build?token=${{ secrets.JENKINS_WEBHOOK_TOKEN }}"
+      with:
+        JENKINS_USER: ${{ secrets.JENKINS_USER }}
+        JENKINS_TOKEN: ${{ secrets.JENKINS_WEBHOOK_TOKEN }}
+        JENKINS_HOST: ${{ secrets.JENKINS_URL }}
+        JENKINS_JOB: pacman_artifact
