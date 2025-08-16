@@ -48,7 +48,7 @@ rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data/
 # YUNG's betters
 #rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
-rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0a_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0b_mc1214/data/ ./data/
 ### always keep custom changes last..
 rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
 

@@ -45,7 +45,7 @@ rsync -avh ./sources/resourcepaks/mkpk_shrooms_v1-2_mc1214/assets/ ./assets/
 rsync -avh ./sources/resourcepaks/3d_mace_v4_mc1214/assets/ ./assets/
 ##====+ TOOL TRIMS +==============##
 # https://modrinth.com/plugin/tooltrims
-rsync -avh ./sources/resourcepaks/tooltrims_rp_v2v2-2-2a/assets/ ./assets/
+rsync -avh ./sources/resourcepaks/tooltrims_rp_v2-3-0b_mc1214/assets/ ./assets/
 # https://modrinth.com/resourcepack/fresh-animations
 rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets/
 ##====+ FRESH ANIMS ADDONS!! +====##
