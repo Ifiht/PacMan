@@ -52,4 +52,4 @@ jobs:
     - name: Notify Jenkins
       if: success()
       run: |
-        curl -X POST "${{ secrets.JENKINS_URL }}/generic-webhook-trigger/invoke?token=${{ secrets.JENKINS_WEBHOOK_TOKEN }}"
+        curl -X POST "${{ secrets.JENKINS_URL }}/job/Staging%20Server/build?token=${{ secrets.JENKINS_WEBHOOK_TOKEN }}"
