@@ -9,10 +9,10 @@ mkdir -p data_v61/data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/terralith ; add structures only from Terralith
-#rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data_v61/data/
-#rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-2-overlay/data/ ./data_v61/data/
-#rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-4-overlay/data/ ./data_v61/data/
-#rm -rf ./data_v61/data/minecraft
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-2-overlay/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-4-overlay/data/ ./data_v61/data/
+rm -rf ./data_v61/data/minecraft
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
