@@ -22,6 +22,7 @@ rm -rf ./data_v61/data/terralith/worldgen/density_function
 rm -rf ./data_v61/data/terralith/worldgen/configured_feature
 rm -rf ./data_v61/data/terralith/worldgen/structure/underground
 rm -rf ./data_v61/data/terralith/tags/worldgen/biome
+rm -f ./data_v61/data/terralith/worldgen/structure_set/underground_dungeon.json
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
