@@ -1,1 +1,0 @@
-summon creeper ~ ~-3 ~ {PersistenceRequired:1b,Tags:["nmr_creeper_tweaked","eden.tweaked"],ExplosionRadius:0b,active_effects:[{id:"minecraft:blindness",amplifier:1,duration:-1,show_particles:0b}]}

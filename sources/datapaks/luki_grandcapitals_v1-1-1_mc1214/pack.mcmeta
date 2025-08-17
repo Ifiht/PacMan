@@ -1,7 +1,0 @@
-{
-	"pack": {
-		"pack_format": 15,
-		"description": "Grand Capitals to explore and loot",
-        "supported_formats": {"min_inclusive": 14, "max_inclusive": 100}
-	}
-}
