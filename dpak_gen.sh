@@ -18,6 +18,7 @@ rm -rf ./data_v61/data/c
 rm -rf ./data_v61/data/terralith/recipe
 rm -rf ./data_v61/data/terralith/worldgen/density_function
 rm -rf ./data_v61/data/terralith/worldgen/placed_feature
+rm -rf ./data_v61/data/terralith/worldgen/biome
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
