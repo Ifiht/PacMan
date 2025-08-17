@@ -26,7 +26,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_dpack-${{ env.SHORT_HASH }}
-        path: dpak_v61/
+        path: data_v61/
         compression-level: 9
     - name: Zip data artifact
       run: zip -9r Ithavollr_dpack.zip data_v61
