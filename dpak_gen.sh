@@ -8,6 +8,11 @@ rm -rf data_v61
 mkdir -p data_v61/data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
+# https://modrinth.com/datapack/terralith ; add structures only from Terralith
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-2-overlay/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-4-overlay/data/ ./data_v61/data/
+rm -rf ./data_v61/data/minecraft
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
@@ -22,11 +27,9 @@ rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-2-overlay/data/ ./d
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./data_v61/data/
 # https://modrinth.com/datapack/tidal-towns
 rsync -avhc ./sources/datapaks/tidaltowns_v1-3-4_mc1214/data/ ./data_v61/data/
-# https://modrinth.com/datapack/terralith ; add structures only from Terralith
-rsync -avhc ./sources/datapaks/luki_grandcapitals_v1-1-1_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/tectonic
-rsync -avhc ./sources/datapaks/tectonic_v3-0-2_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/tectonic_v3-0-2_mc1214/overlay.datapack/data/ ./data_v61/
+rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
+#rsync -avhc ./sources/datapaks/tectonic_v3-0-2_mc1214/overlay.datapack/data/ ./data_v61/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
