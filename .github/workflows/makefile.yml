@@ -27,16 +27,14 @@ jobs:
       with:
         name: Ithavollr_dpack-${{ env.SHORT_HASH }}
         path: |
-          assets
+          data
           pack.mcmeta
         compression-level: 9
+    - name: Zip data artifact
+      run: zip -9r Ithavollr_dpack.zip data pack.mcmeta pack.png
 
     - name: Rename rpack.mcmeta to pack.mcmeta
       run: mv rpack.mcmeta pack.mcmeta
-
-    - name: Set asset artifact name
-      id: set-artifact-name
-      run: echo "name=Ithavollr_rpack-${{ env.SHORT_HASH }}" >> $GITHUB_OUTPUT
 
     - name: Upload asset artifact
       id: upload-asset-artifact
@@ -48,16 +46,21 @@ jobs:
           pack.mcmeta
           pack.png
         compression-level: 9
+    - name: Zip asset artifact
+      run: zip -9r Ithavollr_rpack.zip assets pack.mcmeta pack.png
 
-    - name: Alert Jenkins
-      if: success()
+    - name: Stream asset artifact
       run: |
         curl -X POST \
-          -H "Content-Type: application/json" \
-          -d '{
-              "token":"${{ secrets.JENKINS_WEBHOOK_TOKEN }}",
-              "run_id":"${{ github.run_id }}",
-              "data_artifact_id":"${{ steps.upload-data-artifact.outputs.artifact-id }}",
-              "asset_artifact_id":"${{ steps.upload-asset-artifact.outputs.artifact-id }}"
-            }' \
-            ${{ secrets.JENKINS_URL }}/pacman
+          -H "Authorization: Bearer ${{ secrets.JENKINS_WEBHOOK_TOKEN }}" \
+          -H "Content-Type: application/octet-stream" \
+          --data-binary @Ithavollr_rpack.zip \
+          ${{ secrets.JENKINS_URL }}/pacman-rpak
+          
+    - name: Stream data artifact
+      run: |
+        curl -X POST \
+          -H "Authorization: Bearer ${{ secrets.JENKINS_WEBHOOK_TOKEN }}" \
+          -H "Content-Type: application/octet-stream" \
+          --data-binary @Ithavollr_dpack.zip \
+          ${{ secrets.JENKINS_URL }}/pacman-dpak
