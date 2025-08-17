@@ -1,5 +1,5 @@
 {
   "type": "minecraft:add",
-  "argument1": "tectonic:biome_parameter/erosion",
+  "argument1": "minecraft:overworld/erosion",
   "argument2": 0
 }
