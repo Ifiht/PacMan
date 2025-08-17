@@ -4,53 +4,48 @@
 find . -name "*:Zone.Identifier" -type f -delete
 
 ## Remove data dir & recreate
-rm -rf data
-mkdir data
+rm -rf dpak
+mkdir -p dpak/data
 
 ## Sync sources with data, first here is "last" to load, ones farther down will overwrite
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
-rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data/
-rm -rf ./data/minecraft/recipe
-rm -rf ./data/minecraft/loot_table
-rm -rf ./data/minecraft/tags/block
-rm -rf ./data/minecraft/tags/damage_type
-rm -rf ./data/minecraft/tags/function
+rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./dpak/data/
+rm -rf ./dpak/data/minecraft/recipe
+rm -rf ./dpak/data/minecraft/loot_table
+rm -rf ./dpak/data/minecraft/tags/block
+rm -rf ./dpak/data/minecraft/tags/damage_type
+rm -rf ./dpak/data/minecraft/tags/function
 # https://modrinth.com/datapack/nullscape ; terralith for the End
-rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-2-overlay/data/ ./data/
-rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-4-overlay/data/ ./data/
+rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-2-overlay/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nullscape_v1-2-10_mc1214/1-21-4-overlay/data/ ./dpak/data/
 # https://modrinth.com/datapack/true-ending
-#rsync -avhc ./sources/datapaks/trueending_mc1-21-1/data/ ./data/
+#rsync -avhc ./sources/datapaks/trueending_mc1-21-1/data/ ./dpak/data/
 # Grand Capitals
-rsync -avhc ./sources/datapaks/luki_grandcapitals_v1-1-1_mc1214/data/ ./data/
-# https://modrinth.com/datapack/terralith
-rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-2-overlay/data/ ./data/
-rsync -avhc ./sources/datapaks/terralith_v2-5-8_mc1214/1-21-4-overlay/data/ ./data/
+rsync -avhc ./sources/datapaks/luki_grandcapitals_v1-1-1_mc1214/data/ ./dpak/data/
 # https://modrinth.com/datapack/tectonic
-#rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data/
-# https://modrinth.com/datapack/terratonic
-rsync -avhc ./sources/datapaks/terratonic_v3-2_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/tectonic_v3-0-2_mc1214/data/ ./dpak/data/
+rsync -avhc overlay.* ./
 # https://modrinth.com/datapack/qraftys-mushroom-villages
-rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./dpak/data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
-rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./dpak/data/
 # NV Packs
-rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data/
-rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./dpak/data/
+rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./dpak/data/
 # YUNG's betters
-#rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data/
+#rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./dpak/data/
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
-rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0b_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0b_mc1214/data/ ./dpak/data/
 ### always keep custom changes last..
-rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./data/
+rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./dpak/data/
 
 ## Make continents larger:
 #sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json

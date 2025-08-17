@@ -1,0 +1,154 @@
+{
+  "pack": {
+    "supported_formats": [48,80],
+    "pack_format": 71,
+    "description": [
+      "Made with ",
+      {
+        "text": "<3",
+        "color": "red"
+      },
+      " by ",
+      {
+        "text": "Apollo",
+        "color": "#b891ff"
+      },
+      "\n"
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay.datapack",
+        "formats": [1, 99]
+      }
+    ]
+  },
+  "neoforge:overlays": {
+    "entries": [
+      {
+        "directory": "overlay.increased_height",
+        "formats": [1, 99],
+        "neoforge:conditions": [
+          {
+            "type": "tectonic:config",
+            "key": "increased_height"
+          }
+        ]
+      },      
+      {
+        "directory": "overlay.terratonic",
+        "formats": [1, 99],
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "terralith"
+          }
+        ]
+      },
+      {
+        "directory": "overlay.terratonic_increased_height",
+        "formats": [1, 99],
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "terralith"
+          },
+          {
+            "type": "tectonic:config",
+            "key": "increased_height"
+          }
+        ]
+      },
+      {
+        "directory": "overlay.clifftree",
+        "formats": [1, 99],
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "mr_clifftree"
+          }
+        ]
+      },
+      {
+        "directory": "overlay.clifftree_increased_height",
+        "formats": [1, 99],
+        "neoforge:conditions": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "mr_clifftree"
+          },
+          {
+            "type": "tectonic:config",
+            "key": "increased_height"
+          }
+        ]
+      }
+    ]
+  },
+  "fabric:overlays": {
+    "entries": [
+      {
+        "directory": "overlay.increased_height",
+        "condition": {
+          "condition": "tectonic:config",
+          "key": "increased_height"
+        }
+      },
+      {
+        "directory": "overlay.terratonic",
+        "condition": {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "terralith"
+          ]
+        }
+      },
+      {
+        "directory": "overlay.terratonic_increased_height",
+        "condition": {
+          "condition": "fabric:and",
+          "values": [
+            {
+              "condition": "fabric:all_mods_loaded",
+              "values": [
+                "terralith"
+              ]
+            },
+            {
+              "condition": "tectonic:config",
+              "key": "increased_height"
+            }
+          ]
+        }
+      },
+      {
+        "directory": "overlay.clifftree",
+        "condition": {
+          "condition": "fabric:all_mods_loaded",
+          "values": [
+            "mr_clifftree"
+          ]
+        }
+      },
+      {
+        "directory": "overlay.clifftree_increased_height",
+        "condition": {
+          "condition": "fabric:and",
+          "values": [
+            {
+              "condition": "fabric:all_mods_loaded",
+              "values": [
+                "mr_clifftree"
+              ]
+            },
+            {
+              "condition": "tectonic:config",
+              "key": "increased_height"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
