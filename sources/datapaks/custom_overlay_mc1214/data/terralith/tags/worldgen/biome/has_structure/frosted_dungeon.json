@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:swamp"
+    "terralith:cave/frostfire_caves"
   ]
 }

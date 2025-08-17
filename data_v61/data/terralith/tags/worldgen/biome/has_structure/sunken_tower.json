@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "minecraft:lush_caves",
-        "terralith:cave/underground_jungle"
+        "minecraft:lush_caves"
     ]
 }
