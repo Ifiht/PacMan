@@ -1,0 +1,8 @@
+
+{
+	"variants" : {
+		"default" : "outlined_sprite:minecraft/piglin/zombified_piglin.png"
+		,
+		"layersAllowed": true
+	  }
+  }
