@@ -1,1 +1,0 @@
-execute if items entity @s weapon.mainhand #minecraft:enchantable/weapon run item modify entity @s weapon.mainhand kattersstructures:set_repaircost

@@ -26,12 +26,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_dpack-${{ env.SHORT_HASH }}
-        path: |
-          data
-          pack.mcmeta
+        path: dpak_v61
         compression-level: 9
     - name: Zip data artifact
-      run: zip -9r Ithavollr_dpack.zip data pack.mcmeta pack.png
+      run: zip -9r Ithavollr_dpack.zip dpak_v61
 
     - name: Rename rpack.mcmeta to pack.mcmeta
       run: mv rpack.mcmeta pack.mcmeta
@@ -41,13 +39,10 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Ithavollr_rpack-${{ env.SHORT_HASH }}
-        path: |
-          assets
-          pack.mcmeta
-          pack.png
+        path: assets_v46
         compression-level: 9
     - name: Zip asset artifact
-      run: zip -9r Ithavollr_rpack.zip assets pack.mcmeta pack.png
+      run: zip -9r Ithavollr_rpack.zip assets_v46
 
     - name: Stream asset artifact
       run: |
