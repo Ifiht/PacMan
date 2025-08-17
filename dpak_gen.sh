@@ -16,9 +16,10 @@ rm -rf ./data_v61/data/minecraft
 rm -rf ./data_v61/data/biome_tag_villagers
 rm -rf ./data_v61/data/c
 rm -rf ./data_v61/data/terralith/recipe
-rm -rf ./data_v61/data/terralith/worldgen/density_function
-rm -rf ./data_v61/data/terralith/worldgen/placed_feature
 rm -rf ./data_v61/data/terralith/worldgen/biome
+rm -rf ./data_v61/data/terralith/worldgen/placed_feature
+rm -rf ./data_v61/data/terralith/worldgen/density_function
+rm -rf ./data_v61/data/terralith/worldgen/configured_feature
 rm -rf ./data_v61/data/terralith/worldgen/structure/underground
 rm -rf ./data_v61/data/terralith/tags/worldgen/biome
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
