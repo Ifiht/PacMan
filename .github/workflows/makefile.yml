@@ -29,7 +29,7 @@ jobs:
         path: dpak_v61/
         compression-level: 9
     - name: Zip data artifact
-      run: zip -9r Ithavollr_dpack.zip dpak_v61
+      run: zip -9r Ithavollr_dpack.zip data_v61
 
     - name: Rename rpack.mcmeta to pack.mcmeta
       run: mv rpack.mcmeta pack.mcmeta
