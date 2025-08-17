@@ -28,7 +28,7 @@ rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./d
 # https://modrinth.com/datapack/tidal-towns
 rsync -avhc ./sources/datapaks/tidaltowns_v1-3-4_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/tectonic
-rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
+#rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
 #rsync -avhc ./sources/datapaks/tectonic_v3-0-2_mc1214/overlay.datapack/data/ ./data_v61/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data_v61/data/
