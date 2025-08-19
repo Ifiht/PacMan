@@ -73,7 +73,7 @@ fi
 # Remove noise caves:
 $SEDCMD -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
 # Fix noise height:
-$SEDCMD -i 's/"height": 384,/"height": 424,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
+$SEDCMD -i 's/"height": 384,/"height": 416,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
 
 ## Remove lava lakes from vegetation biomes:
 # (( MINECRAFT BIOMES ))

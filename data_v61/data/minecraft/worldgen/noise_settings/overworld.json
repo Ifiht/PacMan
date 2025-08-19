@@ -14,7 +14,7 @@
   "legacy_random_source": false,
   "noise": {
     "min_y": -64,
-    "height": 424,
+    "height": 416,
     "size_horizontal": 1,
     "size_vertical": 2,
     "sampling": {
