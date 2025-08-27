@@ -35,8 +35,9 @@ rm -rf ./data_v61/data/minecraft/tags/function
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-2-overlay/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./data_v61/data/
-# https://modrinth.com/datapack/tidal-towns
-rsync -avhc ./sources/datapaks/tidaltowns_v1-3-4_mc1214/data/ ./data_v61/data/
+# https://modrinth.com/datapack/hopo-better-underwater-ruins
+rsync -avhc ./sources/datapaks/hopo_uwruins_v1-2-2_mc1214/ ./data_v61/data/
+rm -rf ./data_v61/data/hopo/worldgen/structure_set
 # https://modrinth.com/datapack/tectonic
 rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
@@ -52,16 +53,14 @@ rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data_v61/dat
 rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data_v61/data/
-# YUNG's betters
-#rsync -avhc ./sources/datapaks/yungs_better_mc1214/data/ ./data_v61/data/
+# Remove all villages except sky, sea, and underground
+rm -rf ./data_v61/data/kattersstructures/worldgen/structure_set
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
 rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0b_mc1214/data/ ./data_v61/data/
 ### always keep custom changes last..
 rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./data_v61/data/
 
-## Make continents larger:
-#sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
-#sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+## Handle OS sed commands:
 unamestr=$(uname)
 
 if [ "$unamestr" = "Darwin" ]; then
@@ -69,6 +68,11 @@ if [ "$unamestr" = "Darwin" ]; then
 elif [ "$unamestr" = "Linux" ]; then
     SEDCMD='sed'
 fi
+
+## Make continents larger:
+sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
+sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+
 ## Overworld Noise Settings
 # Remove noise caves:
 $SEDCMD -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
