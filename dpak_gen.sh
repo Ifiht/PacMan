@@ -36,7 +36,7 @@ rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-2-overlay/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./data_v61/data/
 # https://modrinth.com/datapack/hopo-better-underwater-ruins
-rsync -avhc ./sources/datapaks/hopo_uwruins_v1-2-2_mc1214/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/hopo_uwruins_v1-2-2_mc1214/data/ ./data_v61/data/
 rm -rf ./data_v61/data/hopo/worldgen/structure_set
 # https://modrinth.com/datapack/tectonic
 rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
@@ -70,8 +70,8 @@ elif [ "$unamestr" = "Linux" ]; then
 fi
 
 ## Make continents larger:
-sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
-sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
+#sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
+#sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
 ## Overworld Noise Settings
 # Remove noise caves:
