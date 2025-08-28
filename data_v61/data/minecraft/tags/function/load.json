@@ -10,7 +10,15 @@
       "required": false
     },
     {
-      "id": "nvr:load",
+      "id": "nitwit_quests:load",
+      "required": false
+    },
+    {
+      "id": "village_names:load",
+      "required": false
+    },
+    {
+      "id": "talking_villager:load",
       "required": false
     }
   ]
