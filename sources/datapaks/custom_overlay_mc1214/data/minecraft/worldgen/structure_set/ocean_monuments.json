@@ -3,6 +3,7 @@
     "type": "minecraft:concentric_rings",
     "count": 128,
     "distance": 21,
+    "preferred_biomes": "#minecraft:is_deep_scary_ocean",
     "salt": 10387313,
     "spread": 4
   },
