@@ -23,6 +23,8 @@ rm -rf ./data_v61/data/terralith/worldgen/configured_feature
 rm -rf ./data_v61/data/terralith/worldgen/structure/underground
 rm -rf ./data_v61/data/terralith/tags/worldgen/biome
 rm -f ./data_v61/data/terralith/worldgen/structure_set/underground_dungeon.json
+# https://modrinth.com/datapack/continents ; make continents larger
+rsync -avhc ./sources/datapaks/continents_v1-1-10_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
@@ -48,8 +50,7 @@ rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/nv_villagerleashing_v1-1_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data_v61/data/
+# rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data_v61/data/ -- move to cardinal
 rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data_v61/data/
@@ -73,11 +74,16 @@ fi
 #sed -i 's/"xz_scale": 0.13,/"xz_scale": 0.08,/g' data/minecraft/worldgen/density_function/overworld/base_continents.json
 #sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
-## Overworld Noise Settings
+## World Settings Tweaks
 # Remove noise caves:
 $SEDCMD -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
-# Fix noise height:
+# Fix overworld height:
+$SEDCMD -i 's/"logical_height": 480,/"logical_height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
+$SEDCMD -i 's/"height": 480,/"height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
 $SEDCMD -i 's/"height": 384,/"height": 416,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
+# Fix end height:
+$SEDCMD -i 's/"logical_height": 384,/"logical_height": 320,/g' data_v61/data/minecraft/dimension_type/the_end.json
+$SEDCMD -i 's/"height": 384,/"height": 320,/g' data_v61/data/minecraft/dimension_type/the_end.json
 
 ## Remove lava lakes from vegetation biomes:
 # (( MINECRAFT BIOMES ))

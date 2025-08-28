@@ -2,9 +2,13 @@
     "placement": {
         "type": "minecraft:random_spread",
         "frequency": 0.5,
-        "spacing": 44,
-        "separation": 35,
+        "spacing": 65,
+        "separation": 44,
         "salt": 21002100,
+        "exclusion_zone": {
+			"other_set": "minecraft:ocean_monuments",
+			"chunk_count": 13
+		},
         "spread_type": "triangular"
     },
     "structures": [{
