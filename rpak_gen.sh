@@ -34,6 +34,14 @@ rm -rf ./assets_v46/assets/minecraft/optifine
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be next.. it overwrites too many things..
 rsync -avh ./sources/resourcepaks/rdista_basic_128xR30_mc1214/assets/ ./assets_v46/assets/
+# https://modrinth.com/mod/continuity
+# Overwrite glass for roundista with connected continuity
+rsync -avh ./sources/resourcepaks/continuity_v3-0-0_mc1214/assets/ ./assets_v46/assets/
+rm -rf ./assets_v46/assets/continuity/optifine/ctm/default/bookshelf
+rm -rf ./assets_v46/assets/continuity/optifine/ctm/default/sandstone
+rm -rf ./assets_v46/assets/continuity/optifine/ctm/programmer_art/bookshelf
+rm -rf ./assets_v46/assets/continuity/optifine/ctm/programmer_art/sandstone
+rsync -avh ./sources/resourcepaks/cglass_pane_culling_fix_mc1214/assets/ ./assets_v46/assets/
 ### 3D Packs +=============================##
 # https://vanillatweaks.net/picker/resource-packs/
 rsync -avh ./sources/resourcepaks/vanilla_r831541_mc1-21-x/assets/ ./assets_v46/assets/
@@ -52,7 +60,7 @@ rsync -avh ./sources/resourcepaks/freshanims_v1-10/assets/ ./assets_v46/assets/
 ##====+ FRESH ANIMS ADDONS!! +====##
 # https://www.planetminecraft.com/collection/137810/fresh-animations-add-ons/
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-2/assets/ ./assets_v46/assets/
-rsync -avh ./sources/resourcepaks/fa_xaeros_v1-2_mc1214/assets/ ./assets_v46/assets/
+#rsync -avh ./sources/resourcepaks/fa_xaeros_v1-2_mc1214/assets/ ./assets_v46/assets/ # Xaero's removed...
 rsync -avh ./sources/resourcepaks/fa_quivers_v1-1/assets/ ./assets_v46/assets/
 rsync -avh ./sources/resourcepaks/fa_details_v1-1/assets/ ./assets_v46/assets/
 rsync -avh ./sources/resourcepaks/nitpick_creeprs_v1-1/assets/ ./assets_v46/assets/
